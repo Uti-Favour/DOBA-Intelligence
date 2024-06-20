@@ -5,26 +5,26 @@ import Button from "./common/Button";
 const Hero = () => {
   return (
     <>
-      <div className="bg-black text-white py-10">
+      <div className="bg-black text-white py-10 rounded-bl-[50px] rounded-br-[50px]">
         <div className=" lg:flex lg:justify-between mx-5 lg:mx-32">
           <div className="mt-10">
             <h1 className="font-semibold text-4xl lg:text-6xl max-w-lg ">
-              Stay ahead of the curve with our forward-thinking{" "}
+              Stay ahead of the curve with our <span className="text-blue-800 italic">forward-thinking</span>
             </h1>
             <p className="max-w-lg mt-10 leading-7">
-              An award-winning SEO agency with disciplines in digital marketing,
-              design, and website development. focused on understanding you.
+            To rank your website higher consistency is key. 
+            Outsource the entire process to us and we will deliver in 8 hours to meet your content deadline !!
             </p>
 
             <div className="flex items-center space-x-10 mt-10">
-              <Button link={"google.com"} content={"Schedule Call"} id={1} />
-              <a href="" className="text-white underline">
+              <Button link={"google.com"} content={"Schedule Call"} icon={'fas fa-calendar-check ml-1'} id={1} />
+              <a href="" className="text-white underline lg:block hidden text-lg">
                 View case sturdy
               </a>
             </div>
           </div>
 
-          <div className="lg:w-[400px] lg:h-[400px] mt-16 lg:mt-8">
+          <div className="lg:w-[420px] lg:h-[420px] mt-16 lg:mt-0">
             <img src="src/assets/hero-asset.png" alt="" />
           </div>
         </div>
@@ -37,7 +37,7 @@ const Hero = () => {
           <img src="src/assets/Google.png" className=" lg:w-24" />
           <img src="src/assets/Microsoft.png" className="lg:w-24"/>
           <img src="src/assets/PayPal.png" className="lg:w-24"/>
-          <img src="src/assets/DigitalOcean Logotype.png" className="lg:w-24"/>
+          <img src="src/assets/Salesforce Logotype.png" className="lg:w-24"/>
           </div>
         </div>
       </div>
