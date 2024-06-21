@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Commitments from "./components/Commitments";
 import Features from "./components/Features";
 import Team from "./components/Team";
+import Blog from "./components/Blog";
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
       <Services/>
       <Commitments/>
       <Features/>
+      <Team/>
+      <Blog/>
     </div>
   );
 };

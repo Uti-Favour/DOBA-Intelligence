@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { features } from "../constant";
 import workImage from "/src/assets/DOBA Intelligence - Rollup Placement.jpg";
 
@@ -22,7 +23,7 @@ const Features = () => {
             </div>
           </div>
           {/* grid section */}
-          <div className="space-y-10 lg:mt-0 mt-10">
+          <motion.div className="space-y-10 lg:mt-0 mt-10" initial={{x:-200}} whileInView={{x:0}} transition={{duration :2}}>
             {features.map((feature) => (
               <div className="flex items-center">
                 <div className="bg-blue-800 text-white lg:w-16 w-20 lg:h-16 h-12 items-center flex justify-center rounded-xl">
@@ -35,7 +36,7 @@ const Features = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </>
