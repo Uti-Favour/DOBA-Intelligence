@@ -30,7 +30,7 @@ const Services = () => {
 
       {/* grid */}
       <div className="grid grid-cols-1 lg:grid-cols-3 mt-10 lg:mx-16 space-x-4 text-white">
-        <motion.div className=" bg-blue-800 rounded-3xl  space-y-32  lg:py-5" initial={{ x: -200 }}
+        <motion.div className="bg-[url('src/assets/colorkit.png')] rounded-3xl  space-y-32  lg:py-5" initial={{ x: -200 }}
         whileInView={{ x:0 }}
         transition={{ duration: 1 }}>
           <div className=" mt-5 text-gray-200 ml-10">

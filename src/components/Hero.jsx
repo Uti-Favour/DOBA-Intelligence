@@ -5,7 +5,7 @@ import Button from "./common/Button";
 const Hero = () => {
   return (
     <>
-      <div className="bg-white text-black py-10  ">
+      <div className="bg-[#FFFFFF] text-black py-10  ">
         <div className=" lg:flex lg:justify-between mx-5 lg:mx-32">
           <div className="mt-10">
             <h1 className="font-semibold text-4xl lg:text-6xl max-w-lg ">
@@ -37,7 +37,7 @@ const Hero = () => {
           <img src="src/assets/Google.png" className=" lg:w-24" />
           <img src="src/assets/Microsoft.png" className="lg:w-24"/>
           <img src="src/assets/PayPal.png" className="lg:w-24"/>
-          <img src="src/assets/Salesforce Logotype.png" className="lg:w-24"/>
+          <img src="src/assets/Company logo(2).png" className="lg:w-24"/>
           </div>
         </div>
       </div>
