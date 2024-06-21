@@ -29,12 +29,14 @@ const Services = () => {
       </div>
 
       {/* grid */}
-      <div className="grid lg:grid-cols-3 mt-10 mx-5 lg:mx-16 space-x-4 text-white">
-        <div className=" bg-black rounded-3xl space-y-36">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-10 lg:mx-16 space-x-4 text-white">
+        <motion.div className=" bg-blue-800 rounded-3xl  space-y-32  lg:py-5" initial={{ x: -200 }}
+        whileInView={{ x:0 }}
+        transition={{ duration: 1 }}>
           <div className=" mt-5 text-gray-200 ml-10">
-            <span className="text-8xl font-bold text-white">
+            <span className="text-6xl lg:text-8xl font-bold text-white">
               {" "}
-              950<span className="text-blue-800">+ </span>
+              950+
             </span>
             <br /> Projects finished superbly
           </div>
@@ -43,21 +45,23 @@ const Services = () => {
             {images.map((image) => (
               <img
                 src={image}
-                className="w-20 h-20 rounded-full -ml-3 ring ring-white object-cover"
+                className="lg:w-20 w-14 lg:h-20 h-14 rounded-full -ml-4  object-cover"
               />
             ))}
 
-            <span className="text-white text-6xl font-bold ml-3">+ </span>
+            <span className="text-blue-300 lg:text-6xl text-4xl font-bold ml-1">+ </span>
           </div>
-        </div>
+        </motion.div>
         
-        <div className="  col-span-2">
+        <motion.div className=" lg:col-span-2" initial={{ x: 500 }}
+        whileInView={{ x:0 }}
+        transition={{ duration: 1 }}>
           <img
             src="src/assets/DOBA Intelligence Logo 3 - Placement.jpg"
             alt=""
             className="rounded-3xl h-96 bg-cover w-full"
           />
-        </div>
+        </motion.div>
       </div>
     </>
   );
