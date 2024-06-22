@@ -82,27 +82,88 @@ export const people = [
 export const blogcontent = [
   {
     id: 1,
-    heading: "How Digital Marketing Agency Can Boost Your Business",
+    image : 'src/assets/pexels-energepic-com-27411-110473.jpg',
+    indication : 'src/assets/Ellipse 5(1).png',
+    heading: "How Digital Marketing Agency Can Boost Your Business Success",
     description:
-      "We are the top digital marketing agency for  branding corp. We offer a full rang  engine.  ",
-      timeframe : '10 minutes',
+      "We are the top digital marketing agency for  branding. We offer a full rang  engine.  ",
+      timeframe : '10 minutes ago',
       link : '#'
   },
   {
     id: 2,
+    image : 'src/assets/Rectangle 160.png',
+    indication : 'src/assets/Ellipse 5(2).png',
     heading:
       " The Latest Trends and Strategies with a Digital Marketing Agency",
     description:
-      "Working with this digital marketing agency has been a true partnership & operation",
-      timeframe : '5 minutes',
+      "Working with this digital agency has been a true partnership & operation",
+      timeframe : '5 minutes ago',
       link : '#'
   },
   {
     id: 3,
+    indication : 'src/assets/Ellipse 5.png',
+    image : 'src/assets/pexels-pixabay-256514.jpg',
     heading: "Maximizing ROI with the Expertise of a Digital Marketing Agency",
     description:
       "What sets this digital marketing agency apart is their commitment to transparency.",
-      timeframe : '3 minutes',
+      timeframe : '3 minutes ago',
       link : '#'
   },
 ];
+
+export const pricinglists = [
+  {
+    category : 'Essential',
+    pricing : ' $997',
+    description : 'Annual Plan- $11,964 $9,571.',
+    lists : [
+      '30 articles per month',
+      'Customized Content Strategy ',
+      '30 best recommended topics',
+      'SEO optimized',
+      'Deep Research',
+      'Highly engaging',
+      'Edited & Proofread',
+      'Unlimited revisions',
+      'Monthly Check in by Content Marketing Specialis'
+    ],
+    link : '#'
+  },
+  {
+    category : 'Essential',
+    pricing : ' $997',
+    description : 'Annual Plan- $11,964 $9,571.',
+    lists : [
+      '30 articles per month',
+      'Customized Content Strategy ',
+      '30 best recommended topics',
+      'SEO optimized',
+      'Deep Research',
+      'Highly engaging',
+      'Edited & Proofread',
+      'Unlimited revisions',
+      'Monthly Check in by Content Marketing Specialis'
+    ],
+    link : '#'
+  },
+  {
+    category : 'Essential',
+    pricing : ' $997',
+    description : ' Annual Plan- $11,964 $9,571.',
+    lists : [
+      '30 articles per month',
+      'Customized Content Strategy ',
+      '30 best recommended topics',
+      'SEO optimized',
+      'Deep Research',
+      'Highly engaging',
+      'Edited & Proofread',
+      'Unlimited revisions',
+      'Monthly Check in by Content Marketing Specialis'
+    ],
+    link : '#'
+  }
+]
+

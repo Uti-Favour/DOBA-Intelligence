@@ -6,6 +6,8 @@ import Commitments from "./components/Commitments";
 import Features from "./components/Features";
 import Team from "./components/Team";
 import Blog from "./components/Blog";
+import Pricing from "./components/Pricing";
+
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Features/>
       <Team/>
       <Blog/>
+      <Pricing/>
+    
     </div>
   );
 };
