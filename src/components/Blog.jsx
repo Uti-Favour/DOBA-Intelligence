@@ -7,7 +7,7 @@ const Blog = () => {
     return (
       <motion.div initial={{x:-300}} whileInView={{x:0}} transition={{duration : 2}}>
        
-        <div className="bg-white lg:p-12 px-5  py-8   rounded-3xl" key={id}>
+        <div className="bg-[#F5F5F5] lg:p-12 px-5  py-8   rounded-3xl" key={id}>
         <div className="mb-10">
           <img src={image} className="h-52 w-full rounded-3xl" />
         </div>
@@ -29,15 +29,14 @@ const Blog = () => {
   }
   return (
     <>
-      <div className="bg-[#F5F5F5] py-3 rounded-tr-[50px] rounded-tl-[50px]">
+      <div className="py-3 rounded-tr-[50px] rounded-tl-[50px]">
         <div className="lg:flex lg:justify-between lg:mx-16 mx-5 mt-14 lg:mt-16">
           <motion.h1
-            className="font-medium  max-w-xl lg:text-5xl text-3xl lg:leading-tight  text-blue-800"
+            className="font-semibold  max-w-xl lg:text-5xl text-3xl lg:leading-tight  text-blue-800"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { duration: 2 } }}
           >
-            Digital <span className="italic text-black">Marketing and SEO Services</span> That Grow Traffic and Increase
-            Revenue
+            Digital <span className="italic text-black">Marketing and SEO Services</span> That Grow Traffic.
           </motion.h1>
           <div>
             <motion.p
@@ -51,11 +50,11 @@ const Blog = () => {
               you want otherwise.
             </motion.p>
 
-            <a href="">
+            {/* <a href="">
               <button className=" px-10 py-3 text-white border-white bg-blue-800 rounded-3xl mt-5">
                 Learn More <i className="fas fa-arrow-right ml-1"></i>
               </button>
-            </a>
+            </a> */}
           </div>
         </div>
 

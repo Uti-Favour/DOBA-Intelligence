@@ -82,88 +82,97 @@ export const people = [
 export const blogcontent = [
   {
     id: 1,
-    image : 'src/assets/pexels-energepic-com-27411-110473.jpg',
-    indication : 'src/assets/Ellipse 5(1).png',
+    image: "src/assets/pexels-energepic-com-27411-110473.jpg",
+    indication: "src/assets/Ellipse 5(1).png",
     heading: "How Digital Marketing Agency Can Boost Your Business Success",
     description:
       "We are the top digital marketing agency for  branding. We offer a full rang  engine.  ",
-      timeframe : '10 minutes ago',
-      link : '#'
+    timeframe: "10 minutes ago",
+    link: "#",
   },
   {
     id: 2,
-    image : 'src/assets/Rectangle 160.png',
-    indication : 'src/assets/Ellipse 5(2).png',
+    image: "src/assets/Rectangle 160.png",
+    indication: "src/assets/Ellipse 5(2).png",
     heading:
       " The Latest Trends and Strategies with a Digital Marketing Agency",
     description:
       "Working with this digital agency has been a true partnership & operation",
-      timeframe : '5 minutes ago',
-      link : '#'
+    timeframe: "5 minutes ago",
+    link: "#",
   },
   {
     id: 3,
-    indication : 'src/assets/Ellipse 5.png',
-    image : 'src/assets/pexels-pixabay-256514.jpg',
+    indication: "src/assets/Ellipse 5.png",
+    image: "src/assets/pexels-pixabay-256514.jpg",
     heading: "Maximizing ROI with the Expertise of a Digital Marketing Agency",
     description:
       "What sets this digital marketing agency apart is their commitment to transparency.",
-      timeframe : '3 minutes ago',
-      link : '#'
+    timeframe: "3 minutes ago",
+    link: "#",
   },
 ];
 
 export const pricinglists = [
   {
-    category : 'Essential',
-    pricing : ' $997',
-    description : 'Annual Plan- $11,964 $9,571.',
-    lists : [
-      '30 articles per month',
-      'Customized Content Strategy ',
-      '30 best recommended topics',
-      'SEO optimized',
-      'Deep Research',
-      'Highly engaging',
-      'Edited & Proofread',
-      'Unlimited revisions',
-      'Monthly Check in by Content Marketing Specialis'
+    category: "Freelancer",
+    pricing: " $997",
+    description: "Annual Plan- $11,964 $9,571.",
+    lists: [
+      "30 articles per month",
+      "Customized Content Strategy ",
+      "30 best recommended topics",
+      "SEO optimized",
+      "Deep Research",
+      "Highly engaging",
+      "Edited & Proofread",
+      "Unlimited revisions",
+      "Monthly Check in by Specialis",
     ],
-    link : '#'
+    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1",
+    border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
+    button:
+      "py-2 px-24  rounded-lg border border-blue-800 mt-4 text-blue-800 font-semibold",
   },
   {
-    category : 'Essential',
-    pricing : ' $997',
-    description : 'Annual Plan- $11,964 $9,571.',
-    lists : [
-      '30 articles per month',
-      'Customized Content Strategy ',
-      '30 best recommended topics',
-      'SEO optimized',
-      'Deep Research',
-      'Highly engaging',
-      'Edited & Proofread',
-      'Unlimited revisions',
-      'Monthly Check in by Content Marketing Specialis'
+    category: "Enterprice",
+    pricing: " $800",
+    description: "Annual Plan: $9,600 $7,680",
+    lists: [
+      "23 articles per month",
+      "Customized Content Strategy",
+      "23 best topics every month",
+      "SEO optimized",
+      "Deep Research",
+      "Highly engaging",
+      "Edited & Proofread",
+      "Unlimited revisions",
+      "Monthly Check in by Specialis",
     ],
-    link : '#'
+    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow2",
+    border:
+      "border border-blue-800 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
+    button:
+      'py-2 px-24  rounded-lg border bg-blue-800 mt-4 text-white font-semibold',
   },
   {
-    category : 'Essential',
-    pricing : ' $997',
-    description : ' Annual Plan- $11,964 $9,571.',
-    lists : [
-      '30 articles per month',
-      'Customized Content Strategy ',
-      '30 best recommended topics',
-      'SEO optimized',
-      'Deep Research',
-      'Highly engaging',
-      'Edited & Proofread',
-      'Unlimited revisions',
-      'Monthly Check in by Content Marketing Specialis'
+    category: "Startup",
+    pricing: " $620",
+    description: " Annual Plan- $11,964 $9,571.",
+    lists: [
+      "16 articles per month",
+      "Customized Content Strategy ",
+      "16 best recommended topics",
+      "SEO optimized",
+      "Deep Research",
+      "Highly engaging",
+      "Edited & Proofread",
+      "Unlimited revisions",
+      "Monthly Check in by Specialis",
     ],
-    link : '#'
-  }
-]
-
+    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow3",
+    border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
+    button:
+      "py-2 px-24  rounded-lg border border-blue-800 mt-4 text-blue-800 font-semibold",
+  },
+];
