@@ -42,16 +42,16 @@ export const features = [
 
 export const people = [
   {
-    name: "Leslie Alexander",
+    name: "Obadunni Sarah",
     role: "Co-Founder / CEO",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "src/assets/sarah.jpg",
   },
   {
-    name: "Michael Scott",
-    role: "Regional Manager",
+    name: "Uti Favour",
+    role: "IT Specialist",
     imageUrl:
-      "https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "src/assets/Favour(new me).jpg",
   },
   {
     name: "Pam Beesly",
@@ -82,7 +82,7 @@ export const people = [
 export const blogcontent = [
   {
     id: 1,
-    image: "src/assets/pexels-energepic-com-27411-110473.jpg",
+    image: "src/assets/blog-1.jpeg",
     indication: "src/assets/Ellipse 5(1).png",
     heading: "How Digital Marketing Agency Can Boost Your Business Success",
     description:
@@ -92,7 +92,7 @@ export const blogcontent = [
   },
   {
     id: 2,
-    image: "src/assets/Rectangle 160.png",
+    image: "src/assets/blog-4.jpeg",
     indication: "src/assets/Ellipse 5(2).png",
     heading:
       " The Latest Trends and Strategies with a Digital Marketing Agency",
@@ -104,7 +104,7 @@ export const blogcontent = [
   {
     id: 3,
     indication: "src/assets/Ellipse 5.png",
-    image: "src/assets/pexels-pixabay-256514.jpg",
+    image: "src/assets/pexels-energepic-com-27411-110473.jpg",
     heading: "Maximizing ROI with the Expertise of a Digital Marketing Agency",
     description:
       "What sets this digital marketing agency apart is their commitment to transparency.",

@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { pricinglists } from "../constant";
+import { motion } from "framer-motion";
 
 const PriceCard = ({
   category,
@@ -44,16 +45,15 @@ const Pricing = () => {
       <div className="flex justify-center text-center items-center">
         <div className="space-y-4">
           <span className="text-xl text-gray-800 font-semibold">Pricing</span>
-          <h1 className="text-5xl font-bold text-blue-800">
+          <h1 className="text-4xl mx-5 lg:text-5xl font-bold text-blue-800">
             Pricing plans for teams of all sizes
           </h1>
-          <p className="font-medium text-xl text-gray-700 mx-80">
-            Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-            quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
+          <p className="font-medium text-xl text-gray-700 lg:mx-80 mx-5">
+          Find the perfect fit for your team, no matter how big or small. We offer flexible plans with features designed to empower your success.
           </p>
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 lg:gap-6 gap-2 lg:mx-20 mx-5">
+      <motion.div className="grid lg:grid-cols-3 lg:gap-6  lg:mx-20 mx-5" initial={{y:200}} whileInView={{y:0}} transition={{duration : 1}}>
         {pricinglists.map((price) => (
           <PriceCard
             category={price.category}
@@ -65,7 +65,7 @@ const Pricing = () => {
             button={price.button}
           />
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 };

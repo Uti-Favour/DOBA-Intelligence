@@ -5,7 +5,7 @@ import { blogcontent } from "../constant";
 const Blog = () => {
   function ListCard({ id, image,  heading, description, timeframe, link , indication}) {
     return (
-      <motion.div initial={{x:-300}} whileInView={{x:0}} transition={{duration : 2}}>
+      <motion.div initial={{y:100}} whileInView={{y:0}} transition={{duration : 1}}>
        
         <div className="bg-[#F5F5F5] lg:p-12 px-5  py-8   rounded-3xl" key={id}>
         <div className="mb-10">

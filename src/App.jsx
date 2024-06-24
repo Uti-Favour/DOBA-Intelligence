@@ -7,6 +7,8 @@ import Features from "./components/Features";
 import Team from "./components/Team";
 import Blog from "./components/Blog";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
+
 
 
 const App = () => {
@@ -14,13 +16,13 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-      <Services/>
+      {/* <Services/> */}
       <Commitments/>
       <Features/>
       <Blog/>
       <Team/>
-      
       <Pricing/>
+      <Footer/>
     
     </div>
   );
