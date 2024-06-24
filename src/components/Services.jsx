@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { images } from "../constant";
-
+import { servicelist } from "../constant";
 const Services = () => {
   return (
     <>
@@ -28,41 +28,23 @@ const Services = () => {
         </motion.p>
       </div>
 
-      {/* grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 mt-10 lg:mx-16 space-x-4 text-white">
-        <motion.div className="bg-[url('src/assets/colorkit.png')] rounded-3xl  space-y-32  lg:py-5" initial={{ x: -200 }}
-        whileInView={{ x:0 }}
-        transition={{ duration: 1 }}>
-          <div className=" mt-5 text-gray-200 ml-10">
-            <span className="text-6xl lg:text-8xl font-bold text-white">
-              {" "}
-              950+
-            </span>
-            <br /> Projects finished superbly
-          </div>
-
-          <div className="flex ml-10 items-center">
-            {images.map((image) => (
-              <img
-                src={image}
-                className="lg:w-20 w-14 lg:h-20 h-14 rounded-full -ml-4  object-cover"
-              />
-            ))}
-
-            <span className="text-blue-300 lg:text-6xl text-4xl font-bold ml-1">+ </span>
-          </div>
-        </motion.div>
-        
-        <motion.div className=" lg:col-span-2" initial={{ x: 500 }}
-        whileInView={{ x:0 }}
-        transition={{ duration: 1 }}>
-          <img
-            src="src/assets/DOBA Intelligence Logo 3 - Placement.jpg"
-            alt=""
-            className="rounded-3xl h-96 bg-cover w-full"
-          />
-        </motion.div>
+   {/* grid */}
+<div className="lg:mx-20 mx-5 grid lg:grid-cols-3 gap-2 lg:gap-6 mt-20">
+  {servicelist.map((services, index) => (
+    <div key={index} className="space-y-4 border border-gray-200 p-8 rounded-3xl transition duration-300 group hover:bg-blue-800">
+      <div className="h-16 w-16 rounded-full bg-blue-800 text-white flex justify-center items-center transition duration-300 group-hover:bg-white group-hover:text-blue-800">
+        <i className={services.icon}></i>
       </div>
+      <h2 className="text-xl font-semibold text-blue-800 transition duration-300 group-hover:text-white">{services.heading}</h2>
+      <p className="text-gray-700 mb-16 transition duration-300 group-hover:text-gray-300">{services.description}</p>
+      <div>
+        <a href={services.link} className="text-blue-800 font-semibold transition duration-300 group-hover:text-white">Learn More <i className="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  ))}
+</div>
+
+     
     </>
   );
 };

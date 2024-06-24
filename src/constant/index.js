@@ -176,3 +176,43 @@ export const pricinglists = [
       "py-2 px-24  rounded-lg border border-blue-800 mt-4 text-blue-800 font-semibold",
   },
 ];
+
+export const servicelist = [
+  {
+    icon: 'fas fa-pencil-alt text-2xl',
+    heading: 'AI Content Editing',
+    description: 'We provide a 360 revamp to your AI content. Nobody likes fluff or robotic content, so we make it better. Get your AI content improved in 8 hours or less.',
+    link: '#'
+  },
+  {
+    icon: 'fas fa-chart-line text-2xl',
+    heading: 'AI-Driven Analytics',
+    description: 'Leverage our AI-powered analytics to gain deeper insights into your marketing campaigns. Make data-driven decisions to optimize your ROI.',
+    link: '#'
+  },
+  {
+    icon: 'fas fa-comments text-2xl',
+    heading: 'AI Chatbots',
+    description: 'Implement AI chatbots to enhance customer engagement and support. Our chatbots are designed to provide real-time assistance and improve customer satisfaction.',
+    link: '#'
+  },
+  {
+    icon: 'fas fa-search text-2xl',
+    heading: 'SEO Optimization',
+    description: 'Utilize our AI tools to boost your website’s search engine ranking. We offer keyword analysis, content optimization, and backlinking strategies to improve visibility.',
+    link: '#'
+  },
+  {
+    icon: 'fas fa-ad text-2xl',
+    heading: 'AI-Powered Ad Campaigns',
+    description: 'Create and manage ad campaigns with AI precision. Our technology ensures your ads reach the right audience at the right time, maximizing engagement and conversions.',
+    link: '#'
+  },
+  {
+    icon: 'fas fa-palette text-2xl',
+    heading: 'AI Design Assistance',
+    description: 'Enhance your visual content with AI-driven design tools. From image editing to layout suggestions, we help you create visually appealing marketing materials.',
+    link: '#'
+  }
+];
+

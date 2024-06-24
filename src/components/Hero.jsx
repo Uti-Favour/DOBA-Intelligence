@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <div className="bg-[#FFFFFF] text-black py-10  mt-10">
-        <div className=" lg:flex lg:justify-between mx-5 lg:mx-32">
+        <div className=" lg:flex lg:justify-between mx-5 lg:mx-20">
           <div className="mt-10">
             <h1 className="font-semibold text-4xl lg:text-6xl max-w-lg ">
               Stay ahead of the curve with our <span className="text-blue-800 italic">forward-thinking</span>
