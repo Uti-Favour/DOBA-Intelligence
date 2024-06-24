@@ -7,7 +7,7 @@ const Hero = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["forward-thinking", "innovative", "cutting-edge", "visionary"],
+      strings: ["forward-thinking", "innovation", "strategic-insights", "visionary-leadership"],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
