@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
 
           <div className="lg:w-[600px] lg:h-[600px] mt-16 lg:mt-0">
-            <img src="src/assets/DOBA Intelligence Logo 3 - Placement.jpg" className="rounded-3xl" />
+            <img src="https://i.pinimg.com/736x/d3/5c/c0/d35cc0f9cc8ca722e019e465e992c2e7.jpg" className="rounded-3xl" />
           </div>
         </div>
       </div>

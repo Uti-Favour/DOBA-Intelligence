@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <img className="w-40" src="src/assets/DOBA_Intelligence_Logo_2-removebg-preview.png" alt="Logo" />
+            <img className="w-40" src="https://i.pinimg.com/736x/1a/7f/12/1a7f12d56a010b2875c892711e0b5a66.jpg" alt="Logo" />
         <div className='hidden lg:block'>
         <div className="ml-10 flex items-baseline space-x-4 text-gray-800">
               <a href="#" className="px-3 py-2 rounded-md text-md font-semibold hover:underline">
