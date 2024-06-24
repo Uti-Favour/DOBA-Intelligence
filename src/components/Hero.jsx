@@ -5,9 +5,9 @@ import Button from "./common/Button";
 const Hero = () => {
   return (
     <>
-      <div className="bg-[#FFFFFF] text-black py-10  mt-10">
+      <div className="bg-[#FFFFFF] text-black py-10  mt-20">
         <div className=" lg:flex lg:justify-between mx-5 lg:mx-20">
-          <div className="mt-10">
+          <div className="mt-5">
             <h1 className="font-semibold text-4xl lg:text-6xl max-w-lg ">
               Stay ahead of the curve with our <span className="text-blue-800 italic">forward-thinking</span>
             </h1>
@@ -24,20 +24,8 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="lg:w-[420px] lg:h-[420px] mt-16 lg:mt-0 bg-blend-darken ">
-            <img src="src/assets/hero-asset.png" alt="" />
-          </div>
-        </div>
-
-        <div className="lg:flex ml-5 lg:ml-32 mt-16 lg:mt-10 items-center">
-          <h3 className="lg:max-w-[210px] font-semibold text-lg lg:text-md">
-            Trusted by the world's biggest brands :
-          </h3>      
-          <div className="grid grid-cols-2 items-center lg:gap-3 lg:mt-0  mt-5">
-          <img src="src/assets/Google.png" className=" lg:w-24" />
-          <img src="src/assets/Microsoft.png" className="lg:w-24"/>
-          <img src="src/assets/PayPal.png" className="lg:w-24"/>
-          <img src="src/assets/Company logo(2).png" className="lg:w-24"/>
+          <div className="lg:w-[600px] lg:h-[600px] mt-16 lg:mt-0">
+            <img src="src/assets/DOBA Intelligence Logo 3 - Placement.jpg" className="rounded-3xl" />
           </div>
         </div>
       </div>

@@ -87,8 +87,8 @@ export const blogcontent = [
     heading: "How Digital Marketing Agency Can Boost Your Business Success",
     description:
       "We are the top digital marketing agency for  branding. We offer a full rang  engine.  ",
-    timeframe: "10 minutes ago",
-    link: "#",
+    timeframe: "2 minutes read",
+    link: "https://medium.com/@hammadr.c/small-business-big-impact-how-content-marketing-can-boost-your-leads-and-sales-3e1c0fead348",
   },
   {
     id: 2,
@@ -98,8 +98,8 @@ export const blogcontent = [
       " The Latest Trends and Strategies with a Digital Marketing Agency",
     description:
       "Working with this digital agency has been a true partnership & operation",
-    timeframe: "5 minutes ago",
-    link: "#",
+    timeframe: "5 minutes read",
+    link: "https://medium.com/@franciscokemeny/jumpstart-your-business-with-targeted-niche-marketing-a-guide-for-small-marketing-agencies-c58834894e7b",
   },
   {
     id: 3,
@@ -109,7 +109,7 @@ export const blogcontent = [
     description:
       "What sets this digital marketing agency apart is their commitment to transparency.",
     timeframe: "3 minutes ago",
-    link: "#",
+    link: "https://medium.com/@connection-media/maximizing-roi-how-a-digital-marketing-agency-can-drive-results-1f35fe884b6a",
   },
 ];
 
@@ -196,23 +196,23 @@ export const servicelist = [
     description: 'Implement AI chatbots to enhance customer engagement and support. Our chatbots are designed to provide real-time assistance and improve customer satisfaction.',
     link: '#'
   },
-  {
-    icon: 'fas fa-search text-2xl',
-    heading: 'SEO Optimization',
-    description: 'Utilize our AI tools to boost your website’s search engine ranking. We offer keyword analysis, content optimization, and backlinking strategies to improve visibility.',
-    link: '#'
-  },
-  {
-    icon: 'fas fa-ad text-2xl',
-    heading: 'AI-Powered Ad Campaigns',
-    description: 'Create and manage ad campaigns with AI precision. Our technology ensures your ads reach the right audience at the right time, maximizing engagement and conversions.',
-    link: '#'
-  },
-  {
-    icon: 'fas fa-palette text-2xl',
-    heading: 'AI Design Assistance',
-    description: 'Enhance your visual content with AI-driven design tools. From image editing to layout suggestions, we help you create visually appealing marketing materials.',
-    link: '#'
-  }
+  // {
+  //   icon: 'fas fa-search text-2xl',
+  //   heading: 'SEO Optimization',
+  //   description: 'Utilize our AI tools to boost your website’s search engine ranking. We offer keyword analysis, content optimization, and backlinking strategies to improve visibility.',
+  //   link: '#'
+  // },
+  // {
+  //   icon: 'fas fa-ad text-2xl',
+  //   heading: 'AI-Powered Ad Campaigns',
+  //   description: 'Create and manage ad campaigns with AI precision. Our technology ensures your ads reach the right audience at the right time, maximizing engagement and conversions.',
+  //   link: '#'
+  // },
+  // {
+  //   icon: 'fas fa-palette text-2xl',
+  //   heading: 'AI Design Assistance',
+  //   description: 'Enhance your visual content with AI-driven design tools. From image editing to layout suggestions, we help you create visually appealing marketing materials.',
+  //   link: '#'
+  // }
 ];
 

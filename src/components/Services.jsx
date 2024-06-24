@@ -6,7 +6,7 @@ import { servicelist } from "../constant";
 const Services = () => {
   return (
     <>
-      <div className="lg:flex lg:justify-between lg:mx-16 mx-5 mt-14 lg:mt-16">
+      <div className="lg:flex lg:justify-between lg:mx-16 mx-5 mt-14 lg:mt-0">
         <motion.h1
           className="font-semibold  max-w-xl lg:text-5xl text-4xl"
           initial={{ opacity: 0 }}
@@ -29,9 +29,9 @@ const Services = () => {
       </div>
 
    {/* grid */}
-<div className="lg:mx-20 mx-5 grid lg:grid-cols-3 gap-2 lg:gap-6 mt-20">
+<div className="lg:mx-16 mx-5 grid lg:grid-cols-3 gap-2 lg:gap-6 mt-20">
   {servicelist.map((services, index) => (
-    <div key={index} className="space-y-4 border border-gray-200 p-8 rounded-3xl transition duration-300 group hover:bg-blue-800">
+    <div key={index} className="space-y-5 border border-gray-200 p-8 rounded-3xl transition duration-300 group hover:bg-blue-800">
       <div className="h-16 w-16 rounded-full bg-blue-800 text-white flex justify-center items-center transition duration-300 group-hover:bg-white group-hover:text-blue-800">
         <i className={services.icon}></i>
       </div>

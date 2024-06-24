@@ -18,11 +18,13 @@ const Blog = () => {
           <h1 className="text-2xl font-semibold text-blue-800">{heading}</h1>
           <div className="flex items-end space-x-4">
           <p className="mt-8 text-gray-700">{description}</p>
+          <a href={link}>
           <div className="">
             <li className="fas fa-arrow-right  bg-blue-800 text-white py-3 px-5 rounded-3xl  hover:border-blue-800 hover:text-white hover:scale-110"></li>
           </div>
+          </a>
           </div>
-          <a href={link}></a>
+          
         </div>
       </motion.div>
     );

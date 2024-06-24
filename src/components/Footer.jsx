@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-12 mt-28">
+    <footer className="bg-[#F5F5F5] text-gray-800 py-12 mt-28">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap -mx-4">
           {/* Company Info */}
@@ -64,7 +64,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="w-full md:w-auto flex-1 px-4 py-2 mb-4 md:mb-0 md:mr-4 bg-gray-800 text-white rounded"
+              className="w-full md:w-auto flex-1 px-4 py-2 mb-4 md:mb-0 md:mr-4 border border-gray-800 text-white rounded"
             />
             <button
               type="submit"
