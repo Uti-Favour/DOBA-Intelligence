@@ -7,7 +7,7 @@ const Hero = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["forward-thinking", "innovation", "strategic-insights", "visionary-leadership"],
+      strings: ["forward-thinking", "innovation", "strategic-insights"],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
@@ -21,20 +21,21 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="bg-[#FFFFFF] text-black py-10 mt-20">
+    <div className="relative py-10 mt-20 text-white">
+      
       <div className="lg:flex lg:justify-between mx-5 lg:mx-20">
         <div className="mt-5">
           <h1 className="font-semibold text-4xl lg:text-6xl max-w-lg">
-            Stay ahead of the curve with our <br /><span className="text-blue-800 italic auto-type" ref={typedElement}></span>
+            Stay ahead of the curve with our <br /><span className="text-blue-400 italic auto-type" ref={typedElement}></span>
           </h1>
-          <p className="max-w-lg mt-10 leading-7 text-gray-800">
+          <p className="max-w-lg mt-10 leading-7 text-gray-300">
             To rank your website higher consistency is key. 
             Outsource the entire process to us and we will deliver in 8 hours to meet your content deadline !!
           </p>
 
           <div className="flex items-center space-x-10 mt-10">
             <Button link={"google.com"} content={"Schedule Call"} icon={'fas fa-calendar-check ml-1'} id={1} />
-            <a href="" className="text-black underline lg:block hidden text-lg">
+            <a href="" className="text-white underline lg:block hidden text-lg">
               View case study
             </a>
           </div>
