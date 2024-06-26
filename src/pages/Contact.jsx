@@ -1,11 +1,15 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 
 const Contact = () => {
   return (
-    <div className='bg-white'>
+   <>
+    <Navbar/>
+    <div>
       <h1>Contact us page</h1>
     </div>
+   </>
   )
 }
 

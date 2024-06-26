@@ -22,7 +22,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative py-10 mt-20 text-white">
+    <div className="relative py-10 mt-8 text-white">
       
       <div className="lg:flex lg:justify-between mx-5 lg:mx-20">
         <div className="mt-5">

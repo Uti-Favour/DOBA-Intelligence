@@ -1,3 +1,31 @@
+export const navcontent = [
+  {
+    key : '1',
+    page : 'Home',
+    path : '/',
+  },
+  {
+    key : '2',
+    page : 'Services',
+    path : '/services',
+  },
+  {
+    key : '3',
+    page : 'About',
+    path : '/about',
+  },
+  {
+    key : '4',
+    page : 'Blog',
+    path : '/blog',
+  },
+  {
+    key : '5',
+    page : 'Contact Us',
+    path : '/contact',
+  }
+]
+
 export const images = [
   "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",

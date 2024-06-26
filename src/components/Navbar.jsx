@@ -1,27 +1,68 @@
-import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
-import Home from '../pages/Home';
-import Contact from '../pages/Contact';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { navcontent } from "../constant";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleIsOpen = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact Us</Link>
-        </li>
-      </ul>
+    <nav className="bg-gray-800 text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          <div className="flex items-center">
+            <div className="flex-shrink-0">
+              <Link to="/">
+                <img className="h-20 w-20" src="src/assets/DOBA_Intelligence_Logo_1-removebg-preview.png" alt="Logo" />
+              </Link>
+            </div>
+            <div className="hidden md:block">
+              <div className="ml-10 flex items-baseline space-x-4">
+                {navcontent.map((nav) => (
+                  <Link
+                    key={nav.path}
+                    to={nav.path}
+                    className="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    {nav.page}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="-mr-2 flex md:hidden">
+            <button
+              onClick={toggleIsOpen}
+              type="button"
+              className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              aria-controls="mobile-menu"
+              aria-expanded="false"
+            >
+              <span className="sr-only">Open main menu</span>
+              <i className={`${isOpen ? "fas fa-times" : "fas fa-bars"}`}></i>
+            </button>
+          </div>
+        </div>
+      </div>
 
-     
-
-      <Routes>
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </div>
+      <div className={`md:hidden ${isOpen ? "block" : "hidden"}`} id="mobile-menu">
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          {navcontent.map((nav) => (
+            <Link
+              key={nav.path}
+              to={nav.path}
+              className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+            >
+              {nav.page}
+            </Link>
+          ))}
+        </div>
+      </div>
+    </nav>
   );
-}
+};
 
 export default Navbar;

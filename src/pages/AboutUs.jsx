@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-const Features = () => {
+const AboutUs = () => {
   return (
     <div>
-      <Navbar/>
-      <h1>Features section</h1>
+        <Navbar/>
+        <h1>About Us</h1>
+      
     </div>
   )
 }
 
-export default Features
+export default AboutUs

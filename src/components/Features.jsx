@@ -2,11 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { features } from "../constant";
 import workImage from "/src/assets/DOBA Intelligence - Rollup Placement.jpg";
+import Navbar from "./Navbar";
 
 const Features = () => {
   return (
     <>
-      <div className="bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] rounded-tr-[50px] rounded-tl-[50px] py-16 mt-16 text-white">
+      <div className="bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] rounded-tr-[50px] rounded-tl-[50px] py-16 mt-16 ">
         <div className="lg:mx-20 mx-5 lg:flex lg:justify-between">
           <div>
             <h1 className="font-semibold text-7xl italic text-blue-400">How it works...</h1>
