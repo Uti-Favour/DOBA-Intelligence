@@ -29,19 +29,25 @@ const Services = () => {
 
       {/* grid */}
       <div className="lg:mx-16 mx-5 grid lg:grid-cols-3 gap-2 lg:gap-6 mt-20">
-        {servicelist.map((services, index) => (
-          <div key={index} className="space-y-5 border border-gray-700 p-8 rounded-3xl transition duration-300 group hover:bg-blue-800">
-            <div className="h-16 w-16 rounded-tr-3xl rounded-br-3xl bg-blue-400 text-white flex justify-center items-center transition duration-300 group-hover:bg-white group-hover:text-blue-800">
-              <i className={services.icon}></i>
-            </div>
-            <h2 className="text-xl font-semibold text-white transition duration-300 group-hover:text-white">{services.heading}</h2>
-            <p className="text-gray-400 mb-16 transition duration-300 group-hover:text-gray-300">{services.description}</p>
-            <div>
-              <a href={services.link} className="text-blue-400 font-semibold transition duration-300 group-hover:text-white">Learn More <i className="fas fa-arrow-right"></i></a>
-            </div>
-          </div>
-        ))}
+  {servicelist.map((services, index) => (
+    <div 
+      key={index} 
+      className="space-y-5 border border-gray-700 p-8 rounded-3xl transition duration-300 group hover:border-gray-600"
+    >
+      <div 
+        className="h-16 w-16 rounded-tr-3xl rounded-br-3xl bg-blue-400 text-white flex justify-center items-center transition duration-300"
+      >
+        <i className={services.icon}></i>
       </div>
+      <h2 className="text-xl font-semibold text-white transition duration-300 group-hover:text-white">{services.heading}</h2>
+      <p className="text-gray-400 mb-16 transition duration-300">{services.description}</p>
+      <div>
+        <a href={services.link} className="text-blue-400 font-semibold transition duration-300 ">Learn More <i className="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  ))}
+</div>
+
     </>
   );
 };

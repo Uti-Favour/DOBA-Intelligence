@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import Button from "./common/Button";
 import Typed from 'typed.js';
 
+
 const Hero = () => {
   const typedElement = useRef(null);
 

@@ -22,7 +22,11 @@ const Blog = () => {
                 <i className="fas fa-arrow-right"></i>
               </div>
             </a>
+
           </div>
+
+
+         
         </div>
       </motion.div>
     );
