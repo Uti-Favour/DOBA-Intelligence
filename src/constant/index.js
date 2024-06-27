@@ -176,7 +176,7 @@ export const pricinglists = [
     border:
       "border border-blue-800 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
-      'py-2 px-24  rounded-lg border bg-gray-800 mt-4 text-white font-semibold',
+      'py-2 px-24  rounded-lg border bg-blue-400 mt-4 text-white font-semibold',
   },
   {
     category: "Startup",
@@ -239,3 +239,41 @@ export const servicelist = [
   // }
 ];
 
+export const cardlists = [
+  {
+    key  : 1,
+    illustration : 'src/assets/04.png',
+    heading : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus vitae iusto iste vero deleniti, sapiente ab! Et voluptate consequatur voluptatum reiciendis nisi quos quo eum, quasi officiis alias odio?',
+  },
+  {
+    key  : 2,
+    illustration : 'src/assets/04.png',
+    heading : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus vitae iusto iste vero deleniti, sapiente ab! Et voluptate consequatur voluptatum reiciendis nisi quos quo eum, quasi officiis alias odio?',
+  },
+  {
+    key  : 3,
+    illustration : 'src/assets/04.png',
+    heading : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus vitae iusto iste vero deleniti, sapiente ab! Et voluptate consequatur voluptatum reiciendis nisi quos quo eum, quasi officiis alias odio?',
+  },
+  {
+    key  : 4,
+    illustration : 'src/assets/04.png',
+    heading : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus vitae iusto iste vero deleniti, sapiente ab! Et voluptate consequatur voluptatum reiciendis nisi quos quo eum, quasi officiis alias odio?',
+  },
+  {
+    key  : 5,
+    illustration : 'src/assets/04.png',
+    heading : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus vitae iusto iste vero deleniti, sapiente ab! Et voluptate consequatur voluptatum reiciendis nisi quos quo eum, quasi officiis alias odio?',
+  },
+  {
+    key  : 6,
+    illustration : 'src/assets/04.png',
+    heading : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus vitae iusto iste vero deleniti, sapiente ab! Et voluptate consequatur voluptatum reiciendis nisi quos quo eum, quasi officiis alias odio?',
+  },
+]

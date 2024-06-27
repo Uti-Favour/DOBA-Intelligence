@@ -12,12 +12,12 @@ const PriceCard = ({
   button,
 }) => {
   return (
-    <div className={`bg-neutral-800 border border-gray-700 p-8 rounded-3xl ${border}`}>
+    <div className={`bg-transparent border border-gray-700 p-8 rounded-3xl ${border}`}>
       <div>
         <span className="text-xl font-semibold text-white">{category}</span>
       </div>
       <p className="text-gray-300">{description}</p>
-      <h1 className="text-4xl font-bold text-white">
+      <h1 className="text-4xl font-bold text-blue-400">
         {pricing}
         <span className="text-base text-gray-300 font-normal">/month</span>
       </h1>
@@ -26,7 +26,7 @@ const PriceCard = ({
         {lists.map((item, index) => (
           <li key={index}>
             {" "}
-            <i className="fas fa-check-circle text-gray-300 mr-4"></i>
+            <i className="fas fa-check-circle text-blue-400 mr-4"></i>
             {item}
           </li>
         ))}
@@ -43,7 +43,7 @@ const Pricing = () => {
     <div className="mt-16 bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] rounded-tr-[50px] rounded-tl-[50px] py-16">
       <div className="flex justify-center text-center items-center">
         <div className="space-y-4">
-          <span className="text-xl text-gray-300 font-semibold">Pricing</span>
+          <span className="text-xl text-blue-400 font-semibold">Pricing</span>
           <h1 className="text-4xl mx-5 lg:text-5xl font-bold text-white">
             Pricing plans for teams of all sizes
           </h1>
