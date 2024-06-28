@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-950 text-gray-300 py-12 mt-28">
-      <div className="container mx-auto px-4">
+    <footer className="bg-neutral-950 text-gray-300 py-12">
+      <div className="container mx-auto px-4 mt-28">
         <div className="flex flex-wrap -mx-4">
           {/* Company Info */}
           <div className="w-full md:w-1/4 px-4">
