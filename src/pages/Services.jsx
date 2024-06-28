@@ -87,7 +87,7 @@ const Services = () => {
         <Navbar />
         <CardListLeft
   illustration={
-    "src/assets/product development _ idea, thought, innovation, people, team, teamwork, working together.png"
+    "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719586574/product_development___idea_thought_innovation_people_team_teamwork_working_together_vw2lkc.jpg?_s=public-apps"
   }
   heading={"Innovate Your Marketing Strategy"}
   description={
@@ -96,7 +96,7 @@ const Services = () => {
 />
 <CardListRight
   illustration={
-    "src/assets/finance, e-commerce _ purchase, payment, credit card, monitor, computer, man, people.png"
+    "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719586783/finance_e-commerce___purchase_payment_credit_card_monitor_computer_man_people_njt6ze.jpg?_s=public-apps"
   }
   heading={"Optimize E-commerce with AI"}
   description={
@@ -106,7 +106,7 @@ const Services = () => {
 
 <CardListLeft
   illustration={
-    "src/assets/support _ supportive, motivation, encouraging, encouragement, hand gesture, people(1).png"
+    "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719586934/support___supportive_motivation_encouraging_encouragement_hand_gesture_people_1_updyiq.jpg?_s=public-apps"
   }
   heading={"Personalized Customer Support"}
   description={
@@ -116,7 +116,7 @@ const Services = () => {
 
 <CardListRight
   illustration={
-    "src/assets/social media _ network, media, social, profile, account, image, picture, photo.png"
+    "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719587089/social_media___network_media_social_profile_account_image_picture_photo_lzpch9.jpg?_s=public-apps"
   }
   heading={"Transform Social Media Engagement"}
   description={
@@ -125,7 +125,7 @@ const Services = () => {
 />
 <CardListLeft
   illustration={
-    "src/assets/task management _ balance, balancing, unicycle, shapes, woman, people, tasks.png"
+    "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719587125/task_management___balance_balancing_unicycle_shapes_woman_people_tasks_ljlupx.jpg?_s=public-apps"
   }
   heading={"Streamline Task Management"}
   description={
@@ -135,7 +135,7 @@ const Services = () => {
 
 <CardListRight
   illustration={
-    "src/assets/finance _ increase, money, cash, profit, salary, raise, man, people, receipt, document.png"
+    "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719587180/finance___increase_money_cash_profit_salary_raise_man_people_receipt_document_thpbuf.jpg?_s=public-apps"
   }
   heading={"Maximize Financial Gains"}
   description={
@@ -145,7 +145,7 @@ const Services = () => {
 
 <CardListLeft
   illustration={
-    "src/assets/data management _ document, paper, page, file, files, woman, people, overload.png"
+    "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719587600/data_management___document_paper_page_file_files_woman_people_overload_s0iolu.jpg?_s=public-apps"
   }
   heading={"Efficient Data Management"}
   description={
