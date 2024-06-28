@@ -14,7 +14,7 @@ const PriceCard = ({
   return (
     <div className={`bg-transparent border border-gray-700 p-8 rounded-3xl ${border}`}>
       <div>
-        <span className="text-xl font-semibold text-white">{category}</span>
+        <span className="text-xl font-semibold text-blue-400">{category}</span>
       </div>
       <p className="text-gray-300">{description}</p>
       <h1 className="text-4xl font-bold text-blue-400">
@@ -47,8 +47,11 @@ const Pricing = () => {
           <h1 className="text-4xl mx-5 lg:text-5xl font-bold text-white">
             Pricing plans for teams of all sizes
           </h1>
-          <p className="font-medium text-xl text-gray-300 lg:mx-80 mx-5">
+          <p className="font-medium text-xl text-gray-300 lg:mx-80 mx-5 lg:block hidden">
             Find the perfect fit for your team, no matter how big or small. We offer flexible plans with features designed to empower your success.
+          </p>
+          <p className="font-medium text-xl text-gray-300 lg:mx-80 mx-5 lg:hidden">
+            We offer flexible plans with features designed to empower your success.
           </p>
         </div>
       </div>

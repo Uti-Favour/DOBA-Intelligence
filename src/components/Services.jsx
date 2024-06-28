@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { servicelist } from "../constant";
-import { Link } from "react-router-dom";
+
+
 
 const Services = () => {
   return (
@@ -43,7 +45,7 @@ const Services = () => {
       <h2 className="text-xl font-semibold text-white transition duration-300 group-hover:text-white">{services.heading}</h2>
       <p className="text-gray-400 mb-16 transition duration-300">{services.description}</p>
       <div>
-        <a href={services.link} className="text-blue-400 font-semibold transition duration-300 ">Learn More <i className="fas fa-arrow-right"></i></a>
+        <Link to={services.link} className="text-blue-400 font-semibold transition duration-300 ">Learn More <i className="fas fa-arrow-right"></i></Link>
       </div>
     </div>
   ))}

@@ -155,7 +155,7 @@ export const pricinglists = [
     link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1",
     border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
-      "py-2 px-24  rounded-lg border border-gray-500 mt-4 text-white font-semibold",
+      "px-20 py-2 rounded-lg border border-gray-500 mt-4 text-white font-semibold",
   },
   {
     category: "Enterprice",
@@ -174,9 +174,9 @@ export const pricinglists = [
     ],
     link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow2",
     border:
-      "border border-blue-800 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
+      "border border-blue-400 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
-      'py-2 px-24  rounded-lg border bg-blue-400 mt-4 text-white font-semibold',
+      'px-20 py-2  rounded-lg border bg-blue-400 mt-4 text-white font-semibold',
   },
   {
     category: "Startup",
@@ -196,7 +196,7 @@ export const pricinglists = [
     link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow3",
     border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
-      "py-2 px-24  rounded-lg border border-gray-500 mt-4 text-white font-semibold",
+      "px-20 py-2  rounded-lg border border-gray-500 mt-4 text-white font-semibold",
   },
 ];
 
@@ -205,19 +205,19 @@ export const servicelist = [
     icon: 'fas fa-pencil-alt text-2xl',
     heading: 'AI Content Editing',
     description: 'We provide a 360 revamp to your AI content. Nobody likes fluff or robotic content, so we make it better. Get your AI content improved in 8 hours or less.',
-    link: '#'
+    link: '/services'
   },
   {
     icon: 'fas fa-chart-line text-2xl',
     heading: 'AI-Driven Analytics',
     description: 'Leverage our AI-powered analytics to gain deeper insights into your marketing campaigns. Make data-driven decisions to optimize your ROI.',
-    link: '#'
+    link: '/services'
   },
   {
     icon: 'fas fa-comments text-2xl',
     heading: 'AI Chatbots',
     description: 'Implement AI chatbots to enhance customer engagement and support. Our chatbots are designed to provide real-time assistance and improve customer satisfaction.',
-    link: '#'
+    link: '/services'
   },
   // {
   //   icon: 'fas fa-search text-2xl',
@@ -275,5 +275,33 @@ export const cardlists = [
     illustration : 'src/assets/04.png',
     heading : 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     description : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ducimus vitae iusto iste vero deleniti, sapiente ab! Et voluptate consequatur voluptatum reiciendis nisi quos quo eum, quasi officiis alias odio?',
+  },
+]
+
+
+export const steplists = [
+  {
+    id : 1,
+    illustration : 'src/assets/01.png',
+    heading : 'Downlaod DOBA Intelligence app to get started',
+    description : 'Scan the bar code to get started',
+  },
+  {
+    id : 2,
+    illustration : 'src/assets/02.png',
+    heading : 'Downlaod DOBA Intelligence app to get started',
+    description : 'Scan the bar code to get started',
+  },
+  {
+    id : 3,
+    illustration : 'src/assets/03.png',
+    heading : 'Downlaod DOBA Intelligence app to get started',
+    description : 'Scan the bar code to get started',
+  },
+  {
+    id : 4,
+    illustration : 'src/assets/04.png',
+    heading : 'Downlaod DOBA Intelligence app to get started',
+    description : 'Scan the bar code to get started',
   },
 ]

@@ -6,7 +6,7 @@ const Blog = () => {
   function ListCard({ id, image, heading, description, timeframe, link }) {
     return (
       <motion.div initial={{ y: 100 }} whileInView={{ y: 0 }} transition={{ duration: 1 }} key={id}>
-        <div className="bg-neutral-950 rounded-3xl lg:p-12 px-5 py-8 text-white">
+        <div className="bg-neutral-900 rounded-3xl lg:p-12 px-5 py-8 text-white">
           <div className="mb-10">
             <img src={image} className="h-52 w-full rounded-3xl" alt="Blog Image" />
           </div>

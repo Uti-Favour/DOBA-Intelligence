@@ -24,7 +24,7 @@ const Features = () => {
             </div>
           </div>
           {/* grid section */}
-          <motion.div className="space-y-10 lg:mt-0 mt-10" initial={{x:-200}} whileInView={{x:0}} transition={{duration: 2}}>
+          <motion.div className="space-y-10 lg:mt-0 mt-10" initial={{x:-200}} whileInView={{x:0}} transition={{duration: 1}}>
             {features.map((feature) => (
               <div className="flex items-center" key={feature.header}>
                 <div className="bg-blue-400 text-neutral-950 lg:w-16 w-20 lg:h-16 h-12 items-center flex justify-center rounded-xl">
