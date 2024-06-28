@@ -133,6 +133,27 @@ const Services = () => {
   }
 />
 
+<CardListRight
+  illustration={
+    "src/assets/finance _ increase, money, cash, profit, salary, raise, man, people, receipt, document.png"
+  }
+  heading={"Maximize Financial Gains"}
+  description={
+    "Utilize AI to boost your profits and manage finances effectively. Gain insights into your financial data to make informed decisions and drive growth."
+  }
+/>
+
+<CardListLeft
+  illustration={
+    "src/assets/data management _ document, paper, page, file, files, woman, people, overload.png"
+  }
+  heading={"Efficient Data Management"}
+  description={
+    "Streamline your data processes with AI solutions. Manage documents and files effortlessly, reducing overload and improving productivity."
+  }
+/>
+
+
       </div>
 
       <Footer/>
