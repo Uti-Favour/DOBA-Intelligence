@@ -192,6 +192,7 @@ const Services = () => {
           }
         />
 
+<Blog />
 <div className="grid lg:grid-cols-2 lg:mx-20 mx-5 gap-4 mt-16">
           {steplists.map((step) => (
             <StepsLists
@@ -203,7 +204,7 @@ const Services = () => {
           ))}
         </div>
 
-        <Blog />
+        
 
   
       </div>
