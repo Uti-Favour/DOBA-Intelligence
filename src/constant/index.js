@@ -281,27 +281,23 @@ export const cardlists = [
 
 export const steplists = [
   {
-    id : 1,
-    illustration : 'src/assets/01.png',
-    heading : 'Downlaod DOBA Intelligence app to get started',
-    description : 'Scan the bar code to get started',
+    id: 1,
+    illustration: 'https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719664453/01_lahyg6.jpg?_s=public-apps',
+    description: 'Sign the contract to kickstart your journey with us.'
   },
   {
-    id : 2,
-    illustration : 'src/assets/02.png',
-    heading : 'Downlaod DOBA Intelligence app to get started',
-    description : 'Scan the bar code to get started',
+    id: 2,
+    illustration: 'https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719664452/02_fvqng5.jpg?_s=public-apps',
+    description: 'Gather insights and plan your marketing strategy ahead.'
   },
   {
-    id : 3,
-    illustration : 'src/assets/03.png',
-    heading : 'Downlaod DOBA Intelligence app to get started',
-    description : 'Scan the bar code to get started',
+    id: 3,
+    illustration: 'https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719664453/03_qvzay1.jpg?_s=public-apps',
+    description: 'Collaborate with our experts to refine your strategy.'
   },
   {
-    id : 4,
-    illustration : 'src/assets/04.png',
-    heading : 'Downlaod DOBA Intelligence app to get started',
-    description : 'Scan the bar code to get started',
+    id: 4,
+    illustration: 'https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719664453/04_vpwe4a.jpg?_s=public-apps',
+    description: 'Utilize social media platforms to boost online presence.'
   },
 ]

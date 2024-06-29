@@ -104,19 +104,21 @@ const CardListRight = ({ illustration, heading, description }) => {
 };
 
 // Step Lists
-const StepsLists = ({heading , description , illustration}) => {
-return (
-  <>
-  <div>
-    <div className=" border border-1 border-gray-400 flex items-center">
-      <img src={illustration} alt="" />
-      <h1>{heading}</h1>
-      <p>{description}</p>
-    </div>
-  </div>
-  </>
-)
-}
+const StepsLists = ({description, illustration }) => {
+  return (
+    <>
+      <div>
+        <div className=" border border-1 border-neutral-900 flex items-center rounded-3xl lg:py-0 lg:px-6 py-3 px-2 space-x-4">
+          <img src={illustration} alt="" className="lg:w-40 w-28 lg:h-40 h-28" />
+          <div>
+            <span className="lg:text-3xl text-lg">{description}</span>
+            
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 const Services = () => {
   return (
     <>
@@ -190,13 +192,20 @@ const Services = () => {
           }
         />
 
+<div className="grid lg:grid-cols-2 lg:mx-20 mx-5 gap-4 mt-16">
+          {steplists.map((step) => (
+            <StepsLists
+              key={step.id}
+              illustration={step.illustration}
+              description={step.description}
 
-<div className="grid grid-cols-2 mx-20">
-{steplists.map (step => (
-  <StepsLists key={step.id} illustration={step.illustration} heading={step.heading} description={step.description}/>
-))}
-</div>
+            />
+          ))}
+        </div>
+
         <Blog />
+
+  
       </div>
 
       <Footer />
