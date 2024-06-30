@@ -301,3 +301,64 @@ export const steplists = [
     description: 'Utilize social media platforms to boost online presence.'
   },
 ]
+
+export const testimonials = [
+  {
+    description: "This company provided excellent service and I couldn't be happier with the results. Their attention to detail and commitment to quality were evident from start to finish. They truly exceeded our expectations and delivered outstanding results.",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "John Doe",
+    company: "Tech Solutions"
+  },
+  {
+    description: "Fantastic experience! The team was professional and efficient, delivering high-quality work on time. They communicated clearly and kept us informed throughout the project. We are thrilled with the outcome and highly recommend their services.",
+    image: "https://randomuser.me/api/portraits/women/2.jpg",
+    name: "Jane Smith",
+    company: "Creative Designs"
+  },
+  {
+    description: "Highly recommend! They went above and beyond to meet our needs. Their innovative approach and expertise made a significant impact on our project. We are extremely satisfied with their work and look forward to collaborating again.",
+    image: "https://randomuser.me/api/portraits/women/3.jpg",
+    name: "Alice Johnson",
+    company: "Marketing Experts"
+  },
+  {
+    description: "Their expertise and dedication made a significant difference in our project. They were responsive, knowledgeable, and a pleasure to work with. The end product was exactly what we envisioned and more. A top-notch team!",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
+    name: "Bob Brown",
+    company: "Innovative Solutions"
+  },
+  {
+    description: "Top-notch service and great attention to detail. The team showed a deep understanding of our requirements and executed flawlessly. We are very impressed with their professionalism and the quality of their work.",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Charlie Davis",
+    company: "Business Corp"
+  },
+  {
+    description: "They provided exceptional support throughout the entire process. From initial consultation to final delivery, they were always available to address our concerns and provide guidance. The results speak for themselves.",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Diana Evans",
+    company: "Enterprise Ltd."
+  },
+  {
+    description: "The results exceeded our expectations. We are very satisfied with the quality of their work and the professionalism they demonstrated. Their ability to understand our vision and bring it to life was remarkable.",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
+    name: "Frank Harris",
+    company: "Tech Innovators"
+  },
+  {
+    description: "Outstanding service from start to finish. Highly recommend! Their team was efficient, knowledgeable, and delivered exactly what we needed. The quality of their work is top-notch and we couldn't be happier.",
+    image: "https://randomuser.me/api/portraits/women/8.jpg",
+    name: "Grace Lee",
+    company: "Creative Solutions"
+  },
+  {
+    description: "They delivered high-quality work on time and within budget. Their professionalism and attention to detail were evident throughout the project. We are extremely pleased with the results and would recommend them without hesitation.",
+    image: "https://randomuser.me/api/portraits/men/9.jpg",
+    name: "Henry Miller",
+    company: "Startup Inc."
+  }
+];
+
+
+
+

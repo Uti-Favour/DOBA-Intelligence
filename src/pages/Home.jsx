@@ -6,6 +6,7 @@ import Commitments from "../components/Commitments";
 import Features from "../components/Features";
 import Blog from "../components/Blog";
 import Pricing from "../components/Pricing";
+import Testimonials from "../components/Testimonials"
 import Footer from "../components/Footer";
 
 
@@ -20,6 +21,7 @@ const Home = () => {
     <Features/>
     <Blog/>
     <Pricing/>
+    <Testimonials/>
     <Footer/>
    </div>
     </>

@@ -39,14 +39,14 @@ const Blog = () => {
           <motion.h1
             className="font-semibold max-w-xl lg:text-5xl text-3xl lg:leading-tight text-blue-400"
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1, transition: { duration: 2 } }}
+            whileInView={{ opacity: 1, transition: { duration: 1 } }}
           >
             Digital <span className="italic text-gray-300">Marketing and SEO Services</span> That Grow Traffic.
           </motion.h1>
           <div>
             <motion.p
               initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1, transition: { duration: 3 } }}
+              whileInView={{ opacity: 1, transition: { duration: 1 } }}
               className="text-gray-300 max-w-lg lg:mt-0 mt-5 leading-8"
             >
               Don’t want a monthly plan? Select how many articles you need and

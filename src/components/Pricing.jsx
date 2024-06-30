@@ -50,9 +50,7 @@ const Pricing = () => {
           <p className="font-medium text-xl text-gray-300 lg:mx-80 mx-5 lg:block hidden">
             Find the perfect fit for your team, no matter how big or small. We offer flexible plans with features designed to empower your success.
           </p>
-          <p className="font-medium text-xl text-gray-300 lg:mx-80 mx-5 lg:hidden">
-            We offer flexible plans with features designed to empower your success.
-          </p>
+          
         </div>
       </div>
       <motion.div className="grid lg:grid-cols-3 lg:gap-6 lg:mx-20 mx-5" initial={{ y: 200 }} whileInView={{ y: 0 }} transition={{ duration: 1 }}>
