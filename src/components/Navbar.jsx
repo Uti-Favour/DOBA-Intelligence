@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { navcontent } from "../constant";
+import logo from "/src/assets/DOBA_Intelligence_Logo_1-removebg-preview.png"
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +22,7 @@ const Navbar = () => {
                 <Link to="/">
                   <img
                     className="h-20 w-20"
-                    src="src/assets/DOBA_Intelligence_Logo_1-removebg-preview.png"
+                    src={logo}
                     alt="Logo"
                   />
                 </Link>
