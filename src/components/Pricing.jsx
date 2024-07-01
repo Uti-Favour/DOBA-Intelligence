@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 import { pricinglists } from "../constant";
 import { motion } from "framer-motion";
+
 
 const PriceCard = ({
   category,
@@ -38,7 +39,16 @@ const PriceCard = ({
   );
 };
 
+
+
 const Pricing = () => {
+const[currentPrice , setcurrentPrice] = useState(true);
+function handlePriceChange(){
+  setcurrentPrice(!currentPrice);
+
+  }
+
+
   return (
     <div className="mt-16 bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] rounded-tr-[50px] rounded-tl-[50px] py-16">
       <div className="flex justify-center text-center items-center">
@@ -53,10 +63,11 @@ const Pricing = () => {
           
         </div>
       </div>
+   
       <motion.div className="grid lg:grid-cols-3 lg:gap-6 lg:mx-20 mx-5" initial={{ y: 200 }} whileInView={{ y: 0 }} transition={{ duration: 1 }}>
         {pricinglists.map((price) => (
           <PriceCard
-            key={price.category} // Add a unique key here
+            key={ price.category} 
             category={price.category}
             description={price.description}
             pricing={price.pricing}

@@ -112,6 +112,11 @@ export const blogcontent = [
       "We are the top digital marketing agency for  branding. We offer a full rang  engine.  ",
     timeframe: "2 minutes read",
     link: "https://medium.com/@hammadr.c/small-business-big-impact-how-content-marketing-can-boost-your-leads-and-sales-3e1c0fead348",
+    writer: {
+      name: "Jane Smith",
+      image: "https://randomuser.me/api/portraits/women/1.jpg",
+      field: "Marketing Strategist"
+    }
   },
   {
     id: 2,
@@ -123,6 +128,11 @@ export const blogcontent = [
       "Working with this digital agency has been a true partnership & operation",
     timeframe: "5 minutes read",
     link: "https://medium.com/@franciscokemeny/jumpstart-your-business-with-targeted-niche-marketing-a-guide-for-small-marketing-agencies-c58834894e7b",
+    writer: {
+      name: "Michael Brown",
+      image: "https://randomuser.me/api/portraits/men/2.jpg",
+      field: "SEO Specialist"
+    }
   },
   {
     id: 3,
@@ -132,6 +142,11 @@ export const blogcontent = [
     description: "Collaborating with this digital agency has elevated our marketing efforts.",
     timeframe: "6 minutes read",
     link: "https://medium.com/@yourusername/exploring-new-horizons-in-digital-marketing-a-guide-to-success-123456789abc",
+    writer: {
+      name: "Jessica Lee",
+      image: "https://randomuser.me/api/portraits/women/3.jpg",
+      field: "Social Media Manager"
+    }
   }
   
 ];
@@ -399,6 +414,69 @@ export const pricinglists = [
   {
     category: "Startup",
     pricing: " $620",
+    description: " Annual Plan- $11,964 $9,571.",
+    lists: [
+      "16 articles per month",
+      "Customized Content Strategy ",
+      "16 best recommended topics",
+      "SEO optimized",
+      "Deep Research",
+      "Highly engaging",
+      "Edited & Proofread",
+      "Unlimited revisions",
+      "Monthly Check in by Specialis",
+    ],
+    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow3",
+    border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
+    button:
+      "px-20 py-2  rounded-lg border border-gray-500 mt-4 text-white font-semibold",
+  },
+];
+export const pricinglistsannual = [
+  {
+    category: "Freelancer",
+    pricing: " $1000",
+    description: "Annual Plan- $11,964 $9,571.",
+    lists: [
+      "30 articles per month",
+      "Customized Content Strategy ",
+      "30 best recommended topics",
+      "SEO optimized",
+      "Deep Research",
+      "Highly engaging",
+      "Edited & Proofread",
+      "Unlimited revisions",
+      "Monthly Check in by Specialis",
+    ],
+    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1",
+    border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
+    button:
+      "px-20 py-2 rounded-lg border border-gray-500 mt-4 text-white font-semibold",
+  },
+  {
+    category: "Enterprice",
+    pricing: " $1500",
+    description: "Annual Plan: $9,600 $7,680",
+    lists: [
+      "23 articles per month",
+      "Customized Content Strategy",
+      "23 best topics every month",
+      "SEO optimized",
+      "Deep Research",
+      "Highly engaging",
+      "Edited & Proofread",
+      "Unlimited revisions",
+      "Monthly Check in by Specialis",
+    ],
+    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow2",
+    border:
+      "border border-blue-400 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
+    button:
+      'px-20 py-2  rounded-lg border bg-blue-400 mt-4 text-white font-semibold',
+  },
+  {
+    category: "Startup",
+    pricing: " $2000",
     description: " Annual Plan- $11,964 $9,571.",
     lists: [
       "16 articles per month",
