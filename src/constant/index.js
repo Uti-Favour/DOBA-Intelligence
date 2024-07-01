@@ -136,6 +136,224 @@ export const blogcontent = [
   
 ];
 
+export const blogcontents = [
+  {
+    id: 2,
+    image: "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    indication: "src/assets/Ellipse5_2.png",
+    heading: "The Latest Trends and Strategies with a Digital Marketing Agency",
+    description: "Working with this digital agency has been a true partnership & operation.",
+    timeframe: "5 minutes read",
+    link: "https://medium.com/@franciscokemeny/jumpstart-your-business-with-targeted-niche-marketing-a-guide-for-small-marketing-agencies-c58834894e7b",
+    writer: {
+      name: "Jane Smith",
+      image: "https://randomuser.me/api/portraits/women/1.jpg",
+      field: "Marketing Strategist"
+    }
+  },
+  {
+    id: 3,
+    image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
+    indication: "src/assets/Ellipse5_3.png",
+    heading: "Exploring New Horizons in Digital Marketing in this Present Age",
+    description: "Collaborating with this digital agency has elevated our marketing efforts.",
+    timeframe: "6 minutes read",
+    link: "https://medium.com/@yourusername/exploring-new-horizons-in-digital-marketing-a-guide-to-success-123456789abc",
+    writer: {
+      name: "Michael Brown",
+      image: "https://randomuser.me/api/portraits/men/2.jpg",
+      field: "SEO Specialist"
+    }
+  },
+  {
+    id: 4,
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+    indication: "src/assets/Ellipse5_4.png",
+    heading: "Maximizing Your ROI with Expert Digital Marketing Strategies",
+    description: "Our digital marketing strategies ensure maximum ROI for your business.",
+    timeframe: "4 minutes read",
+    link: "https://medium.com/@yourusername/maximizing-your-roi-with-expert-digital-marketing-strategies-123456789abc",
+    writer: {
+      name: "Emily Davis",
+      image: "https://randomuser.me/api/portraits/women/2.jpg",
+      field: "Digital Marketing Consultant"
+    }
+  },
+  {
+    id: 5,
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    indication: "src/assets/Ellipse5_5.png",
+    heading: "Understanding the Importance of SEO in Modern Marketing",
+    description: "SEO is a critical component of any successful digital marketing strategy.",
+    timeframe: "3 minutes read",
+    link: "https://medium.com/@yourusername/understanding-the-importance-of-seo-in-modern-marketing-123456789abc",
+    writer: {
+      name: "Chris Johnson",
+      image: "https://randomuser.me/api/portraits/men/3.jpg",
+      field: "SEO Specialist"
+    }
+  },
+  {
+    id: 6,
+    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+    indication: "src/assets/Ellipse5_6.png",
+    heading: "Leveraging Social Media for Business Growth",
+    description: "Social media platforms offer unique opportunities for business growth.",
+    timeframe: "7 minutes read",
+    link: "https://medium.com/@yourusername/leveraging-social-media-for-business-growth-123456789abc",
+    writer: {
+      name: "Jessica Lee",
+      image: "https://randomuser.me/api/portraits/women/3.jpg",
+      field: "Social Media Manager"
+    }
+  },
+ 
+  {
+    id: 8,
+    image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+    indication: "src/assets/Ellipse5_8.png",
+    heading: "Content Marketing: Creating Value for Your Audience",
+    description: "Creating valuable content is key to successful content marketing.",
+    timeframe: "6 minutes read",
+    link: "https://medium.com/@yourusername/content-marketing-creating-value-for-your-audience-123456789abc",
+    writer: {
+      name: "Sarah Wilson",
+      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      field: "Content Marketing Manager"
+    }
+  },
+
+  {
+    id: 10,
+    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
+    indication: "src/assets/Ellipse5_10.png",
+    heading: "Using Influencer Marketing to Expand Your Reach",
+    description: "Influencer marketing can help expand your brand's reach significantly.",
+    timeframe: "7 minutes read",
+    link: "https://medium.com/@yourusername/using-influencer-marketing-to-expand-your-reach-123456789abc",
+    writer: {
+      name: "Linda Thompson",
+      image: "https://randomuser.me/api/portraits/women/5.jpg",
+      field: "Influencer Marketing Specialist"
+    }
+  },
+
+  
+  {
+    id: 13,
+    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
+    indication: "src/assets/Ellipse5_13.png",
+    heading: "Mobile Marketing: Reaching Your Audience on the Go",
+    description: "Mobile marketing is crucial for reaching audiences who are always on the go.",
+    timeframe: "4 minutes read",
+    link: "https://medium.com/@yourusername/mobile-marketing-reaching-your-audience-on-the-go-123456789abc",
+    writer: {
+      name: "Kevin Martinez",
+      image: "https://randomuser.me/api/portraits/men/7.jpg",
+      field: "Mobile Marketing Specialist"
+    }
+  },
+  {
+    id: 14,
+    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+    indication: "src/assets/Ellipse5_14.png",
+    heading: "Video Marketing: Engaging Your Audience Through Video",
+    description: "Video marketing is a powerful tool for engaging your audience.",
+    timeframe: "6 minutes read",
+    link: "https://medium.com/@yourusername/video-marketing-engaging-your-audience-through-video-123456789abc",
+    writer: {
+      name: "Karen Miller",
+      image: "https://randomuser.me/api/portraits/women/7.jpg",
+      field: "Video Marketing Specialist"
+    }
+  },
+  {
+    id: 15,
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    indication: "src/assets/Ellipse5_15.png",
+    heading: "Building a Strong Brand Identity Online",
+    description: "A strong brand identity is crucial for online success.",
+    timeframe: "5 minutes read",
+    link: "https://medium.com/@yourusername/building-a-strong-brand-identity-online-123456789abc",
+    writer: {
+      name: "Daniel Anderson",
+      image: "https://randomuser.me/api/portraits/men/8.jpg",
+      field: "Brand Strategist"
+    }
+  },
+  {
+    id: 16,
+    image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
+    indication: "src/assets/Ellipse5_16.png",
+    heading: "The Role of Content in Digital Marketing",
+    description: "Content plays a crucial role in any digital marketing strategy.",
+    timeframe: "6 minutes read",
+    link: "https://medium.com/@yourusername/the-role-of-content-in-digital-marketing-123456789abc",
+    writer: {
+      name: "Nancy Wilson",
+      image: "https://randomuser.me/api/portraits/women/8.jpg",
+      field: "Content Strategist"
+    }
+  },
+  {
+    id: 17,
+    image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+    indication: "src/assets/Ellipse5_17.png",
+    heading: "Effective Use of Paid Media in Your Marketing Strategy",
+    description: "Paid media can be an effective part of a comprehensive marketing strategy.",
+    timeframe: "7 minutes read",
+    link: "https://medium.com/@yourusername/effective-use-of-paid-media-in-your-marketing-strategy-123456789abc",
+    writer: {
+      name: "Peter Evans",
+      image: "https://randomuser.me/api/portraits/men/9.jpg",
+      field: "Media Buyer"
+    }
+  },
+  {
+    id: 18,
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    indication: "src/assets/Ellipse5_18.png",
+    heading: "The Future of Digital Marketing: Trends to Watch",
+    description: "Stay ahead of the curve by keeping an eye on these digital marketing trends.",
+    timeframe: "5 minutes read",
+    link: "https://medium.com/@yourusername/the-future-of-digital-marketing-trends-to-watch-123456789abc",
+    writer: {
+      name: "Sophia Davis",
+      image: "https://randomuser.me/api/portraits/women/9.jpg",
+      field: "Marketing Futurist"
+    }
+  },
+  {
+    id: 19,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    indication: "src/assets/Ellipse5_19.png",
+    heading: "Creating Effective Marketing Funnels",
+    description: "Effective marketing funnels can guide prospects to becoming loyal customers.",
+    timeframe: "4 minutes read",
+    link: "https://medium.com/@yourusername/creating-effective-marketing-funnels-123456789abc",
+    writer: {
+      name: "Matthew Clark",
+      image: "https://randomuser.me/api/portraits/men/10.jpg",
+      field: "Marketing Funnel Expert"
+    }
+  },
+  {
+    id: 20,
+    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+    indication: "src/assets/Ellipse5_20.png",
+    heading: "The Benefits of Using Automation in Digital Marketing",
+    description: "Automation can streamline your digital marketing efforts and improve efficiency.",
+    timeframe: "6 minutes read",
+    link: "https://medium.com/@yourusername/the-benefits-of-using-automation-in-digital-marketing-123456789abc",
+    writer: {
+      name: "Olivia Taylor",
+      image: "https://randomuser.me/api/portraits/women/10.jpg",
+      field: "Marketing Automation Specialist"
+    }
+  }
+];
+
+
 export const pricinglists = [
   {
     category: "Freelancer",

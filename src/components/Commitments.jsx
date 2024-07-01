@@ -46,10 +46,10 @@ const Commitments = () => {
           </a>
         </div>
 
-        <div className="grid grid-cols-2 lg:gap-16 gap-10 lg:mt-0 mt-12 mx-3">
+        <div className="grid grid-cols-2 lg:gap-16 gap-10 lg:mt-0 mt-12 mx-1">
           {stats.map((stat) => (
             <div className="" key={stat.id}>
-              <h3 className="font-semibold text-5xl text-blue-400">
+              <h3 className="font-semibold lg:text-5xl text-4xl text-blue-400">
                 {stat.number}
               </h3>
               <p className="text-gray-300">{stat.description}</p>

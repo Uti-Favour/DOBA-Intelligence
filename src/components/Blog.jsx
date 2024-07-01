@@ -3,18 +3,39 @@ import { motion } from "framer-motion";
 import { blogcontent } from "../constant";
 
 const Blog = () => {
-  function ListCard({ id, image, heading, description, timeframe, link }) {
+  function ListCard({
+    id,
+    image,
+    heading,
+    description,
+    timeframe,
+    link,
+    name,
+    personimage,
+    field,
+  }) {
     return (
-      <motion.div initial={{ y: 100 }} whileInView={{ y: 0 }} transition={{ duration: 1 }} key={id}>
+      <motion.div
+        initial={{ y: 100 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 1 }}
+        key={id}
+      >
         <div className="bg-neutral-900 rounded-3xl lg:p-12 px-5 py-8 text-white">
           <div className="mb-10">
-            <img src={image} className="h-52 w-full rounded-3xl" alt="Blog Image" />
+            <img
+              src={image}
+              className="h-52 w-full rounded-3xl"
+              alt="Blog Image"
+            />
           </div>
           <div className="flex justify-between items-center">
             <span className="h-3 w-3 bg-blue-400 rounded-full"></span>
             <span className="text-gray-300">{timeframe}</span>
           </div>
-          <h1 className="text-2xl font-semibold text-blue-400 mt-5">{heading}</h1>
+          <h1 className="text-2xl font-semibold text-blue-400 mt-5">
+            {heading}
+          </h1>
           <div className="flex items-end space-x-4 mt-8">
             <p className="text-gray-300">{description}</p>
             <a href={link} className="hover:opacity-80">
@@ -22,11 +43,19 @@ const Blog = () => {
                 <i className="fas fa-arrow-right"></i>
               </div>
             </a>
-
           </div>
+          <div className="flex items-center space-x-4 mt-10">
+            <img
+              src={personimage}
+              alt="testimonial-image"
+              className="w-[50px] h-[50px] rounded-full"
+            />
 
-
-         
+            <div>
+              <span className="font-semibold">{name}</span> <br />
+              <span className="text-gray-500">{field}</span>
+            </div>
+          </div>
         </div>
       </motion.div>
     );
@@ -41,7 +70,11 @@ const Blog = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { duration: 1 } }}
           >
-            Digital <span className="italic text-gray-300">Marketing and SEO Services</span> That Grow Traffic.
+            Digital{" "}
+            <span className="italic text-gray-300">
+              Marketing and SEO Services
+            </span>{" "}
+            That Grow Traffic.
           </motion.h1>
           <div>
             <motion.p
@@ -66,6 +99,9 @@ const Blog = () => {
               description={blog.description}
               link={blog.link}
               timeframe={blog.timeframe}
+              name={"Uti Favour"}
+              field={"Banking and finance"}
+              personimage={"src/assets/Damiii.jpg"}
             />
           ))}
         </div>
