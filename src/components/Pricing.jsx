@@ -33,7 +33,7 @@ const PriceCard = ({ category, pricing, description, lists, link, border, button
       <div>
         <span className="text-xl font-semibold text-blue-400">{category}</span>
       </div>
-      {/* <p className="text-gray-300">{description}</p> */}
+      <p className="text-gray-300">{description}</p>
       <h1 className="text-4xl font-bold text-blue-400">
         {pricing}
         <span className="text-base text-gray-300 font-normal">/{selected === 'monthly' ? 'month' : 'year'}</span>
@@ -48,7 +48,7 @@ const PriceCard = ({ category, pricing, description, lists, link, border, button
         ))}
       </ul>
       <a href={link} className="flex justify-center">
-        <button className={button}>Buy Plan</button>
+        <button className={`border h-10 w-40 rounded-lg border-gray-400${button}`}>Buy Plan</button>
       </a>
     </div>
   );
@@ -62,9 +62,9 @@ const Pricing = () => {
     <div className="mt-16 bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] rounded-tr-[50px] rounded-tl-[50px] py-16">
       <div className="flex justify-center text-center items-center">
         <div className="space-y-4">
-          <span className="text-xl text-blue-400 font-semibold">Pricing</span>
+          <span className="text-xl text-blue-400 font-semibold">Content Flow</span>
           <h1 className="text-4xl mx-5 lg:text-5xl font-bold text-white">
-            Pricing plans for teams of all sizes
+          Content flow for teams of all sizes
           </h1>
           <p className="font-medium text-xl text-gray-300 lg:mx-80 mx-5 lg:block hidden">
             Find the perfect fit for your team, no matter how big or small. We offer flexible plans with features designed to empower your success.
@@ -82,9 +82,9 @@ const Pricing = () => {
             description={price.description}
             pricing={selected === 'annually' ? price.annualprice : price.pricing}
             lists={price.lists}
-            link={price.link}
+            link={selected === 'annually' ? price.annuallink : price.link}
             border={price.border}
-            button={price.button}
+            button={ price.button}
             selected={selected}  // Pass selected to PriceCard
           />
         ))}

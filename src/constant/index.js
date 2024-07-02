@@ -105,46 +105,46 @@ export const people = [
 export const blogcontent = [
   {
     id: 1,
-    image: "https://i.pinimg.com/736x/81/f0/b3/81f0b3ee3b9032ca420e2a6ac4088394.jpg",
+    image: "https://miro.medium.com/v2/resize:fit:640/format:webp/1*2CJMFW5U9kTvZnPFFMuEwA.png",
     indication: "src/assets/Ellipse 5(1).png",
-    heading: "How Digital Marketing Agency Can Boost Your Business Success",
+    heading: "How Content Marketting can boost your leads and sales with big impact",
     description:
-      "We are the top digital marketing agency for  branding. We offer a full rang  engine.  ",
+      "We are the top digital marketing agency for  branding. We offer a full rang  engine...",
     timeframe: "2 minutes read",
     link: "https://medium.com/@hammadr.c/small-business-big-impact-how-content-marketing-can-boost-your-leads-and-sales-3e1c0fead348",
     writer: {
-      name: "Jane Smith",
-      image: "https://randomuser.me/api/portraits/women/1.jpg",
-      field: "Marketing Strategist"
+      name: "Hammad Riaz ",
+      image: "https://media.licdn.com/dms/image/C5603AQHzCkr-xFSBkw/profile-displayphoto-shrink_200_200/0/1531134663741?e=2147483647&v=beta&t=11uZ33AOTG_VkI6Fpz9covbTxkjcENnr7r5ae8J4Vsw",
+      field: "Content Marketting"
     }
   },
   {
     id: 2,
-    image: "https://i.pinimg.com/736x/bb/95/2f/bb952fb7e83d182c7c461fbd5e0b53bf.jpg",
+    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*DdIiDi_mJTFRylXHlbP5PA.png",
     indication: "src/assets/Ellipse 5(2).png",
     heading:
-      " The Latest Trends and Strategies with a Digital Marketing Agency",
+      "Jump-start your business with Targetted marketing guide for small business",
     description:
-      "Working with this digital agency has been a true partnership & operation",
-    timeframe: "5 minutes read",
+      "Working with this digital agency has been a true partnership & operation...",
+    timeframe: "2 minutes read",
     link: "https://medium.com/@franciscokemeny/jumpstart-your-business-with-targeted-niche-marketing-a-guide-for-small-marketing-agencies-c58834894e7b",
     writer: {
-      name: "Michael Brown",
-      image: "https://randomuser.me/api/portraits/men/2.jpg",
-      field: "SEO Specialist"
+      name: "Francisco A. Kemeny",
+      image: "https://media.licdn.com/dms/image/D5603AQHa8uijTsro5A/profile-displayphoto-shrink_200_200/0/1668706102895?e=2147483647&v=beta&t=jYCzuuJhakox1J3CF8aXrR9vKcWB7OtyBTZfOxXNgOc",
+      field: "Digital Marketting"
     }
   },
   {
     id: 3,
-    image: "https://cdn.pixabay.com/photo/2016/11/19/16/48/notebook-1840276_640.jpg", // Use the provided URL for a similar style
+    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*UR3yZECmE82gc0a0B8WU_Q.gif", // Use the provided URL for a similar style
     indication: "src/assets/Ellipse5_3.png",
-    heading: " Exploring New Horizons in Digital Marketing in this present age",
-    description: "Collaborating with this digital agency has elevated our marketing efforts.",
-    timeframe: "6 minutes read",
+    heading: "Exploring new horizon in digital marketing : a guide to success",
+    description: "Collaborating with this digital agency has elevated our marketing efforts...",
+    timeframe: "3 minutes read",
     link: "https://medium.com/@yourusername/exploring-new-horizons-in-digital-marketing-a-guide-to-success-123456789abc",
     writer: {
-      name: "Jessica Lee",
-      image: "https://randomuser.me/api/portraits/women/3.jpg",
+      name: "Romanza",
+      image: "https://miro.medium.com/v2/resize:fit:640/1*Md8KYxYn2kJygRcSndnMCQ.jpeg",
       field: "Social Media Manager"
     }
   }
@@ -370,53 +370,57 @@ export const blogcontents = [
 
 export const pricinglists = [
   {
-    category: "Freelancer",
-    pricing: " $997",
-    annualprice : "$1000",
-    description: "Annual Plan- $11,964 $9,571.",
+    category: "Flow 1",
+    pricing: " $1997",
+    annualprice : "$14,378.4",
+    description: "Save 40% on Annual Plan.",
     lists: [
-      "30 articles per month",
-      "Customized Content Strategy ",
-      "30 best recommended topics",
-      "SEO optimized",
-      "Deep Research",
-      "Highly engaging",
-      "Edited & Proofread",
+      "Everything in flow 2",
+      "3 request at a time",
+      "Social media Copy",
+      "eBooks",
+      "White papers",
       "Unlimited revisions",
-      "Monthly Check in by Specialis",
+      "Monthly Check in by Content Marketing Specialist ",
+      "Brand voice",
+      "Edited & Proofread ",
+      "limited revisions (Up to 5)"
     ],
     link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1",
+    annuallink: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1annual",
     border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
       "px-20 py-2 rounded-lg border border-gray-500 mt-4 text-white font-semibold",
   },
   {
-    category: "Enterprice",
-    pricing: " $800",
-    annualprice : "$1200",
-    description: "Annual Plan: $9,600 $7,680",
+    category: "Flow 2",
+    pricing: "$997",
+    annualprice : "$9,571.2",
+    description: "Save 20% on Annual Plan.",
     lists: [
-      "23 articles per month",
-      "Customized Content Strategy",
-      "23 best topics every month",
+      "Unlimited articles per month",
+      "One request at a time",
+      "Access to Customized Content Strategy ",
+      "Access to best recommended topics",
       "SEO optimized",
       "Deep Research",
       "Highly engaging",
       "Edited & Proofread",
-      "Unlimited revisions",
-      "Monthly Check in by Specialis",
+      "Brand voice",
+      "limited revisions (Up to 5)",
     ],
     link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow2",
+    annuallink: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow2annual",
     border:
       "border border-blue-400 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
       'px-20 py-2  rounded-lg border bg-blue-400 mt-4 text-white font-semibold',
   },
   {
-    category: "Startup",
+    category: "Flow 3",
     pricing: " $620",
-    annualprice : "$2000",
-    description: " Annual Plan- $11,964 $9,571.",
+    annualprice : "$5,952",
+    description: "Save 20% on Annual Plan.",
     lists: [
       "16 articles per month",
       "Customized Content Strategy ",
@@ -429,6 +433,7 @@ export const pricinglists = [
       "Monthly Check in by Specialis",
     ],
     link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow3",
+    annuallink: "https://sandbox-flw-web-v3.herokuapp.com/pay/aicontenteditingflow3annual",
     border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
       "px-20 py-2  rounded-lg border border-gray-500 mt-4 text-white font-semibold",
@@ -605,13 +610,13 @@ export const testimonials = [
   {
     description: "This company provided excellent service and I couldn't be happier with the results. Their attention to detail and commitment to quality were evident from start to finish. They truly exceeded our expectations and delivered outstanding results.",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "John Doe",
-    company: "Tech Solutions"
+    name: "Uti Favour",
+    company: "Tech Maestros"
   },
   {
     description: "Fantastic experience! The team was professional and efficient, delivering high-quality work on time. They communicated clearly and kept us informed throughout the project. We are thrilled with the outcome and highly recommend their services.",
     image: "https://randomuser.me/api/portraits/women/2.jpg",
-    name: "Jane Smith",
+    name: "Christopher Uzoka",
     company: "Creative Designs"
   },
   {

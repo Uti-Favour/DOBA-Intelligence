@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import Button from "./common/Button";
 import Typed from 'typed.js';
+import heroimage from "/src/assets/hero-image.png"
 
 
 
@@ -9,7 +10,7 @@ const Hero = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["forward-thinking", "innovation", "strategic-insights"],
+      strings: ["No queues.", "No waiting time.", "Better quality."],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
@@ -28,7 +29,7 @@ const Hero = () => {
       <div className="lg:flex lg:justify-between mx-5 lg:mx-20">
         <div className="mt-5">
           <h1 className="font-semibold text-4xl lg:text-6xl max-w-lg">
-            Stay ahead of the curve with our <br /><span className="text-blue-400 italic auto-type" ref={typedElement}></span>
+          Get your next Article in 8 hrs <br /><span className="text-blue-400 italic auto-type" ref={typedElement}></span>
           </h1>
           <p className="max-w-lg mt-10 leading-7 text-gray-300">
             To rank your website higher consistency is key. 
@@ -44,7 +45,7 @@ const Hero = () => {
         </div>
 
         <div className="lg:w-[600px] lg:h-[600px] mt-16 lg:mt-0">
-          <img src="https://i.pinimg.com/736x/d3/5c/c0/d35cc0f9cc8ca722e019e465e992c2e7.jpg" className="rounded-3xl" />
+          <img src={heroimage} className="rounded-3xl" />
         </div>
       </div>
     </div>
