@@ -4,7 +4,15 @@ import Navbar from "../components/Navbar";
 import { blogcontents } from "../constant";
 import Footer from "../components/Footer";
 
-function ListCard({ id, image, heading, description, timeframe, link, writer }) {
+function ListCard({
+  id,
+  image,
+  heading,
+  description,
+  timeframe,
+  link,
+  writer,
+}) {
   const { name, image: writerImage, field } = writer;
   return (
     <motion.div
@@ -36,17 +44,17 @@ function ListCard({ id, image, heading, description, timeframe, link, writer }) 
         </div>
 
         <div className="flex items-center space-x-4 mt-10">
-            <img
-              src={writerImage}
-              alt="writer-image"
-              className="w-[50px] h-[50px] rounded-full"
-            />
+          <img
+            src={writerImage}
+            alt="writer-image"
+            className="w-[50px] h-[50px] rounded-full"
+          />
 
-            <div>
-              <span className="font-semibold">{name}</span> <br />
-              <span className="text-gray-500">{field}</span>
-            </div>
+          <div>
+            <span className="font-semibold">{name}</span> <br />
+            <span className="text-gray-500">{field}</span>
           </div>
+        </div>
       </div>
     </motion.div>
   );
@@ -57,6 +65,21 @@ const Blog = () => {
     <>
       <div className="bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-white">
         <Navbar />
+        <div className="flex justify-center text-center items-center mt-24">
+          <div className="space-y-6">
+            <span className="text-xl text-blue-400 font-semibold">
+              DOBA Intelligence Blog
+            </span>
+            <h1 className="text-3xl  lg:text-6xl font-bold text-white lg:mx-60 mx-5">
+              Insights and Innovations: The DOBA Intelligence Blog
+            </h1>
+            <p className="font-medium lg:text-xl text-base text-gray-300 lg:mx-80 mx-5">
+              Our expert team provides in-depth analyses, thought-provoking
+              articles, and practical tips to help you navigate the
+              ever-evolving landscape of digital marketing.
+            </p>
+          </div>
+        </div>
         <div className="grid lg:grid-cols-3 gap-4 mx-5 lg:mx-20 mt-20">
           {blogcontents.map((contents) => (
             <ListCard

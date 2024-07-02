@@ -8,7 +8,7 @@ const ToggleSwitch = ({ selected, setSelected }) => {
     <div className="flex items-center justify-center mt-8">
       <button
         className={`px-4 py-2 rounded-l-full ${
-          selected === 'monthly' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700'
+          selected === 'monthly' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
         }`}
         onClick={() => setSelected('monthly')}
       >

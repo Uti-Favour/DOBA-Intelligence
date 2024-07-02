@@ -50,7 +50,7 @@ const CardListLeft = ({ illustration, heading, description }) => {
 };
 const CardListRight = ({ illustration, heading, description }) => {
   return (
-    <div className="items-center lg:justify-between lg:mx-28 mx-5 lg:flex">
+    <div className="items-center lg:justify-between lg:mx-28 mx-5 lg:flex ">
       <motion.div
         className="lg:hidden block mt-10"
         initial={{ x: -200 }}
@@ -124,7 +124,32 @@ const Services = () => {
     <>
       <div className="bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-white">
         <Navbar />
-        <CardListLeft
+
+        <div className="flex justify-center text-center items-center mt-24">
+        <div className="space-y-6">
+          <span className="text-xl text-blue-400 font-semibold">DOBA Intelligence Services</span>
+          <h1 className="text-3xl  lg:text-6xl font-bold text-white lg:mx-60 mx-5">
+          Transform Your Business with DOBA Intelligence
+          </h1>
+          <p className="font-medium lg:text-xl text-base text-gray-300 lg:mx-80 mx-5">
+          From predictive analytics to personalized marketing solutions, we provide the tools and insights you need to stay ahead in a competitive landscape. 
+          </p>
+
+
+         
+        </div>
+
+        
+      </div>
+     <div className="flex justify-center mt-14">
+     <div className="space-x-4">
+            <Link to='/contact'><button className="py-3 px-10 bg-blue-400 rounded-3xl">Get Started</button></Link>
+           <a href="#service">Learn More <i className="fas fa-arrow-right items-center"></i></a>
+          </div>
+     </div>
+
+<div className="mt-24" id="service">
+<CardListLeft
           illustration={
             "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719586574/product_development___idea_thought_innovation_people_team_teamwork_working_together_vw2lkc.jpg?_s=public-apps"
           }
@@ -191,6 +216,7 @@ const Services = () => {
             "Streamline your data processes with AI solutions. Manage documents and files effortlessly, reducing overload and improving productivity."
           }
         />
+</div>
 
 <Blog />
 <div className="grid lg:grid-cols-2 lg:mx-20 mx-5 gap-4 mt-16">

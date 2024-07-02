@@ -153,7 +153,7 @@ export const blogcontent = [
 
 export const blogcontents = [
   {
-    id: 2,
+    id: 1,
     image: "https://images.unsplash.com/photo-1506765515384-028b60a970df",
     indication: "src/assets/Ellipse5_2.png",
     heading: "The Latest Trends and Strategies with a Digital Marketing Agency",
@@ -167,7 +167,7 @@ export const blogcontents = [
     }
   },
   {
-    id: 3,
+    id: 2,
     image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
     indication: "src/assets/Ellipse5_3.png",
     heading: "Exploring New Horizons in Digital Marketing in this Present Age",
@@ -181,7 +181,7 @@ export const blogcontents = [
     }
   },
   {
-    id: 4,
+    id: 3,
     image: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
     indication: "src/assets/Ellipse5_4.png",
     heading: "Maximizing Your ROI with Expert Digital Marketing Strategies",
@@ -195,7 +195,7 @@ export const blogcontents = [
     }
   },
   {
-    id: 5,
+    id: 4,
     image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
     indication: "src/assets/Ellipse5_5.png",
     heading: "Understanding the Importance of SEO in Modern Marketing",
@@ -209,7 +209,7 @@ export const blogcontents = [
     }
   },
   {
-    id: 6,
+    id: 5,
     image: "https://images.unsplash.com/photo-1557804506-669a67965ba0",
     indication: "src/assets/Ellipse5_6.png",
     heading: "Leveraging Social Media for Business Growth",
@@ -224,7 +224,7 @@ export const blogcontents = [
   },
  
   {
-    id: 8,
+    id: 6,
     image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
     indication: "src/assets/Ellipse5_8.png",
     heading: "Content Marketing: Creating Value for Your Audience",
@@ -239,7 +239,7 @@ export const blogcontents = [
   },
 
   {
-    id: 10,
+    id: 7,
     image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
     indication: "src/assets/Ellipse5_10.png",
     heading: "Using Influencer Marketing to Expand Your Reach",
@@ -255,7 +255,7 @@ export const blogcontents = [
 
   
   {
-    id: 13,
+    id: 8,
     image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
     indication: "src/assets/Ellipse5_13.png",
     heading: "Mobile Marketing: Reaching Your Audience on the Go",
@@ -269,7 +269,7 @@ export const blogcontents = [
     }
   },
   {
-    id: 14,
+    id: 9,
     image: "https://images.unsplash.com/photo-1557804506-669a67965ba0",
     indication: "src/assets/Ellipse5_14.png",
     heading: "Video Marketing: Engaging Your Audience Through Video",
@@ -280,90 +280,6 @@ export const blogcontents = [
       name: "Karen Miller",
       image: "https://randomuser.me/api/portraits/women/7.jpg",
       field: "Video Marketing Specialist"
-    }
-  },
-  {
-    id: 15,
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
-    indication: "src/assets/Ellipse5_15.png",
-    heading: "Building a Strong Brand Identity Online",
-    description: "A strong brand identity is crucial for online success.",
-    timeframe: "5 minutes read",
-    link: "https://medium.com/@yourusername/building-a-strong-brand-identity-online-123456789abc",
-    writer: {
-      name: "Daniel Anderson",
-      image: "https://randomuser.me/api/portraits/men/8.jpg",
-      field: "Brand Strategist"
-    }
-  },
-  {
-    id: 16,
-    image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
-    indication: "src/assets/Ellipse5_16.png",
-    heading: "The Role of Content in Digital Marketing",
-    description: "Content plays a crucial role in any digital marketing strategy.",
-    timeframe: "6 minutes read",
-    link: "https://medium.com/@yourusername/the-role-of-content-in-digital-marketing-123456789abc",
-    writer: {
-      name: "Nancy Wilson",
-      image: "https://randomuser.me/api/portraits/women/8.jpg",
-      field: "Content Strategist"
-    }
-  },
-  {
-    id: 17,
-    image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
-    indication: "src/assets/Ellipse5_17.png",
-    heading: "Effective Use of Paid Media in Your Marketing Strategy",
-    description: "Paid media can be an effective part of a comprehensive marketing strategy.",
-    timeframe: "7 minutes read",
-    link: "https://medium.com/@yourusername/effective-use-of-paid-media-in-your-marketing-strategy-123456789abc",
-    writer: {
-      name: "Peter Evans",
-      image: "https://randomuser.me/api/portraits/men/9.jpg",
-      field: "Media Buyer"
-    }
-  },
-  {
-    id: 18,
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
-    indication: "src/assets/Ellipse5_18.png",
-    heading: "The Future of Digital Marketing: Trends to Watch",
-    description: "Stay ahead of the curve by keeping an eye on these digital marketing trends.",
-    timeframe: "5 minutes read",
-    link: "https://medium.com/@yourusername/the-future-of-digital-marketing-trends-to-watch-123456789abc",
-    writer: {
-      name: "Sophia Davis",
-      image: "https://randomuser.me/api/portraits/women/9.jpg",
-      field: "Marketing Futurist"
-    }
-  },
-  {
-    id: 19,
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
-    indication: "src/assets/Ellipse5_19.png",
-    heading: "Creating Effective Marketing Funnels",
-    description: "Effective marketing funnels can guide prospects to becoming loyal customers.",
-    timeframe: "4 minutes read",
-    link: "https://medium.com/@yourusername/creating-effective-marketing-funnels-123456789abc",
-    writer: {
-      name: "Matthew Clark",
-      image: "https://randomuser.me/api/portraits/men/10.jpg",
-      field: "Marketing Funnel Expert"
-    }
-  },
-  {
-    id: 20,
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0",
-    indication: "src/assets/Ellipse5_20.png",
-    heading: "The Benefits of Using Automation in Digital Marketing",
-    description: "Automation can streamline your digital marketing efforts and improve efficiency.",
-    timeframe: "6 minutes read",
-    link: "https://medium.com/@yourusername/the-benefits-of-using-automation-in-digital-marketing-123456789abc",
-    writer: {
-      name: "Olivia Taylor",
-      image: "https://randomuser.me/api/portraits/women/10.jpg",
-      field: "Marketing Automation Specialist"
     }
   }
 ];

@@ -37,7 +37,7 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center space-x-10 mt-10">
-            <Button link={"google.com"} content={"Schedule Call"} icon={'fas fa-calendar-check ml-1'} id={1} />
+            <Button link={"google.com"} content={"Get Started Now"} icon={'fas fa-rocket ml-1'} id={1} />
             <a href="" className="text-white underline lg:block hidden text-lg">
               View case study
             </a>

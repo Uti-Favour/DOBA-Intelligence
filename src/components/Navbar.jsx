@@ -43,7 +43,7 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex items-center space-x-4 mt-5">
               <Link
-                to="/learn-more"
+                to="/about"
                 className=" rounded-3xl bg-blue-400 py-2 px-5 "
               >
                 Learn More
@@ -88,7 +88,7 @@ const Navbar = () => {
           </div>
           <div className="space-x-4 mt-10 ml-5">
               <Link
-                to="/learn-more"
+                to="/about"
                 className=" rounded-3xl bg-blue-400 py-3 px-8"
               >
                 Learn More
