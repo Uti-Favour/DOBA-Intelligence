@@ -368,11 +368,11 @@ export const blogcontents = [
   }
 ];
 
-
 export const pricinglists = [
   {
     category: "Freelancer",
     pricing: " $997",
+    annualprice : "$1000",
     description: "Annual Plan- $11,964 $9,571.",
     lists: [
       "30 articles per month",
@@ -393,6 +393,7 @@ export const pricinglists = [
   {
     category: "Enterprice",
     pricing: " $800",
+    annualprice : "$1200",
     description: "Annual Plan: $9,600 $7,680",
     lists: [
       "23 articles per month",
@@ -414,6 +415,7 @@ export const pricinglists = [
   {
     category: "Startup",
     pricing: " $620",
+    annualprice : "$2000",
     description: " Annual Plan- $11,964 $9,571.",
     lists: [
       "16 articles per month",
@@ -432,6 +434,7 @@ export const pricinglists = [
       "px-20 py-2  rounded-lg border border-gray-500 mt-4 text-white font-semibold",
   },
 ];
+
 export const pricinglistsannual = [
   {
     category: "Freelancer",
