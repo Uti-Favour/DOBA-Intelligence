@@ -74,7 +74,7 @@ const Pricing = () => {
    
       <ToggleSwitch selected={selected} setSelected={setSelected} />
       
-      <motion.div className="grid lg:grid-cols-3 lg:gap-6 lg:mx-20 mx-5" initial={{ y: 200 }} whileInView={{ y: 0 }} transition={{ duration: 1 }}>
+      <motion.div className="grid lg:grid-cols-3 lg:gap-6 lg:mx-20 mx-5 -mt-8" initial={{ y: 200 }} whileInView={{ y: 0 }} transition={{ duration: 1 }}>
         {pricinglists.map((price) => (
           <PriceCard
             key={price.category}
