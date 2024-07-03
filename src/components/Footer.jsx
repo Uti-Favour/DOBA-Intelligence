@@ -1,99 +1,71 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faInstagram, faTwitter, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-950 text-gray-300 py-12">
-      <div className="container mx-auto px-4 mt-28">
-        <div className="flex flex-wrap -mx-4">
-          {/* Company Info */}
-          <div className="w-full md:w-1/4 px-4">
-            <h2 className="text-lg font-bold mb-4 text-white">DOBA Intelligence</h2>
-            <p className="mb-4">
-              Leading AI marketing agency providing innovative solutions for your business.
-            </p>
-            <p>© {new Date().getFullYear()} DOBA Intelligence. All rights reserved.</p>
+    <>
+      <footer className="bg-neutral-950 text-gray-300 py-52">
+      <div className="container mx-auto px-4 md:flex md:justify-between">
+        <div className="mb-8 md:mb-0">
+          <div className="flex items-center mb-4">
+            <span className="text-2xl font-semibold">DOBA Intelligence</span>
           </div>
-
-          {/* Navigation Links */}
-          <div className="w-full md:w-1/4 px-4">
-            <h2 className="text-lg font-bold mb-4 text-white">Quick Links</h2>
-            <ul>
-              <li className="mb-2">
-                <a href="/about" className="hover:underline">About Us</a>
-              </li>
-              <li className="mb-2">
-                <a href="/services" className="hover:underline">Services</a>
-              </li>
-              <li className="mb-2">
-                <a href="/blog" className="hover:underline">Blog</a>
-              </li>
-              <li className="mb-2">
-                <a href="/contact" className="hover:underline">Contact</a>
-              </li>
-              <li className="mb-2">
-                <a href="/privacy" className="hover:underline">Privacy Policy</a>
-              </li>
-              <li className="mb-2">
-                <a href="/terms" className="hover:underline">Terms of Service</a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact Information */}
-          <div className="w-full md:w-1/4 px-4">
-            <h2 className="text-lg font-bold mb-4 text-white">Contact Us</h2>
-            <ul>
-              <li className="mb-2">
-                <i className="fas fa-phone-alt mr-2"></i> +123-456-7890
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-envelope mr-2"></i> info@dobaintelligence.com
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-map-marker-alt mr-2"></i> 1234 Market Street, Suite 100, San Francisco, CA 94103
-              </li>
-            </ul>
-          </div>
-
-          {/* Social Media Links */}
-          <div className="w-full md:w-1/4 px-4">
-            <h2 className="text-lg font-bold mb-4 text-white">Follow Us</h2>
-            <div className="flex space-x-4">
-              <a href="https://facebook.com" className="hover:underline">
-                <i className="fab fa-facebook"></i>
-              </a>
-              <a href="https://twitter.com" className="hover:underline">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="https://linkedin.com" className="hover:underline">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="https://instagram.com" className="hover:underline">
-                <i className="fab fa-instagram"></i>
-              </a>
-            </div>
+          <p className="mb-4">Making the world a better place through constructing elegant hierarchies.</p>
+          <div className="flex space-x-4">
+            <a href="#" className="text-gray-300 hover:text-gray-100"><FontAwesomeIcon icon={faFacebookF} /></a>
+            <a href="#" className="text-gray-300 hover:text-gray-100"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="#" className="text-gray-300 hover:text-gray-100"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href="#" className="text-gray-300 hover:text-gray-100"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="#" className="text-gray-300 hover:text-gray-100"><FontAwesomeIcon icon={faYoutube} /></a>
           </div>
         </div>
-
-        {/* Subscription Form */}
-        <div className="mt-8">
-          <h2 className="text-lg font-bold mb-4 text-white">Subscribe to our newsletter</h2>
-          <form className="flex flex-wrap">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="w-full md:w-auto flex-1 px-4 py-2 mb-4 md:mb-0 md:mr-4 border border-gray-600 bg-neutral-800 text-gray-300 rounded"
-            />
-            <button
-              type="submit"
-              className="w-full md:w-auto px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-            >
-              Subscribe
-            </button>
-          </form>
+        <div className="grid grid-cols-2 gap-8 md:gap-16 md:flex md:space-x-16">
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Solutions</h3>
+            <ul>
+              <li><a href="#" className="hover:underline">Marketing</a></li>
+              <li><a href="#" className="hover:underline">Analytics</a></li>
+              <li><a href="#" className="hover:underline">Commerce</a></li>
+              <li><a href="#" className="hover:underline">Insights</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Support</h3>
+            <ul>
+              <li><a href="#" className="hover:underline">Pricing</a></li>
+              <li><a href="#" className="hover:underline">Documentation</a></li>
+              <li><a href="#" className="hover:underline">Guides</a></li>
+              <li><a href="#" className="hover:underline">API Status</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Company</h3>
+            <ul>
+              <li><Link to="about" className="hover:underline">About</Link></li>
+              <li><a href="#" className="hover:underline">Blog</a></li>
+              <li><a href="#" className="hover:underline">Pricing</a></li>
+              <li><a href="#" className="hover:underline">Press</a></li>
+              <li><a href="#" className="hover:underline">Partners</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Legal</h3>
+            <ul>
+              <li><a href="#" className="hover:underline">Claim</a></li>
+              <li><a href="#" className="hover:underline">Privacy</a></li>
+              <li><a href="#" className="hover:underline">Terms</a></li>
+            </ul>
+          </div>
         </div>
       </div>
+      <div className="text-center mt-8">
+        <p className="text-sm">&copy; 2024 DOBA Intelligence, Inc. All rights reserved.</p>
+      </div>
     </footer>
+    </>
+  
   );
 };
 

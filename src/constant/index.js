@@ -422,19 +422,19 @@ export const pricinglistsannual = [
 
 export const servicelist = [
   {
-    icon: 'fas fa-pencil-alt text-2xl',
+    icon: 'fas fa-robot text-3xl',
     heading: 'AI Content Editing',
     description: 'We provide a 360 revamp to your AI content. Nobody likes fluff or robotic content, so we make it better. Get your AI content improved in 8 hours or less.',
     link: '/services'
   },
   {
-    icon: 'fas fa-chart-line text-2xl',
-    heading: 'AI-Driven Analytics',
-    description: 'Leverage our AI-powered analytics to gain deeper insights into your marketing campaigns. Make data-driven decisions to optimize your ROI.',
+    icon: 'fas fa-edit text-3xl',
+    heading: 'Content writing',
+    description: 'We produce high quality articles at a faster and cheaper rate.Imagine pulling a consistent stream of clients to your business on a monthly basis by leveraging the power of SEO content.',
     link: '/services'
   },
   {
-    icon: 'fas fa-comments text-2xl',
+    icon: 'fas fa-comments text-3xl',
     heading: 'AI Chatbots',
     description: 'Implement AI chatbots to enhance customer engagement and support. Our chatbots are designed to provide real-time assistance and improve customer satisfaction.',
     link: '/services'
