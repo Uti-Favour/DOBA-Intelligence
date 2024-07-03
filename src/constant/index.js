@@ -289,7 +289,7 @@ export const pricinglists = [
     category: "Flow 1",
     pricing: " $1997",
     annualprice : "$14,378.4",
-    description: "Save 40% on Annual Plan.",
+    description: "Save 40% on Annual Plan. New content every 8 hrs.",
     lists: [
       "Everything in flow 2",
       "3 request at a time",
@@ -312,7 +312,7 @@ export const pricinglists = [
     category: "Flow 2",
     pricing: "$997",
     annualprice : "$9,571.2",
-    description: "Save 20% on Annual Plan.",
+    description: "Save 40% on Annual Plan. New content every 8 hrs.",
     lists: [
       "Unlimited articles per month",
       "One request at a time",
@@ -332,93 +332,10 @@ export const pricinglists = [
     button:
       'px-20 py-2  rounded-lg border bg-blue-400 mt-4 text-white font-semibold',
   },
-  {
-    category: "Flow 3",
-    pricing: " $620",
-    annualprice : "$5,952",
-    description: "Save 20% on Annual Plan.",
-    lists: [
-      "16 articles per month",
-      "Customized Content Strategy ",
-      "16 best recommended topics",
-      "SEO optimized",
-      "Deep Research",
-      "Highly engaging",
-      "Edited & Proofread",
-      "Unlimited revisions",
-      "Monthly Check in by Specialis",
-    ],
-    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow3",
-    annuallink: "https://sandbox-flw-web-v3.herokuapp.com/pay/aicontenteditingflow3annual",
-    border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
-    button:
-      "px-20 py-2  rounded-lg border border-gray-500 mt-4 text-white font-semibold",
-  },
+
 ];
 
-export const pricinglistsannual = [
-  {
-    category: "Freelancer",
-    pricing: " $1000",
-    description: "Annual Plan- $11,964 $9,571.",
-    lists: [
-      "30 articles per month",
-      "Customized Content Strategy ",
-      "30 best recommended topics",
-      "SEO optimized",
-      "Deep Research",
-      "Highly engaging",
-      "Edited & Proofread",
-      "Unlimited revisions",
-      "Monthly Check in by Specialis",
-    ],
-    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1",
-    border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
-    button:
-      "px-20 py-2 rounded-lg border border-gray-500 mt-4 text-white font-semibold",
-  },
-  {
-    category: "Enterprice",
-    pricing: " $1500",
-    description: "Annual Plan: $9,600 $7,680",
-    lists: [
-      "23 articles per month",
-      "Customized Content Strategy",
-      "23 best topics every month",
-      "SEO optimized",
-      "Deep Research",
-      "Highly engaging",
-      "Edited & Proofread",
-      "Unlimited revisions",
-      "Monthly Check in by Specialis",
-    ],
-    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow2",
-    border:
-      "border border-blue-400 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
-    button:
-      'px-20 py-2  rounded-lg border bg-blue-400 mt-4 text-white font-semibold',
-  },
-  {
-    category: "Startup",
-    pricing: " $2000",
-    description: " Annual Plan- $11,964 $9,571.",
-    lists: [
-      "16 articles per month",
-      "Customized Content Strategy ",
-      "16 best recommended topics",
-      "SEO optimized",
-      "Deep Research",
-      "Highly engaging",
-      "Edited & Proofread",
-      "Unlimited revisions",
-      "Monthly Check in by Specialis",
-    ],
-    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow3",
-    border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
-    button:
-      "px-20 py-2  rounded-lg border border-gray-500 mt-4 text-white font-semibold",
-  },
-];
+
 
 export const servicelist = [
   {
@@ -430,7 +347,7 @@ export const servicelist = [
   {
     icon: 'fas fa-edit text-3xl',
     heading: 'Content writing',
-    description: 'We produce high quality articles at a faster and cheaper rate.Imagine pulling a consistent stream of clients to your business on a monthly basis by leveraging the power of SEO content.',
+    description: 'We produce high quality articles at a faster and cheaper rate. Imagine pulling a consistent stream of clients to your business on a monthly basis by leveraging the power of SEO content.',
     link: '/services'
   },
   {

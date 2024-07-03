@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { pricinglists } from "../constant";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 // ToggleSwitch Component
 const ToggleSwitch = ({ selected, setSelected }) => {
@@ -48,8 +49,9 @@ const PriceCard = ({ category, pricing, description, lists, link, border, button
         ))}
       </ul>
       <a href={link} className="flex justify-center">
-        <button className={`border h-10 w-40 rounded-lg border-gray-400${button}`}>Buy Plan</button>
+        <button className={`border h-10 lg:w-80 w-40 rounded-lg border-gray-400${button}`}>Subscribe</button>
       </a>
+      <Link className="flex justify-center underline text-gray-400">Get Started For Free</Link>
     </div>
   );
 };
@@ -74,7 +76,7 @@ const Pricing = () => {
    
       <ToggleSwitch selected={selected} setSelected={setSelected} />
       
-      <motion.div className="grid lg:grid-cols-3 lg:gap-6 lg:mx-20 mx-5 -mt-8" initial={{ y: 200 }} whileInView={{ y: 0 }} transition={{ duration: 1 }}>
+      <motion.div className="grid lg:grid-cols-2 lg:gap-6 lg:mx-40 mx-5 -mt-8" initial={{ y: 200 }} whileInView={{ y: 0 }} transition={{ duration: 1 }}>
         {pricinglists.map((price) => (
           <PriceCard
             key={price.category}
