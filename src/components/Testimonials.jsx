@@ -24,7 +24,7 @@ const Testimonials = () => {
               </div>
               <p className="text-gray-200">"{testimonial.description}"</p>
               <div className="flex items-center space-x-4">
-                <img src={testimonial.image} alt="testimonial-image" className="w-[50px] h-[50px] rounded-full"/>
+                <img src={testimonial.image} alt="testimonial-image" className="w-[50px] h-[50px] rounded-full object-cover"/>
               
               <div>
               <span className="font-semibold">{testimonial.name}</span> <br />

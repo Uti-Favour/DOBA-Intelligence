@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { navcontent } from "../constant";
-import logo from "/src/assets/DOBA_Intelligence_Logo_1-removebg-preview.png"
+import logo from "/src/assets/DOBA Intelligence Icon 2.png"
 
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
               <div className="flex-shrink-0 mt-5">
                 <Link to="/">
                   <img
-                    className="h-20 w-20"
+                    className="h-10 w-10"
                     src={logo}
                     alt="Logo"
                   />
