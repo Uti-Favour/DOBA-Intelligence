@@ -8,6 +8,11 @@ import image7 from "/src/assets/img-7.jpg"
 import image8 from "/src/assets/img-8.jpg"
 import image9 from "/src/assets/img-9.jpg"
 import image10 from "/src/assets/img-10.jpg"
+import image11 from "/src/assets/img-11.jpg"
+import image12 from "/src/assets/blog-1.jpeg"
+import image13 from "/src/assets/img-4.jpg"
+import image14 from "/src/assets/img-5.jpg"
+import image15 from "/src/assets/pexels-energepic-com-27411-110473.jpg"
 
 
 export const navcontent = [
@@ -203,26 +208,26 @@ export const blogcontents = [
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+    image: image7,
     indication: "src/assets/Ellipse5_4.png",
-    heading: "Maximizing Your ROI with Expert Digital Marketing Strategies",
+    heading: "The Role of AI in Revolutionizing Content Creation",
     description:
-      "Our digital marketing strategies ensure maximum ROI for your business.",
+      "Explore how artificial intelligence is reshaping content creation...",
     timeframe: "4 minutes read",
 
     writer: {
       name: "Emily Davis",
       image: "https://randomuser.me/api/portraits/women/2.jpg",
-      field: "Digital Marketing Consultant",
+      field: "Marketing Consultant",
     },
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    image: image11,
     indication: "src/assets/Ellipse5_5.png",
-    heading: "Understanding the Importance of SEO in Modern Marketing",
+    heading: "Harnessing Artificial Intelligence for Social Media Marketing Success",
     description:
-      "SEO is a critical component of any successful digital marketing strategy.",
+      "Learn how AI is changing the landscape of social media marketing...",
     timeframe: "3 minutes read",
 
     writer: {
@@ -233,11 +238,11 @@ export const blogcontents = [
   },
   {
     id: 5,
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+    image: image12,
     indication: "src/assets/Ellipse5_6.png",
-    heading: "Leveraging Social Media for Business Growth",
+    heading: "Transforming Customer Experience with AI Solutions",
     description:
-      "Social media platforms offer unique opportunities for business growth.",
+      "Discover the impact of AI on enhancing customer experiences across industries...",
     timeframe: "7 minutes read",
 
     writer: {
@@ -249,64 +254,64 @@ export const blogcontents = [
 
   {
     id: 6,
-    image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+    image: image13,
     indication: "src/assets/Ellipse5_8.png",
     heading: "Content Marketing: Creating Value for Your Audience",
     description:
-      "Creating valuable content is key to successful content marketing.",
+      "Creating valuable content is key to successful content marketing...",
     timeframe: "6 minutes read",
 
     writer: {
       name: "Sarah Wilson",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
-      field: "Content Marketing Manager",
+      field: "Content Manager",
     },
   },
 
   {
     id: 7,
-    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
+    image: image14,
     indication: "src/assets/Ellipse5_10.png",
-    heading: "Using Influencer Marketing to Expand Your Reach",
+    heading: "Boosting E-commerce with Artificial Intelligence for Innovations",
     description:
-      "Influencer marketing can help expand your brand's reach significantly.",
+      "Learn how AI is driving innovation and growth in the e-commerce sector...",
     timeframe: "7 minutes read",
 
     writer: {
       name: "Linda Thompson",
       image: "https://randomuser.me/api/portraits/women/5.jpg",
-      field: "Influencer Marketing Specialist",
+      field: "Influencer Marketing ",
     },
   },
 
   {
     id: 8,
-    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
+    image: image8,
     indication: "src/assets/Ellipse5_13.png",
-    heading: "Mobile Marketing: Reaching Your Audience on the Go",
+    heading: "The Impact of Artificial Intelligence on Healthcare Innovation",
     description:
-      "Mobile marketing is crucial for reaching audiences who are always on the go.",
+      "Discover how artificial intelligence is revolutionizing the healthcare industry...",
     timeframe: "4 minutes read",
 
     writer: {
       name: "Kevin Martinez",
       image: "https://randomuser.me/api/portraits/men/7.jpg",
-      field: "Mobile Marketing Specialist",
+      field: "Marketing Specialist",
     },
   },
   {
     id: 9,
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+    image: image15,
     indication: "src/assets/Ellipse5_14.png",
-    heading: "Video Marketing: Engaging Your Audience Through Video",
+    heading: "Revolutionizing the Financial Sector with Artificial Intelligence",
     description:
-      "Video marketing is a powerful tool for engaging your audience.",
+      "Explore the transformative impact of artificial intelligence on finance...",
     timeframe: "6 minutes read",
 
     writer: {
       name: "Karen Miller",
       image: "https://randomuser.me/api/portraits/women/7.jpg",
-      field: "Video Marketing Specialist",
+      field: "Video Marketing",
     },
   },
 ];
@@ -561,7 +566,7 @@ export const blogdetail = [
     id: 1,
     category: "Digital Marketing",
     title:
-      "Using AI-Powered Satellite Technology to Revolutionize Wildfire Defense",
+      "Using AI-Powered Technology to Revolutionize Wildfire Defense",
     summary:
       "Explore how AI and satellite technology are transforming wildfire prevention and response.",
     firstimage: image6,
@@ -572,7 +577,7 @@ export const blogdetail = [
       "By leveraging data from a constellation of satellites and collaborating with the European Space Agency and local academic institutions, OroraTech aims to deploy a comprehensive wildfire defense system by 2026.",
       "This initiative marks a significant step forward in utilizing AI and satellite technology to safeguard communities and natural environments from the devastating impact of wildfires."
     ],
-    secondimage: "https://source.unsplash.com/random/800x600/?satellite",
+    secondimage: image3,
     secondcontent: [
       "Greece’s Ministry of Digital Governance has partnered with OroraTech, a German startup, to develop a groundbreaking satellite-based early warning system for wildfires.",
       "The system integrates advanced AI algorithms with thermal imaging satellites to detect wildfires in their early stages, significantly reducing response times and minimizing damage.",
@@ -580,7 +585,7 @@ export const blogdetail = [
       "By leveraging data from a constellation of satellites and collaborating with the European Space Agency and local academic institutions, OroraTech aims to deploy a comprehensive wildfire defense system by 2026.",
       "This initiative marks a significant step forward in utilizing AI and satellite technology to safeguard communities and natural environments from the devastating impact of wildfires."
     ],
-    thirdimage: "https://source.unsplash.com/random/800x600/?wildfire",
+    thirdimage: image13,
     thirdcontent: [
       "Greece’s Ministry of Digital Governance has partnered with OroraTech, a German startup, to develop a groundbreaking satellite-based early warning system for wildfires.",
       "The system integrates advanced AI algorithms with thermal imaging satellites to detect wildfires in their early stages, significantly reducing response times and minimizing damage.",
@@ -603,14 +608,14 @@ export const blogdetail = [
       "Companies leveraging AI in digital advertising are seeing increased engagement rates and lower customer acquisition costs.",
       "From programmatic ad buying to content recommendation engines, AI-powered tools are transforming every aspect of digital marketing strategies."
     ],
-    secondimage: "https://i.pinimg.com/564x/cf/b8/ea/cfb8ea3cb0d8d16a9d72a1ddc4f942e9.jpg",
+    secondimage: image15,
     secondcontent: [
       "Artificial Intelligence is revolutionizing digital advertising by enabling more precise audience targeting and personalized ad campaigns.",
       "AI algorithms analyze vast amounts of data to predict consumer behavior and optimize ad placements in real-time, improving ROI for marketers.",
       "Companies leveraging AI in digital advertising are seeing increased engagement rates and lower customer acquisition costs.",
       "From programmatic ad buying to content recommendation engines, AI-powered tools are transforming every aspect of digital marketing strategies."
     ],
-    thirdimage: "https://i.pinimg.com/236x/93/1a/55/931a556a94d646289a58e642d641f68a.jpg",
+    thirdimage: image4,
     thirdcontent: [
       "Artificial Intelligence is revolutionizing digital advertising by enabling more precise audience targeting and personalized ad campaigns.",
       "AI algorithms analyze vast amounts of data to predict consumer behavior and optimize ad placements in real-time, improving ROI for marketers.",
@@ -625,21 +630,21 @@ export const blogdetail = [
       "The Role of AI in Revolutionizing Content Creation",
     summary:
       "Explore how artificial intelligence is reshaping content creation processes across industries.",
-    firstimage: "https://source.unsplash.com/random/800x600/?content,creation",
+    firstimage: image7,
     content: [
       "Artificial Intelligence is transforming content creation by automating repetitive tasks such as writing, editing, and even generating multimedia content.",
       "AI-driven tools analyze data trends and user preferences to create engaging and relevant content at scale.",
       "Content marketers are using AI to personalize content delivery and optimize SEO strategies, improving visibility and engagement.",
       "From automated storytelling to dynamic content generation, AI is enabling content creators to innovate and deliver impactful messages."
     ],
-    secondimage: "https://source.unsplash.com/random/800x600/?artificial,intelligence",
+    secondimage: image3,
     secondcontent: [
       "Artificial Intelligence is transforming content creation by automating repetitive tasks such as writing, editing, and even generating multimedia content.",
       "AI-driven tools analyze data trends and user preferences to create engaging and relevant content at scale.",
       "Content marketers are using AI to personalize content delivery and optimize SEO strategies, improving visibility and engagement.",
       "From automated storytelling to dynamic content generation, AI is enabling content creators to innovate and deliver impactful messages."
     ],
-    thirdimage: "https://source.unsplash.com/random/800x600/?writing",
+    thirdimage: image6,
     thirdcontent: [
       "Artificial Intelligence is transforming content creation by automating repetitive tasks such as writing, editing, and even generating multimedia content.",
       "AI-driven tools analyze data trends and user preferences to create engaging and relevant content at scale.",
@@ -654,21 +659,21 @@ export const blogdetail = [
       "Harnessing AI for Social Media Marketing Success",
     summary:
       "Learn how AI is changing the landscape of social media marketing.",
-    firstimage: "https://source.unsplash.com/random/800x600/?social,media",
+    firstimage: image11,
     content: [
       "AI technologies are enabling more effective social media marketing by analyzing user behavior and trends to create targeted content.",
       "Social media platforms are using AI to optimize ad placements, recommend content, and even generate personalized posts.",
       "AI-powered tools can monitor social media interactions, providing valuable insights into audience preferences and sentiment.",
       "By leveraging AI, marketers can enhance engagement, drive conversions, and build stronger relationships with their audience on social media."
     ],
-    secondimage: "https://source.unsplash.com/random/800x600/?ai,socialmedia",
+    secondimage: image9,
     secondcontent: [
       "AI technologies are enabling more effective social media marketing by analyzing user behavior and trends to create targeted content.",
       "Social media platforms are using AI to optimize ad placements, recommend content, and even generate personalized posts.",
       "AI-powered tools can monitor social media interactions, providing valuable insights into audience preferences and sentiment.",
       "By leveraging AI, marketers can enhance engagement, drive conversions, and build stronger relationships with their audience on social media."
     ],
-    thirdimage: "https://source.unsplash.com/random/800x600/?digital,marketing",
+    thirdimage: image2,
     thirdcontent: [
       "AI technologies are enabling more effective social media marketing by analyzing user behavior and trends to create targeted content.",
       "Social media platforms are using AI to optimize ad placements, recommend content, and even generate personalized posts.",
@@ -683,21 +688,21 @@ export const blogdetail = [
       "Transforming Customer Experience with AI Solutions",
     summary:
       "Discover the impact of AI on enhancing customer experiences across industries.",
-    firstimage: "https://source.unsplash.com/random/800x600/?customer,experience",
+    firstimage: image12,
     content: [
       "Artificial Intelligence is playing a crucial role in improving customer experience by providing personalized and efficient service.",
       "AI-powered chatbots and virtual assistants can handle customer inquiries 24/7, offering quick and accurate responses.",
       "Machine learning algorithms analyze customer data to predict needs and preferences, enabling businesses to offer tailored solutions.",
       "AI-driven analytics provide deeper insights into customer behavior, helping companies to enhance satisfaction and loyalty."
     ],
-    secondimage: "https://source.unsplash.com/random/800x600/?chatbot",
+    secondimage: image14,
     secondcontent: [
       "Artificial Intelligence is playing a crucial role in improving customer experience by providing personalized and efficient service.",
       "AI-powered chatbots and virtual assistants can handle customer inquiries 24/7, offering quick and accurate responses.",
       "Machine learning algorithms analyze customer data to predict needs and preferences, enabling businesses to offer tailored solutions.",
       "AI-driven analytics provide deeper insights into customer behavior, helping companies to enhance satisfaction and loyalty."
     ],
-    thirdimage: "https://source.unsplash.com/random/800x600/?customer,service",
+    thirdimage: image11,
     thirdcontent: [
       "Artificial Intelligence is playing a crucial role in improving customer experience by providing personalized and efficient service.",
       "AI-powered chatbots and virtual assistants can handle customer inquiries 24/7, offering quick and accurate responses.",
@@ -709,24 +714,24 @@ export const blogdetail = [
     id: 6,
     category: "AI in Market Research",
     title:
-      "Revolutionizing Market Research with AI Technologies",
+      "Content Marketing: Creating Value for Your Audience",
     summary:
-      "Explore how AI is transforming market research methodologies and outcomes.",
-    firstimage: "https://source.unsplash.com/random/800x600/?market,research",
+      "Creating valuable content is key to successful content marketing.",
+    firstimage: image13,
     content: [
       "AI is enhancing market research by automating data collection and analysis, leading to faster and more accurate insights.",
       "Machine learning algorithms can identify trends and patterns in large datasets, providing deeper understanding of market dynamics.",
       "AI tools enable real-time data analysis, allowing businesses to make informed decisions quickly.",
       "Predictive analytics powered by AI help companies anticipate market changes and adapt strategies proactively."
     ],
-    secondimage: "https://source.unsplash.com/random/800x600/?data,analysis",
+    secondimage: image2,
     secondcontent: [
       "AI is enhancing market research by automating data collection and analysis, leading to faster and more accurate insights.",
       "Machine learning algorithms can identify trends and patterns in large datasets, providing deeper understanding of market dynamics.",
       "AI tools enable real-time data analysis, allowing businesses to make informed decisions quickly.",
       "Predictive analytics powered by AI help companies anticipate market changes and adapt strategies proactively."
     ],
-    thirdimage: "https://source.unsplash.com/random/800x600/?analytics",
+    thirdimage: image12,
     thirdcontent: [
       "AI is enhancing market research by automating data collection and analysis, leading to faster and more accurate insights.",
       "Machine learning algorithms can identify trends and patterns in large datasets, providing deeper understanding of market dynamics.",
@@ -741,21 +746,21 @@ export const blogdetail = [
       "Boosting E-commerce with AI Innovations",
     summary:
       "Learn how AI is driving innovation and growth in the e-commerce sector.",
-    firstimage: "https://source.unsplash.com/random/800x600/?ecommerce",
+    firstimage: image14,
     content: [
       "AI is transforming e-commerce by enabling personalized shopping experiences and optimized supply chain management.",
       "Recommendation engines powered by AI suggest products based on customer behavior, increasing sales and customer satisfaction.",
       "AI-driven inventory management systems predict demand and optimize stock levels, reducing costs and improving efficiency.",
       "Chatbots and virtual assistants provide 24/7 customer support, enhancing the overall shopping experience."
     ],
-    secondimage: "https://source.unsplash.com/random/800x600/?shopping,ai",
+    secondimage: image11,
     secondcontent: [
       "AI is transforming e-commerce by enabling personalized shopping experiences and optimized supply chain management.",
       "Recommendation engines powered by AI suggest products based on customer behavior, increasing sales and customer satisfaction.",
       "AI-driven inventory management systems predict demand and optimize stock levels, reducing costs and improving efficiency.",
       "Chatbots and virtual assistants provide 24/7 customer support, enhancing the overall shopping experience."
     ],
-    thirdimage: "https://source.unsplash.com/random/800x600/?online,shopping",
+    thirdimage: image2,
     thirdcontent: [
       "AI is transforming e-commerce by enabling personalized shopping experiences and optimized supply chain management.",
       "Recommendation engines powered by AI suggest products based on customer behavior, increasing sales and customer satisfaction.",
@@ -770,21 +775,21 @@ export const blogdetail = [
       "The Impact of AI on Healthcare Innovation",
     summary:
       "Discover how artificial intelligence is revolutionizing the healthcare industry.",
-    firstimage: "https://source.unsplash.com/random/800x600/?healthcare,ai",
+    firstimage: image8,
     content: [
       "AI is transforming healthcare by improving diagnostics, treatment planning, and patient care.",
       "Machine learning algorithms analyze medical data to assist doctors in diagnosing diseases more accurately and quickly.",
       "AI-powered predictive analytics help healthcare providers anticipate patient needs and optimize resource allocation.",
       "Robotics and AI are being used in surgeries and rehabilitation, enhancing precision and patient outcomes."
     ],
-    secondimage: "https://source.unsplash.com/random/800x600/?medicine,technology",
+    secondimage: image1,
     secondcontent: [
       "AI is transforming healthcare by improving diagnostics, treatment planning, and patient care.",
       "Machine learning algorithms analyze medical data to assist doctors in diagnosing diseases more accurately and quickly.",
       "AI-powered predictive analytics help healthcare providers anticipate patient needs and optimize resource allocation.",
       "Robotics and AI are being used in surgeries and rehabilitation, enhancing precision and patient outcomes."
     ],
-    thirdimage: "https://source.unsplash.com/random/800x600/?robotics,healthcare",
+    thirdimage: image15,
     thirdcontent: [
       "AI is transforming healthcare by improving diagnostics, treatment planning, and patient care.",
       "Machine learning algorithms analyze medical data to assist doctors in diagnosing diseases more accurately and quickly.",
@@ -799,21 +804,21 @@ export const blogdetail = [
       "Revolutionizing the Financial Sector with AI",
     summary:
       "Explore the transformative impact of artificial intelligence on finance and banking.",
-    firstimage: "https://source.unsplash.com/random/800x600/?finance,ai",
+    firstimage: image15,
     content: [
       "AI is reshaping the financial sector by enhancing fraud detection, risk management, and customer service.",
       "Machine learning algorithms analyze transaction data to identify fraudulent activities in real-time, reducing financial losses.",
       "AI-driven tools provide personalized financial advice and investment strategies, improving customer satisfaction and retention.",
       "Predictive analytics help financial institutions manage risks more effectively, ensuring stability and growth."
     ],
-    secondimage: "https://source.unsplash.com/random/800x600/?banking,technology",
+    secondimage: image8,
     secondcontent: [
       "AI is reshaping the financial sector by enhancing fraud detection, risk management, and customer service.",
       "Machine learning algorithms analyze transaction data to identify fraudulent activities in real-time, reducing financial losses.",
       "AI-driven tools provide personalized financial advice and investment strategies, improving customer satisfaction and retention.",
       "Predictive analytics help financial institutions manage risks more effectively, ensuring stability and growth."
     ],
-    thirdimage: "https://source.unsplash.com/random/800x600/?investment,ai",
+    thirdimage: image14,
     thirdcontent: [
       "AI is reshaping the financial sector by enhancing fraud detection, risk management, and customer service.",
       "Machine learning algorithms analyze transaction data to identify fraudulent activities in real-time, reducing financial losses.",

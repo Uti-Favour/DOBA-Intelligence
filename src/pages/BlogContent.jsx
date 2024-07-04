@@ -23,7 +23,7 @@ const BlogContent = () => {
               <span className="text-xl text-blue-400 font-semibold">
                 {blog.category}
               </span>
-              <h1 className="text-3xl  lg:text-6xl font-bold text-white lg:mx-40 mx-5">
+              <h1 className="text-3xl  lg:text-6xl font-bold text-white lg:mx-44 mx-5">
                 {blog.title}
               </h1>
               <p className="font-medium lg:text-xl text-base text-gray-300 mx-5 lg:mx-0">
