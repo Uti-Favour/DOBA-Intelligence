@@ -23,9 +23,6 @@ import image20 from "/src/assets/img-20.jpg"
 import image21 from "/src/assets/img-21.jpg"
 import image23 from "/src/assets/img-23.jpg"
 
-
-
-
 export const navcontent = [
   {
     key: "1",
@@ -51,6 +48,11 @@ export const navcontent = [
     key: "5",
     page: "Contact Us",
     path: "/contact",
+  },
+  {
+    key: "6",
+    page: "FAQ",
+    path: "/faq",
   },
 ];
 
