@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Blog from "../components/Blog";
 import { steplists } from "../constant";
+import Cta from "../components/Cta";
 import Footer from "../components/Footer";
 
 const CardListLeft = ({ illustration, heading, description }) => {
@@ -236,9 +237,14 @@ const Services = () => {
             />
           ))}
         </div>
+
+
+        <Cta/>
+
+<Footer />
       </div>
 
-      <Footer />
+   
     </>
   );
 };

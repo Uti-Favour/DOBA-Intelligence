@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { blogcontents } from "../constant/index"; // Make sure the path is correct
 import Footer from "../components/Footer";
 import ListCard from "../components/ListCard" // Import ListCard component
+import Cta from "../components/Cta";
 
 const Blog = () => {
   return (
@@ -37,8 +38,12 @@ const Blog = () => {
             />
           ))}
         </div>
+
+
+        <Cta/>
+        <Footer />
       </div>
-      <Footer />
+   
     </>
   );
 };

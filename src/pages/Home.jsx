@@ -7,6 +7,7 @@ import Features from "../components/Features";
 import Blog from "../components/Blog";
 import Pricing from "../components/Pricing";
 import Testimonials from "../components/Testimonials"
+import Cta from "../components/Cta"
 import Footer from "../components/Footer";
 
 
@@ -22,6 +23,7 @@ const Home = () => {
     <Blog/>
     <Pricing/>
     <Testimonials/>
+    <Cta/>
     <Footer/>
    </div>
     </>
