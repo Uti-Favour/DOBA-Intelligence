@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { navcontent } from "../constant";
 import logo from "/src/assets/DOBA Intelligence Icon 2.png"
+import { faDollar } from "@fortawesome/free-solid-svg-icons";
 
 
 const Navbar = () => {
@@ -86,7 +87,7 @@ const Navbar = () => {
                 to="/about"
                 className=" rounded-3xl bg-blue-400 py-3 px-28 "
               >
-              Get Started
+              Get Started for <span className="font-semibold">0  <i class="fas fa-hand-holding-usd"></i></span>
               </Link>
             </div>
         </div>
