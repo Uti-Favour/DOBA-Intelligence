@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { blogcontents } from "../constant";
+import { blogcontents } from "../constant/index";
 
 function ListCard({
   id,
@@ -8,7 +9,6 @@ function ListCard({
   heading,
   description,
   timeframe,
-  link,
   writer,
 }) {
   const { name, image: writerImage, field } = writer;
@@ -43,18 +43,16 @@ function ListCard({
               alt="writer-image"
               className="w-[50px] h-[50px] rounded-full"
             />
-
             <div>
               <span className="font-semibold">{name}</span> <br />
               <span className="text-gray-500">{field}</span>
             </div>
           </div>
-
-          <a href={link} className="hover:opacity-80">
+          <Link to={'/blog'} className="hover:opacity-80">
             <div className="bg-blue-400 text-white py-3 px-5 rounded-3xl flex items-center justify-center hover:bg-white hover:text-blue-400 hover:border-blue-400 hover:scale-105 transition duration-300">
               <i className="fas fa-arrow-right"></i>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </motion.div>

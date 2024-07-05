@@ -130,61 +130,6 @@ export const people = [
   },
 ];
 
-export const blogcontent = [
-  {
-    id: 1,
-    image:
-      "https://miro.medium.com/v2/resize:fit:640/format:webp/1*2CJMFW5U9kTvZnPFFMuEwA.png",
-    indication: "src/assets/Ellipse 5(1).png",
-    heading:
-      "How Content Marketting can boost your leads and sales with big impact",
-    description:
-      "We are the top digital marketing agency for  branding. We offer a full rang  engine...",
-    timeframe: "2 minutes read",
-    link: "https://medium.com/@hammadr.c/small-business-big-impact-how-content-marketing-can-boost-your-leads-and-sales-3e1c0fead348",
-    writer: {
-      name: "Hammad Riaz ",
-      image:
-        "https://media.licdn.com/dms/image/C5603AQHzCkr-xFSBkw/profile-displayphoto-shrink_200_200/0/1531134663741?e=2147483647&v=beta&t=11uZ33AOTG_VkI6Fpz9covbTxkjcENnr7r5ae8J4Vsw",
-      field: "Content Marketting",
-    },
-  },
-  {
-    id: 2,
-    image:
-      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*DdIiDi_mJTFRylXHlbP5PA.png",
-    indication: "src/assets/Ellipse 5(2).png",
-    heading:
-      "Jump-start your business with Targetted marketing guide for small business",
-    description:
-      "Working with this digital agency has been a true partnership & operation...",
-    timeframe: "2 minutes read",
-    link: "https://medium.com/@franciscokemeny/jumpstart-your-business-with-targeted-niche-marketing-a-guide-for-small-marketing-agencies-c58834894e7b",
-    writer: {
-      name: "Francisco A. Kemeny",
-      image:
-        "https://media.licdn.com/dms/image/D5603AQHa8uijTsro5A/profile-displayphoto-shrink_200_200/0/1668706102895?e=2147483647&v=beta&t=jYCzuuJhakox1J3CF8aXrR9vKcWB7OtyBTZfOxXNgOc",
-      field: "Digital Marketting",
-    },
-  },
-  {
-    id: 3,
-    image:
-      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*UR3yZECmE82gc0a0B8WU_Q.gif", // Use the provided URL for a similar style
-    indication: "src/assets/Ellipse5_3.png",
-    heading: "Exploring new horizon in digital marketing : a guide to success",
-    description:
-      "Collaborating with this digital agency has elevated our marketing efforts...",
-    timeframe: "3 minutes read",
-    link: "https://medium.com/@yourusername/exploring-new-horizons-in-digital-marketing-a-guide-to-success-123456789abc",
-    writer: {
-      name: "Romanza",
-      image:
-        "https://miro.medium.com/v2/resize:fit:640/1*Md8KYxYn2kJygRcSndnMCQ.jpeg",
-      field: "Social Media Manager",
-    },
-  },
-];
 
 export const blogcontents = [
   {
