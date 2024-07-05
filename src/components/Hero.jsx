@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import Button from "./common/Button";
 import Typed from 'typed.js';
 import heroimage from "/src/assets/hero-image.png"
+import { Link } from "react-router-dom";
 
 
 
@@ -37,7 +38,7 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center space-x-10 mt-10">
-            <Button link={"google.com"} content={"Get Started"} icon={'fas fa-rocket ml-1'} id={1} />
+           <Link to="/getstarted"> <Button content={"Get Started"} icon={'fas fa-rocket ml-1'} id={1} /></Link>
             <a href="" className="text-white underline lg:block hidden text-lg">
               View case study
             </a>

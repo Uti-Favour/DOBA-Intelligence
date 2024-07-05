@@ -238,13 +238,10 @@ const Services = () => {
           ))}
         </div>
 
+        <Cta />
 
-        <Cta/>
-
-<Footer />
+        <Footer />
       </div>
-
-   
     </>
   );
 };

@@ -10,6 +10,7 @@ import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import BlogContent from "./pages/BlogContent";
 import FAQ from "./pages/FAQ";
+import GetStarted from "./pages/GetStarted"
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path= "/blog/:id" element={<BlogContent/>}/>
           <Route path="/about" element={<AboutUs />} />
           <Route pah="/faq" element={<FAQ/>} />
+          <Route path="/getstarted" element={<GetStarted/>}/>
         </Routes>
       
     </Router>

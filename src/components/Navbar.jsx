@@ -44,7 +44,7 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex items-center space-x-4 mt-5">
               <Link
-                to="/about"
+                to="/getstarted"
                 className=" rounded-3xl bg-blue-400 py-3 px-8 "
               >
               Get Started
@@ -84,7 +84,7 @@ const Navbar = () => {
           </div>
           <div className="mt-10 flex justify-center">
           <Link
-                to="/about"
+                to="/getstarted"
                 className=" rounded-3xl bg-blue-400 py-3 px-28 "
               >
               Get Started for <span className="font-semibold">0  <i class="fas fa-hand-holding-usd"></i></span>
