@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { blogcontent } from "../constant";
+import { blogcontents } from "../constant";
 
 function ListCard({
   id,
@@ -37,18 +37,18 @@ function ListCard({
         </div>
 
         <div className="flex items-center space-x-4 mt-10 justify-between">
-        <div className="flex space-x-2">
-        <img
-            src={writerImage}
-            alt="writer-image"
-            className="w-[50px] h-[50px] rounded-full"
-          />
+          <div className="flex space-x-2">
+            <img
+              src={writerImage}
+              alt="writer-image"
+              className="w-[50px] h-[50px] rounded-full"
+            />
 
-          <div>
-            <span className="font-semibold">{name}</span> <br />
-            <span className="text-gray-500">{field}</span>
+            <div>
+              <span className="font-semibold">{name}</span> <br />
+              <span className="text-gray-500">{field}</span>
+            </div>
           </div>
-        </div>
 
           <a href={link} className="hover:opacity-80">
             <div className="bg-blue-400 text-white py-3 px-5 rounded-3xl flex items-center justify-center hover:bg-white hover:text-blue-400 hover:border-blue-400 hover:scale-105 transition duration-300">
@@ -56,13 +56,15 @@ function ListCard({
             </div>
           </a>
         </div>
-
-
       </div>
     </motion.div>
   );
 }
+
 const Blog = () => {
+  // Slice the blogcontents array to show only the first three items
+  const displayedBlogs = blogcontents.slice(0, 3);
+
   return (
     <>
       <div className="py-3 rounded-tr-[50px] rounded-tl-[50px]">
@@ -93,7 +95,7 @@ const Blog = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 lg:mx-16 mx-5 py-5 gap-4 mt-10">
-          {blogcontent.map((blog) => (
+          {displayedBlogs.map((blog) => (
             <ListCard
               key={blog.id}
               image={blog.image}
