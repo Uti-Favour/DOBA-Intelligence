@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
-
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Features from "./pages/Features";
@@ -11,6 +10,7 @@ import Services from "./pages/Services";
 import BlogContent from "./pages/BlogContent";
 import FAQ from "./pages/FAQ";
 import GetStarted from "./pages/GetStarted"
+import ErrorPage from "./pages/ErrorPage";
 
 const App = () => {
   return (
@@ -26,6 +26,7 @@ const App = () => {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/faq" element={<FAQ/>} />
           <Route path="/getstarted" element={<GetStarted/>}/>
+          <Route path="*" element={<ErrorPage/>}/>
         </Routes>
       
     </Router>
