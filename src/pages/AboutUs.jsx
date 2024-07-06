@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Testimonials from "../components/Testimonials";
 import Blog from "../components/Blog";
+import Cta from "../components/Cta"
 import Footer from "../components/Footer";
 import dobaImage from "/src/assets/DOBA Intelligence Logo 3 - Placement.jpg";
 
@@ -214,6 +215,7 @@ export default function AboutUs() {
         </div>
         <Testimonials />
         <Blog />
+        <Cta/>
         <Footer />
       </div>
     </>

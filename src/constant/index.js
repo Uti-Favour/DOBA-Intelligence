@@ -54,11 +54,11 @@ export const navcontent = [
     page: "FAQ",
     path: "/faq",
   },
-  // {
-  //   key: "7",
-  //   page: "Promo",
-  //   path: "/promo",
-  // },
+  {
+    key: "7",
+    page: "Promo",
+    path: "/promo",
+  },
 ];
 
 export const images = [

@@ -14,7 +14,7 @@ const GetStarted = () => {
               Get Started <i className='fas fa-rocket'></i>
             </span>
             <h1 className="text-3xl lg:text-6xl font-bold text-white lg:mx-60 mx-5">
-            Get Started and Transform Your Business
+            Accelerate Your Marketing with DOBA Intelligence
             </h1>
             <p className="font-medium lg:text-xl text-base text-gray-300 lg:mx-80 mx-5">
         Let's start a conversation today. Our expert team is ready to collaborate with you every step of the way, ensuring your success in the digital landscape.
