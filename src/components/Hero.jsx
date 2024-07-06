@@ -39,9 +39,9 @@ const Hero = () => {
 
           <div className="flex items-center space-x-10 mt-10">
            <Link to="/getstarted"> <Button content={"Get Started"} icon={'fas fa-rocket ml-1'} id={1} /></Link>
-            <a href="" className="text-white underline lg:block hidden text-lg">
-              View case study
-            </a>
+            <Link to="/promo" className="text-white underline lg:block hidden text-lg">
+              View our promo
+            </Link>
           </div>
         </div>
 

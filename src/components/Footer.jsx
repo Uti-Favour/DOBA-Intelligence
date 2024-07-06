@@ -25,16 +25,16 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Solutions</h3>
             <ul>
-              <li><a href="#" className="hover:underline">Marketing</a></li>
+              <li><Link to="#" className="hover:underline">Marketing</Link></li>
               <li><a href="#" className="hover:underline">Analytics</a></li>
-              <li><a href="#" className="hover:underline">Commerce</a></li>
-              <li><a href="#" className="hover:underline">Insights</a></li>
+              <li><a href="#" className="hover:underline">SEO</a></li>
+              <li><a href="#" className="hover:underline">Content Writing</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Support</h3>
             <ul>
-              <li><a href="#" className="hover:underline">Pricing</a></li>
+              <li><Link to="/" className="hover:underline">Pricing</Link></li>
               <li><a href="#" className="hover:underline">Documentation</a></li>
               <li><a href="#" className="hover:underline">Guides</a></li>
               <li><a href="#" className="hover:underline">API Status</a></li>

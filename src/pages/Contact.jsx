@@ -1,5 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import contactus from "/src/assets/contact.jpg"
+import Footer from "../components/Footer";
+import Cta from "../components/Cta";
 
 const Contact = () => {
   return (
@@ -21,6 +24,9 @@ const Contact = () => {
             </p>
           </div>
         </div>
+        <div className="flex justify-center mt-16">
+          <img src={contactus} className="lg:w-[1000px] lg:h-[600px] rounded-3xl w-[325px]" />
+        </div>
 
         <div>
           <div className="flex justify-center mt-10">
@@ -36,7 +42,10 @@ const Contact = () => {
             </iframe>
           </div>
         </div>
+        <Cta/>
+        <Footer/>
       </div>
+    
     </>
   );
 };

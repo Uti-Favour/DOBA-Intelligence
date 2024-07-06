@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from "../components/Footer"
+import getstartedimage from "/src/assets/DOBA Intelligence Logo 2.jpg"
 
 const GetStarted = () => {
   return (
@@ -10,15 +11,18 @@ const GetStarted = () => {
         <div className="flex justify-center text-center items-center mt-24">
           <div className="space-y-6">
             <span className="text-xl text-blue-400 font-semibold">
-              Get Started with DOBA Intelligence
+              Get Started <i className='fas fa-rocket'></i>
             </span>
             <h1 className="text-3xl lg:text-6xl font-bold text-white lg:mx-60 mx-5">
-              Get Started to Transform Your Business in 24 Hrs
+            Get Started and Transform Your Business
             </h1>
             <p className="font-medium lg:text-xl text-base text-gray-300 lg:mx-80 mx-5">
         Let's start a conversation today. Our expert team is ready to collaborate with you every step of the way, ensuring your success in the digital landscape.
             </p>
           </div>
+        </div>
+        <div className="flex justify-center mt-16">
+          <img src={getstartedimage} className="lg:w-[1000px] lg:h-[600px] rounded-3xl w-[340px]" />
         </div>
 
         <div>
