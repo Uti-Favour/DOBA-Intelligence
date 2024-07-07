@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="flex justify-center text-center items-center mt-24">
           <div className="space-y-6">
             <span className="text-xl text-blue-400 font-semibold">
-              Contact DOBA Intelligence
+              Contact Us <i className="fas fa-message"></i>
             </span>
             <h1 className="text-3xl lg:text-6xl font-bold text-white lg:mx-60 mx-5">
               Get in Touch with DOBA Intelligence

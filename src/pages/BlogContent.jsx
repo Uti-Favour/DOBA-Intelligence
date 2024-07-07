@@ -44,7 +44,7 @@ const BlogContent = () => {
               </div>
               <img
                 src={blog.secondimage}
-                className="lg:w-[1000px] lg:h-[600px] lg:object-cover mb-10 mt-10 rounded-xl"
+                className="lg:w-[1000px] lg:h-[600px] lg:object-cover mb-10 mt-10 w-[320px] lg:rounded-xl rounded-3xl mx-auto lg:mx-0 "
               />
               <div className="space-y-10 max-w-4xl text-lg mx-5">
                 {blog.secondcontent.map((paragraph, index) => (
@@ -53,7 +53,7 @@ const BlogContent = () => {
               </div>
               <img
                 src={blog.thirdimage}
-                className="lg:w-[1000px] lg:h-[600px] lg:object-cover mb-10 mt-10  rounded-xl"
+                  className="lg:w-[1000px] lg:h-[600px] lg:object-cover mb-10 mt-10 w-[320px] lg:rounded-xl rounded-3xl mx-auto lg:mx-0 "
               />
               <div className="space-y-10 max-w-4xl text-lg mx-5">
                 {blog.thirdcontent.map((paragraph, index) => (
