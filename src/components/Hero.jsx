@@ -38,8 +38,7 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center space-x-10 mt-10">
-           <Link to="/getstarted"> <Button content={"Get Started"} icon={'fas fa-rocket ml-1'} id={1} /></Link>
-            <Link to="/promo" className="text-white underline lg:block hidden text-lg">
+           <Button content={"Get Started"} icon={'fas fa-rocket ml-1'} link={'/getstarted'} id={1} />            <Link to="/promo" className="text-white underline lg:block hidden text-lg">
               View our promo
             </Link>
           </div>

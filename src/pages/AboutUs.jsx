@@ -43,7 +43,7 @@ export default function AboutUs() {
             <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
               <div className="lg:pr-4">
                 <div className="lg:max-w-lg">
-                  <p className="text-lg font-semibold leading-7 text-blue-400">
+                  <p className="text-lg font-semibold leading-7 text-blue-800">
                     Innovative Solutions
                   </p>
                   <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
@@ -76,7 +76,7 @@ export default function AboutUs() {
                   </p>
                   <ul role="list" className="mt-8 space-y-8 text-gray-400">
                     <li className="flex gap-x-3">
-                      <i className="fas fa-flag text-blue-400"></i>
+                      <i className="fas fa-flag text-blue-800"></i>
                       <span className="text-lg">
                         <strong className="font-semibold text-white text-lg">
                           Mission.
@@ -87,7 +87,7 @@ export default function AboutUs() {
                       </span>
                     </li>
                     <li className="flex gap-x-3">
-                      <i className="fas fa-bullseye text-blue-400"></i>
+                      <i className="fas fa-bullseye text-blue-800"></i>
                       <span className="text-lg">
                         <strong className="font-semibold text-white text-lg">
                           Vision
@@ -102,7 +102,7 @@ export default function AboutUs() {
                     <div>
                       <strong className=" text-xl italic">Core Values</strong>
                       <li className="flex gap-x-3 mt-5">
-                        <i className="fas fa-award text-blue-400"></i>
+                        <i className="fas fa-award text-blue-800"></i>
                         <span className="text-lg">
                           <strong className="font-semibold text-white text-lg">
                             Excellence :
@@ -112,7 +112,7 @@ export default function AboutUs() {
                         </span>
                       </li>
                       <li className="flex gap-x-3 mt-5">
-                        <i className="fas fa-lightbulb text-blue-400"></i>
+                        <i className="fas fa-lightbulb text-blue-800"></i>
                         <span className="text-lg">
                           <strong className="font-semibold text-white text-lg">
                             Innovation :
@@ -122,7 +122,7 @@ export default function AboutUs() {
                         </span>
                       </li>
                       <li className="flex gap-x-3 mt-5">
-                        <i className="fas fa-shield-alt text-blue-400"></i>
+                        <i className="fas fa-shield-alt text-blue-800"></i>
                         <span className="text-lg">
                           <strong className="font-semibold text-white text-lg">
                           Integrity :
@@ -132,7 +132,7 @@ export default function AboutUs() {
                         </span>
                       </li>
                       <li className="flex gap-x-3 mt-5">
-                        <i className="fas fa-user-friends text-blue-400"></i>
+                        <i className="fas fa-user-friends text-blue-800"></i>
                         <span className="text-lg">
                           <strong className="font-semibold text-white text-lg">
                             Customer-Centricity :

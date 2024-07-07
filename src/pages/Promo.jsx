@@ -4,6 +4,7 @@ import Footer from "../components/Footer"
 import promoImage from "/src/assets/promo-3.jpg"
 import Cta from "../components/Cta"
 import Testimonials from "../components/Testimonials"
+import Pricing from "../components/Pricing"
 
 const Promo = () => {
   return (
@@ -13,7 +14,7 @@ const Promo = () => {
       <Navbar/>
       <div className="flex justify-center text-center items-center mt-24">
           <div className="space-y-6">
-            <span className="text-xl text-blue-400 font-semibold">
+            <span className="text-xl text-blue-800 font-semibold">
             Promo <i className='fas fa-gift'></i>
             </span>
             <h1 className="text-3xl lg:text-6xl font-bold text-white lg:mx-60 mx-5">
@@ -46,6 +47,7 @@ const Promo = () => {
             </iframe>
           </div>
         </div>
+        <Pricing/>
         <Testimonials/>
       <Cta/>
       <Footer/>

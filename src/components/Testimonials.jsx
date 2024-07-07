@@ -7,7 +7,7 @@ const Testimonials = () => {
 
     <div className="flex justify-center text-center mb-10 space-y-4 mt-20">
      <div>
-     <h3 className="text-blue-400 font-semibold text-xl ">Testimonials</h3>
+     <h3 className="text-blue-800 font-semibold text-xl ">Testimonials</h3>
      <p className="text-3xl lg:text-5xl max-w-4xl font-semibold">We have worked with thousands of amazing people</p>
      </div>
     </div>
@@ -15,7 +15,7 @@ const Testimonials = () => {
        
           {testimonials.map((testimonial) => (
             <div className="bg-neutral-900 p-5 rounded-3xl space-y-8">
-              <div className="text-blue-400 space-x-2">
+              <div className="text-blue-800 space-x-2">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>

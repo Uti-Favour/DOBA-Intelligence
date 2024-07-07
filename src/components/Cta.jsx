@@ -5,7 +5,7 @@ const Cta = () => {
   return (
     <>
       <div className="mt-32">
-        <div className="bg-blue-500 lg:mx-20 lg:rounded-3xl lg:py-16 py-20">
+        <div className="bg-blue-800 lg:mx-20 lg:rounded-3xl lg:py-16 py-20">
           <div className="lg:flex lg:items-center lg:justify-between lg:mx-10">
           <h2 className="text-4xl lg:text-4xl text-white lg:px-10 ml-8 py-8 font-semibold">Ready to dive in? <br />
           Start your free trial today.</h2>

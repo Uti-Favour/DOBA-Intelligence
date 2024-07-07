@@ -313,7 +313,7 @@ export const pricinglists = [
     border:
       "border border-blue-400 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
-      "px-20 py-2  rounded-lg border bg-blue-400 mt-4 text-white font-semibold",
+      "px-20 py-2  rounded-lg border bg-blue-800 mt-4 text-white font-semibold",
   },
   {
     category: "Flow 1",
