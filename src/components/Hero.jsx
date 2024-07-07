@@ -11,7 +11,7 @@ const Hero = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["No queues.", "No waiting time.", "Better quality."],
+      strings: ["Your Money Back", "No Queues.", "No Waiting time.", "Better Quality."],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="lg:flex lg:justify-between mx-5 lg:mx-20">
         <div className="mt-5">
           <h1 className="font-semibold text-4xl lg:text-6xl max-w-lg">
-          Get your next Article in 8 hrs <br /><span className="text-blue-400 italic auto-type" ref={typedElement}></span>
+          Get Your Next Article In 8 Hrs Or<br /><span className="text-blue-800 italic auto-type" ref={typedElement}></span>
           </h1>
           <p className="max-w-lg mt-10 leading-7 text-gray-300">
             To rank your website higher consistency is key. 

@@ -71,37 +71,46 @@ export const images = [
 export const features = [
   {
     id: "1",
-    icon: "fa-solid fa-newspaper lg:text-3xl text-xl text-gray-200",
-    header: "Discovery",
+    icon: "fa-solid fa-newspaper lg:text-3xl text-2xl text-gray-200",
+    header: "Content Strategy",
     description:
-      "we meet with you to learn about your buisiness , goals and target audience",
+      "We create a tailored content strategy to meet your business goals.",
     link: "google.com",
   },
   {
     id: "2",
-    icon: "fa-solid fa-chess lg:text-3xl text-xl text-gray-200",
-    header: "Strategy",
+    icon: "fa-solid fa-lightbulb lg:text-3xl text-2xl text-gray-200",
+    header: "Idea Brainstorming",
     description:
-      "we develop a customized marketing startegy that is based on your unique goals and needs",
+      "We brainstorm and generate creative content ideas for your blog.",
     link: "google.com",
   },
   {
     id: "3",
-    icon: "fa-solid fa-bullseye lg:text-3xl text-xl text-gray-200",
-    header: "Execution",
+    icon: "fa-solid fa-list-alt lg:text-3xl text-2xl text-gray-200",
+    header: "Topic Planning",
     description:
-      "We execute our strategy using the lastest digital writing tools and techniques.",
+      "We plan and organize content topics to keep your blog engaging.",
     link: "google.com",
   },
   {
-    id: "1",
-    icon: "fa-solid fa-ruler lg:text-3xl text-xl text-gray-200",
-    header: "Measurements",
+    id: "4",
+    icon: "fa-solid fa-search lg:text-3xl text-2xl text-gray-200",
+    header: "Keyword Research",
     description:
-      "We strack the results of our SEO so we can make ajustments as needed",
+      "We carry out in-depth keyword research to optimize your content.",
+    link: "google.com",
+  },
+  {
+    id: "5",
+    icon: "fa-solid fa-edit lg:text-3xl text-2xl text-gray-200",
+    header: "Content Creation",
+    description:
+      "We write, edit, and publish high-quality content tailored to your needs.",
     link: "google.com",
   },
 ];
+
 
 export const people = [
   {
@@ -348,12 +357,13 @@ export const servicelist = [
     link: "/services",
   },
   {
-    icon: "fas fa-comments text-3xl",
-    heading: "AI Chatbots",
+    icon: "fas fa-bullhorn text-3xl",
+    heading: "AI-Powered SEO Optimization",
     description:
-      "Implement AI chatbots to enhance customer engagement and support. Our chatbots are designed to provide real-time assistance and improve customer satisfaction.",
+      "Boost your online presence with our AI-powered SEO optimization services. We analyze and enhance your content to ensure it ranks higher on search engines, driving more organic traffic to your website.",
     link: "/services",
-  },
+  }
+  
   // {
   //   icon: 'fas fa-search text-2xl',
   //   heading: 'SEO Optimization',

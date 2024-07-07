@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 // ToggleSwitch Component
 const ToggleSwitch = ({ selected, setSelected }) => {
   return (
-    <div className="flex items-center justify-center mt-8">
+    <div className="flex items-center justify-center mt-8" id="#pricing">
       <button
         className={`px-4 py-2 rounded-l-full ${
           selected === 'monthly' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'

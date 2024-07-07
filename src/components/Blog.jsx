@@ -14,7 +14,7 @@ const Blog = () => {
       <div className="py-3 rounded-tr-[50px] rounded-tl-[50px]">
         <div className="lg:flex lg:justify-between lg:mx-16 mx-5 mt-14 lg:mt-16 text-white">
           <motion.h1
-            className="font-semibold max-w-xl lg:text-5xl text-3xl lg:leading-tight text-blue-400"
+            className="font-semibold max-w-xl lg:text-5xl text-3xl lg:leading-tight text-blue-800"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { duration: 1 } }}
           >

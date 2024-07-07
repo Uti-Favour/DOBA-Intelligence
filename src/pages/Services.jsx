@@ -34,12 +34,12 @@ const CardListLeft = ({ illustration, heading, description }) => {
         </h1>
         <p className="max-w-md mt-5 text-md text-gray-300">{description}</p>
         <div className="mt-8 lg:space-x-4">
-          <Link to="/blog">
+        <Link to="/getstarted">
             <button className="rounded-3xl py-3 px-8 bg-blue-400">
               Get Started
             </button>
           </Link>
-          <Link to="/blog">
+          <Link to="/promo">
             <button className="text-gray-300 underline mt-5 lg:mt-0">
               Ready to get started ? Sign in{" "}
             </button>
@@ -75,12 +75,12 @@ const CardListRight = ({ illustration, heading, description }) => {
         </h1>
         <p className="max-w-md mt-5 text-md text-gray-300">{description}</p>
         <div className="mt-8 lg:space-x-4">
-          <Link to="/blog">
+          <Link to="/getstarted">
             <button className="rounded-3xl py-3 px-8  bg-blue-400">
               Get Started
             </button>
           </Link>
-          <Link to="/blog">
+          <Link to="/promo">
             <button className="text-gray-300 underline mt-5 lg:mt-0">
               Ready to get started ? Sign in{" "}
             </button>

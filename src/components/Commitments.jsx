@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import Button from "./common/Button";
 
 const Commitments = () => {
@@ -35,21 +36,18 @@ const Commitments = () => {
       >
         {/* content */}
         <div className="lg:mt-0 mt-16">
-          <h2 className="font-semibold text-5xl text-blue-400">Commitments</h2>
+          <h2 className="font-bold lg:bold text-5xl text-blue-800">Commitments</h2>
           <p className="max-w-[450px] text-gray-300 mt-5 mb-12">
             We help you save time, money and energy. We help get all your
             content writing needs in one place.
           </p>
-          <a href="#" className="text-blue-400 flex items-center">
-            Learn More
-            <i className="fas fa-arrow-right ml-2"></i>
-          </a>
+       <Button content={'Learn More'} link={'/about'} />
         </div>
 
         <div className="grid grid-cols-2 lg:gap-16 gap-10 lg:mt-0 mt-12 mx-1">
           {stats.map((stat) => (
             <div className="" key={stat.id}>
-              <h3 className="font-semibold lg:text-5xl text-4xl text-blue-400">
+              <h3 className="font-bold lg:text-5xl text-4xl text-blue-800">
                 {stat.number}
               </h3>
               <p className="text-gray-300">{stat.description}</p>

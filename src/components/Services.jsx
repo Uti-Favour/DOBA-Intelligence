@@ -15,7 +15,7 @@ const Services = () => {
           whileInView={{ opacity: 1, transition: { duration: 2 } }}
         >
           Provide the best service with{" "}
-          <span className="text-blue-400 italic">out of the box </span>ideas
+          <span className="text-blue-800 italic">out of the box </span>ideas
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -31,21 +31,21 @@ const Services = () => {
       </div>
 
       {/* grid */}
-      <div className="lg:mx-16 mx-5 grid lg:grid-cols-3 gap-2 lg:gap-6 mt-20">
+      <div className="lg:mx-16 mx-5 grid lg:grid-cols-3 gap-6 mt-20">
   {servicelist.map((services, index) => (
     <div 
       key={index} 
       className="space-y-5 border border-gray-700 p-8 rounded-3xl transition duration-300 group hover:border-gray-600"
     >
       <div 
-        className="h-16 w-16 rounded-tr-3xl rounded-br-3xl bg-blue-400 text-white flex justify-center items-center transition duration-300"
+        className="h-16 w-16 rounded-tr-3xl rounded-br-3xl bg-blue-800 text-white flex justify-center items-center transition duration-300"
       >
         <i className={services.icon}></i>
       </div>
       <h2 className="text-xl font-semibold text-white transition duration-300 group-hover:text-white">{services.heading}</h2>
       <p className="text-gray-400 mb-16 transition duration-300">{services.description}</p>
       <div>
-        <Link to={services.link} className="text-blue-400 font-semibold transition duration-300 ">Learn More <i className="fas fa-arrow-right"></i></Link>
+        <Link to={services.link} className="text-blue-800 font-semibold transition duration-300 ">Learn More <i className="fas fa-arrow-right"></i></Link>
       </div>
     </div>
   ))}
