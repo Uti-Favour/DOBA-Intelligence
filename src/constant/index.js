@@ -1,4 +1,6 @@
 import sarah from "/src/assets/sarah.jpg"
+import peace from "/src/assets/image-assets-2.jpg"
+import favour from "/src/assets/Favour(new me).jpg"
 import dobalogo from "/src/assets/DOBA Intelligence Icon 2.png"
 import image1 from "/src/assets/img-1.jpg"
 import image2 from "/src/assets/img-2.jpg"
@@ -292,8 +294,8 @@ export const pricinglists = [
 
   {
     category: "Flow 2",
-    pricing: "$997",
-    annualprice: "$9,571.2",
+    pricing: "$800",
+    annualprice: "7,680.00",
     description: "Save 40% on Annual Plan. New content every 8 hrs.",
     lists: [
       "Unlimited articles per month",
@@ -313,7 +315,7 @@ export const pricinglists = [
     border:
       "border border-blue-400 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
-      "px-20 py-2  rounded-lg border bg-blue-800 mt-4 text-white font-semibold",
+      "px-20 py-2  rounded-lg border bg-blue-400 mt-4 text-white font-semibold",
   },
   {
     category: "Flow 1",
@@ -461,23 +463,23 @@ export const testimonials = [
     id : 1,
     description:
       "This company provided excellent service and I couldn't be happier with the results. Their attention to detail and commitment to quality were evident from start to finish. They truly exceeded our expectations and delivered outstanding results.",
-    image: "src/assets/Favour(new me).jpg",
-    name: "Uti Favour",
-    company: "Tech Maestros",
+    image: "https://dobaintellegence.com/wp-content/uploads/2024/05/nora.jpg",
+    name: "Nora Okafor",
+    company: "Human Resource Manager",
   },
   {
     id : 2,
     description:
       "Fantastic experience! The team was professional and efficient, delivering high-quality work on time. They communicated clearly and kept us informed throughout the project. We are thrilled with the outcome and highly recommend their services.",
-    image: "src/assets/Dad.JPG",
-    name: "Christopher Uzoka",
-    company: "Creative Properties",
+    image: "https://dobaintellegence.com/wp-content/uploads/2024/05/elijah.jpg",
+    name: "Elijah Stephen",
+    company: "Content Writer",
   },
   {
     id : 3,
     description:
       "Highly recommend! They went above and beyond to meet our needs. Their innovative approach and expertise made a significant impact on our project. We are extremely satisfied with their work and look forward to collaborating again.",
-    image: "src/assets/image-assets-2.jpg",
+    image: peace,
     name: "Peace Nonso",
     company: "Freelancer",
   },
@@ -485,48 +487,48 @@ export const testimonials = [
     id : 4,
     description:
       "Their expertise and dedication made a significant difference in our project. They were responsive, knowledgeable, and a pleasure to work with. The end product was exactly what we envisioned and more. A top-notch team!",
-    image: "https://randomuser.me/api/portraits/men/4.jpg",
-    name: "Daniel",
-    company: "Metazak",
+    image: "https://dobaintellegence.com/wp-content/uploads/2024/05/deborah.jpg",
+    name: "Deborah John",
+    company: "Social Media Manager",
   },
   {
     id : 5,
     description:
       "Top-notch service and great attention to detail. The team showed a deep understanding of our requirements and executed flawlessly. We are very impressed with their professionalism and the quality of their work.",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-    name: "Victoria Ogechukwu",
-    company: "Teens Purpose Coach",
+    image: "https://dobaintellegence.com/wp-content/uploads/2024/05/olusegun.jpg",
+    name: "Olusegun Olopade",
+    company: "Blog Editor",
   },
   {
     id : 6,
     description:
       "They provided exceptional support throughout the entire process. From initial consultation to final delivery, they were always available to address our concerns and provide guidance. The results speak for themselves.",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-    name: "Chris Abundance",
-    company: "Glorious Music",
+    image: "https://dobaintellegence.com/wp-content/uploads/2024/05/matthew.jpg",
+    name: "Matthew Oyelami",
+    company: "Project Manager",
   },
   {
     id : 7,
     description:
       "The results exceeded our expectations. We are very satisfied with the quality of their work and the professionalism they demonstrated. Their ability to understand our vision and bring it to life was remarkable.",
-    image: "https://randomuser.me/api/portraits/men/7.jpg",
-    name: "Enuma success",
-    company: "Tech Innovators",
+    image: favour,
+    name: "Uti Favour",
+    company: "Tech Maestros",
   },
   {
     id : 8,
     description:
       "Outstanding service from start to finish. Highly recommend! Their team was efficient, knowledgeable, and delivered exactly what we needed. The quality of their work is top-notch and we couldn't be happier.",
-    image: "https://randomuser.me/api/portraits/women/8.jpg",
-    name: "Grace Lee",
-    company: "Creative Solutions",
+    image: "https://dobaintellegence.com/wp-content/uploads/2024/05/sarah.jpg",
+    name: "Sarah Obadunni",
+    company: "DOBA Intelligence",
   },
   {
     id : 9,
     description:
       "They delivered high-quality work on time and within budget. Their professionalism and attention to detail were evident throughout the project. We are extremely pleased with the results and would recommend them without hesitation.",
-    image: "https://randomuser.me/api/portraits/men/9.jpg",
-    name: "Henry Miller",
+    image: "https://dobaintellegence.com/wp-content/uploads/2024/05/kehinde.jpg",
+    name: "Assistant ADMIN",
     company: "Startup Inc.",
   },
 ];

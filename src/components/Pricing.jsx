@@ -9,7 +9,7 @@ const ToggleSwitch = ({ selected, setSelected }) => {
     <div className="flex items-center justify-center mt-8" id="#pricing">
       <button
         className={`px-4 py-2 rounded-l-full ${
-          selected === 'monthly' ? 'bg-blue-800 text-white' : 'bg-gray-200 text-gray-700'
+          selected === 'monthly' ? 'bg-blue-400 text-white' : 'bg-gray-200 text-gray-700'
         }`}
         onClick={() => setSelected('monthly')}
       >
@@ -17,7 +17,7 @@ const ToggleSwitch = ({ selected, setSelected }) => {
       </button>
       <button
         className={`px-4 py-2 rounded-r-full ${
-          selected === 'annually' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700'
+          selected === 'annually' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'
         }`}
         onClick={() => setSelected('annually')}
       >
@@ -32,10 +32,10 @@ const PriceCard = ({ category, pricing, description, lists, link, border, button
   return (
     <div className={`bg-transparent border border-gray-700 p-8 rounded-3xl ${border}`}>
       <div>
-        <span className="text-xl font-semibold text-blue-800">{category}</span>
+        <span className="text-xl font-semibold text-blue-400">{category}</span>
       </div>
       <p className="text-gray-300">{description}</p>
-      <h1 className="text-4xl font-bold text-blue-800">
+      <h1 className="text-4xl font-bold text-blue-400">
         {pricing}
         <span className="text-base text-gray-300 font-normal">/{selected === 'monthly' ? 'month' : 'year'}</span>
       </h1>
@@ -43,7 +43,7 @@ const PriceCard = ({ category, pricing, description, lists, link, border, button
         {lists.map((item, index) => (
           <li key={index}>
             {" "}
-            <i className="fas fa-check-circle text-blue-800 mr-4"></i>
+            <i className="fas fa-check-circle text-blue-400 mr-4"></i>
             {item}
           </li>
         ))}
@@ -64,7 +64,7 @@ const Pricing = () => {
     <div className="mt-16 bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] rounded-tr-[50px] rounded-tl-[50px] py-16">
       <div className="flex justify-center text-center items-center">
         <div className="space-y-4">
-          <span className="text-xl text-blue-800 font-semibold">Content Flow</span>
+          <span className="text-xl text-blue-400 font-semibold">Content Flow</span>
           <h1 className="text-4xl mx-5 lg:text-5xl font-bold text-white">
           Content flow for teams of all sizes
           </h1>

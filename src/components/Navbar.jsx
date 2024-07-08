@@ -45,7 +45,7 @@ const Navbar = () => {
             <div className="hidden md:flex items-center space-x-4 mt-5">
               <Link
                 to="/getstarted"
-                className=" rounded-3xl bg-blue-800 py-3 px-8 "
+                className=" rounded-3xl bg-blue-400 py-3 px-8 "
               >
               Get Started with $0
               </Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
           <div className="mt-10 flex justify-center">
           <Link
                 to="/getstarted"
-                className=" rounded-3xl bg-blue-800 py-3 px-24"
+                className=" rounded-3xl bg-blue-400 py-3 px-24"
               >
               Get Started for <span className="font-semibold">0  <i class="fas fa-hand-holding-usd"></i></span>
               </Link>

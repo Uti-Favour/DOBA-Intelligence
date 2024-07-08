@@ -27,10 +27,10 @@ function ListCard({
           />
         </div>
         <div className="flex justify-between items-center">
-          <span className="h-3 w-3 bg-blue-800 rounded-full"></span>
+          <span className="h-3 w-3 bg-blue-400 rounded-full"></span>
           <span className="text-gray-300">{timeframe}</span>
         </div>
-        <h1 className="text-2xl font-semibold text-blue-800 mt-5">{heading}</h1>
+        <h1 className="text-2xl font-semibold text-blue-400 mt-5">{heading}</h1>
         <div className="flex items-end space-x-4 mt-8">
           <p className="text-gray-300">{description}</p>
         </div>
@@ -48,7 +48,7 @@ function ListCard({
             </div>
           </div>
           <Link to={`/blog/${id}`} className="hover:opacity-80">
-            <div className="bg-blue-800 text-white py-3 px-5 rounded-3xl flex items-center justify-center hover:bg-white hover:text-blue-800 hover:border-blue-800 hover:scale-105 transition duration-300">
+            <div className="bg-blue-400 text-white py-3 px-5 rounded-3xl flex items-center justify-center hover:bg-white hover:text-blue-400 hover:border-blue-600 hover:scale-105 transition duration-300">
               <i className="fas fa-arrow-right"></i>
             </div>
           </Link>

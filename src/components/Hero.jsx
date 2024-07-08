@@ -11,7 +11,7 @@ const Hero = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["Your Money Back", "No Queues.", "No Waiting time.", "Better Quality."],
+      strings: ["Get A Refund"],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
@@ -29,16 +29,16 @@ const Hero = () => {
       
       <div className="lg:flex lg:justify-between mx-5 lg:mx-20">
         <div className="mt-5">
-          <h1 className="font-semibold text-4xl lg:text-6xl max-w-lg">
-          Get Your Next Article In 8 Hrs Or<br /><span className="text-blue-800 italic auto-type" ref={typedElement}></span>
+          <h1 className="font-semibold text-4xl lg:text-6xl max-w-xl">
+          Get Your Next Article <span className="lg:hidden">Delivered</span> In 8 hrs Or Less Or <br /> <span className="text-blue-400 italic auto-type" ref={typedElement}></span>
           </h1>
           <p className="max-w-lg mt-10 leading-7 text-gray-300">
-            To rank your website higher consistency is key. 
+          No queues, No waiting time, Better quality.
             Outsource the entire process to us and we will deliver in 8 hours to meet your content deadline !!
           </p>
 
           <div className="flex items-center space-x-10 mt-10">
-           <Button content={"Get Started"} icon={'fas fa-rocket ml-1'} link={'/getstarted'} id={1} />            <Link to="/promo" className="text-white underline lg:block hidden text-lg">
+           <Button content={"Get Started for $0"} icon={'fas fa-rocket ml-1'} link={'/getstarted'} id={1} />            <Link to="/promo" className="text-white underline lg:block hidden text-lg">
               View our promo
             </Link>
           </div>

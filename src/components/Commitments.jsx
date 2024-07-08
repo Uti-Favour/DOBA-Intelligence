@@ -36,10 +36,9 @@ const Commitments = () => {
       >
         {/* content */}
         <div className="lg:mt-0 mt-16">
-          <h2 className="font-bold lg:bold text-5xl text-blue-800">Commitments</h2>
+          <h2 className="font-bold lg:bold lg:text-5xl text-4xl text-blue-400">We are Express Writers</h2>
           <p className="max-w-[450px] text-gray-300 mt-5 mb-12">
-            We help you save time, money and energy. We help get all your
-            content writing needs in one place.
+          It has never been easier to produce content faster and at scale. Our AI technology ensures quality and efficiency.
           </p>
        <Button content={'Learn More'} link={'/about'} />
         </div>
@@ -47,7 +46,7 @@ const Commitments = () => {
         <div className="grid grid-cols-2 lg:gap-16 gap-10 lg:mt-0 mt-12 mx-1">
           {stats.map((stat) => (
             <div className="" key={stat.id}>
-              <h3 className="font-bold lg:text-5xl text-4xl text-blue-800">
+              <h3 className="font-bold lg:text-5xl text-4xl text-blue-400">
                 {stat.number}
               </h3>
               <p className="text-gray-300">{stat.description}</p>
