@@ -35,7 +35,7 @@ const CardListLeft = ({ illustration, heading, description }) => {
         <p className="max-w-md mt-5 text-md text-gray-300">{description}</p>
         <div className="mt-8 lg:space-x-4">
         <Link to="/getstarted">
-            <button className="rounded-3xl py-3 px-8 bg-blue-800">
+            <button className="rounded-3xl py-3 px-8 bg-blue-400">
               Get Started
             </button>
           </Link>
@@ -76,7 +76,7 @@ const CardListRight = ({ illustration, heading, description }) => {
         <p className="max-w-md mt-5 text-md text-gray-300">{description}</p>
         <div className="mt-8 lg:space-x-4">
           <Link to="/getstarted">
-            <button className="rounded-3xl py-3 px-8  bg-blue-800">
+            <button className="rounded-3xl py-3 px-8  bg-blue-400">
               Get Started
             </button>
           </Link>
@@ -131,7 +131,7 @@ const Services = () => {
 
         <div className="flex justify-center text-center items-center mt-24">
           <div className="space-y-6">
-            <span className="text-xl text-blue-800 font-semibold">
+            <span className="text-xl text-blue-400 font-semibold">
               Services <i class="fas fa-handshake"></i>
 
             </span>
@@ -148,7 +148,7 @@ const Services = () => {
         <div className="flex justify-center mt-14">
           <div className="space-x-4">
             <Link to="/contact">
-              <button className="py-3 px-10 bg-blue-800 rounded-3xl">
+              <button className="py-3 px-10 bg-blue-400 rounded-3xl">
                 Get Started
               </button>
             </Link>

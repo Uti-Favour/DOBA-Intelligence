@@ -294,8 +294,8 @@ export const pricinglists = [
 
   {
     category: "Flow 2",
-    pricing: "$800",
-    annualprice: "7,680.00",
+    pricing: "$997.00",
+    annualprice: "$9,571.20",
     description: "Save 40% on Annual Plan. New content every 8 hrs.",
     lists: [
       "Unlimited articles per month",
@@ -306,12 +306,11 @@ export const pricinglists = [
       "Deep Research",
       "Highly engaging",
       "Edited & Proofread",
-      "Brand voice",
       "limited revisions (Up to 5)",
     ],
-    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow2",
+    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/unlimitedcontentflow1",
     annuallink:
-      "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow2annual",
+      "https://sandbox-flw-web-v3.herokuapp.com/pay/annualunlimitedcontentflow1",
     border:
       "border border-blue-400 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
@@ -319,8 +318,8 @@ export const pricinglists = [
   },
   {
     category: "Flow 1",
-    pricing: " $1997",
-    annualprice: "$14,378.4",
+    pricing: "$1,997.00",
+    annualprice: "$14,378.40",
     description: "Save 40% on Annual Plan. New content every 8 hrs.",
     lists: [
       "Everything in flow 2",
@@ -330,16 +329,14 @@ export const pricinglists = [
       "White papers",
       "Unlimited revisions",
       "Monthly Check in by Content Marketing Specialist ",
-      "Brand voice",
-      "Edited & Proofread ",
-      "limited revisions (Up to 5)",
+     
     ],
     link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1",
     annuallink:
       "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1annual",
     border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
-      "px-20 py-2 rounded-lg border border-gray-500 mt-4 text-white font-semibold",
+      "px-20 py-2 rounded-lg border border-gray-500 bg-blue-400  mt-4 text-white font-semibold",
   },
 ];
 
@@ -528,7 +525,7 @@ export const testimonials = [
     description:
       "They delivered high-quality work on time and within budget. Their professionalism and attention to detail were evident throughout the project. We are extremely pleased with the results and would recommend them without hesitation.",
     image: "https://dobaintellegence.com/wp-content/uploads/2024/05/kehinde.jpg",
-    name: "Assistant ADMIN",
+    name: "Kehinde Bolaji",
     company: "Startup Inc.",
   },
 ];

@@ -11,7 +11,7 @@ const Hero = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["Get A Refund"],
+      strings: ["Or Your Money Back"],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="lg:flex lg:justify-between mx-5 lg:mx-20">
         <div className="mt-5">
           <h1 className="font-semibold text-4xl lg:text-6xl max-w-xl">
-          Get Your Next Article <span className="lg:hidden">Delivered</span> In 8 hrs Or Less Or <br /> <span className="text-blue-400 italic auto-type" ref={typedElement}></span>
+          Get Your Next Blog Content In 8 Hours <br /> <span className="text-blue-400 italic auto-type" ref={typedElement}></span>
           </h1>
           <p className="max-w-lg mt-10 leading-7 text-gray-300">
           No queues, No waiting time, Better quality.
