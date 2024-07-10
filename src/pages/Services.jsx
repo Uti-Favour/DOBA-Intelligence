@@ -153,7 +153,7 @@ const Services = () => {
               </button>
             </Link>
             <a href="#service">
-              Learn More <i className="fas fa-arrow-right items-center"></i>
+              Learn More 
             </a>
           </div>
         </div>

@@ -10,7 +10,7 @@ const Features = () => {
       <div className="bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] rounded-tr-[50px] rounded-tl-[50px] py-16 mt-16 ">
         <div className="lg:mx-20 mx-5 lg:flex lg:justify-between">
           <div>
-            <h1 className="font-semibold lg:text-7xl text-4xl italic text-blue-400 lg:max-w-xl">Efficiency Meets Creativity💫</h1>
+            <h1 className="font-semibold lg:text-7xl text-4xl italic text-blue-400 lg:max-w-xl">Efficiency Meets Creativity 💫</h1>
             <p className="max-w-lg leading-8 mt-5 text-gray-300">
               You can outsource your blog to us, from brainstorming to writing.
               Show google that you are ready for the ranking challenge. Don’t
