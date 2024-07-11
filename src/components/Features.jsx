@@ -12,9 +12,7 @@ const Features = () => {
           <div>
             <h1 className="font-semibold lg:text-7xl text-4xl italic text-blue-400 lg:max-w-xl">Efficiency Meets Creativity 💫</h1>
             <p className="max-w-lg leading-8 mt-5 text-gray-300">
-              You can outsource your blog to us, from brainstorming to writing.
-              Show google that you are ready for the ranking challenge. Don’t
-              rank one time, keep ranking forever ( till google shuts down.)
+            At DOBA Intelligence, we blend the precision of AI technology with the boundless potential of human creativity. Our innovative approach ensures your content is not only delivered quickly and efficiently but also resonates deeply with your audience. 
             </p>
             <div className="mt-10">
               <img

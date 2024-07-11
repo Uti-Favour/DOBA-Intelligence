@@ -308,9 +308,9 @@ export const pricinglists = [
       "Edited & Proofread",
       "limited revisions (Up to 5)",
     ],
-    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/unlimitedcontentflow1",
+    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1",
     annuallink:
-      "https://sandbox-flw-web-v3.herokuapp.com/pay/annualunlimitedcontentflow1",
+      "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1annual",
     border:
       "border border-blue-400 border-2 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
@@ -331,9 +331,10 @@ export const pricinglists = [
       "Monthly Check in by Content Marketing Specialist ",
      
     ],
-    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1",
+    link: "https://sandbox-flw-web-v3.herokuapp.com/pay/unlimitedcontentflow1",
     annuallink:
-      "https://sandbox-flw-web-v3.herokuapp.com/pay/humancontentflow1annual",
+      "https://sandbox-flw-web-v3.herokuapp.com/pay/annualunlimitedcontentflow1",
+   
     border: "border border-gray-300 rounded-3xl lg:p-12 p-8 space-y-6 mt-20",
     button:
       "px-20 py-2 rounded-lg border border-gray-500 bg-blue-400  mt-4 text-white font-semibold",
