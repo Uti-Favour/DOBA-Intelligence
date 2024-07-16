@@ -23,11 +23,8 @@ const Services = () => {
           whileInView={{ opacity: 1, transition: { duration: 3 } }}
           className="text-gray-300 max-w-lg lg:mt-0 mt-5"
         >
-          To rank your website higher consistency is key Outsource the entire
-          process to us and we will deliver in 5 hours or less. Leveraging
-          advanced AI technology, our team of experts handles everything from
-          content strategy and keyword research to writing, editing, and
-          publishing.
+         To rank your website higher consistency is key.
+         Our entire content process is built on speed, which means you can get more high quality blogs to your site FASTER.
         </motion.p>
       </div>
 

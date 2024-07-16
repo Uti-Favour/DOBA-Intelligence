@@ -9,6 +9,7 @@ import Pricing from "../components/Pricing";
 import Testimonials from "../components/Testimonials"
 import Cta from "../components/Cta"
 import Footer from "../components/Footer";
+import Steps from '../components/Steps';
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
     <Services/>
     <Commitments/>
     <Features/>
+    <Steps/>
     <Blog/>
     <Pricing/>
     <Testimonials/>

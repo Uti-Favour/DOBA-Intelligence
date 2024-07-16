@@ -7,23 +7,23 @@ const Commitments = () => {
   const stats = [
     {
       id: "1",
-      number: "245%",
+      number: "70%",
       description: "More revenue for the brand",
     },
     {
       id: "2",
-      number: "130K+",
+      number: "50K+",
       description: "Audience Matched",
     },
     {
       id: "3",
-      number: "50+",
+      number: "20+",
       description: "Brands trusts us",
     },
     {
       id: "4",
-      number: "28+",
-      description: "Wordwide Award",
+      number: "5+",
+      description: "Countries",
     },
   ];
   return (
@@ -38,9 +38,9 @@ const Commitments = () => {
         <div className="lg:mt-0 mt-16">
           <h2 className="font-bold lg:bold lg:text-5xl text-4xl text-blue-400">We are Express Writers</h2>
           <p className="max-w-[450px] text-gray-300 mt-5 mb-12">
-          It has never been easier to produce content faster and at scale. Our AI technology ensures quality and efficiency.
+          Do I need to publish 30 high quality articles per month? <br /> It has never been easier to produce content faster and at scale.
           </p>
-       <Button content={'Learn More'} link={'/about'} />
+       <Button content={'Get Started with $0'} link={'/about'} />
         </div>
 
         <div className="grid grid-cols-2 lg:gap-16 gap-10 lg:mt-0 mt-12 mx-1">

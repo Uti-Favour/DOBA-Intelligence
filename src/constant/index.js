@@ -342,18 +342,19 @@ export const pricinglists = [
 ];
 
 export const servicelist = [
+  
+  {
+    icon: "fas fa-edit text-3xl",
+    heading: "Content writing",
+    description:
+      "We produce high quality articles at a faster and cheaper rate. Now you can rank higher on google without breaking the bank. Imagine pulling a consistent stream of clients to your business on a monthly basis by leveraging the power of SEO content.",
+    link: "/services",
+  },
   {
     icon: "fas fa-robot text-3xl",
     heading: "AI Content Editing",
     description:
       "We provide a 360 revamp to your AI content. Nobody likes fluff or robotic content, so we make it better. Get your AI content improved in 8 hours or less.",
-    link: "/services",
-  },
-  {
-    icon: "fas fa-edit text-3xl",
-    heading: "Content writing",
-    description:
-      "We produce high quality articles at a faster and cheaper rate. Imagine pulling a consistent stream of clients to your business on a monthly basis by leveraging the power of SEO content.",
     link: "/services",
   },
   {
@@ -434,24 +435,28 @@ export const steplists = [
     id: 1,
     illustration:
       "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719664453/01_lahyg6.jpg?_s=public-apps",
-    description: "Sign the contract to kickstart your journey with us.",
+      benefits : 'Save Time',
+    description: "Beat your competitors hands down by publishing as much content as you need to rank on google.",
   },
   {
     id: 2,
     illustration:
       "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719664452/02_fvqng5.jpg?_s=public-apps",
-    description: "Gather insights and plan your marketing strategy ahead.",
+      benefits: "Save Money",
+    description: "Get the best value for your investment with our unlimited monthly plan. Create as many content as you need for one flat fee.",
   },
   {
     id: 3,
     illustration:
       "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719664453/03_qvzay1.jpg?_s=public-apps",
-    description: "Collaborate with our experts to refine your strategy.",
+      benefits : 'Save Energy',
+    description: "You can outsource your blog to us, from brainstorming to writing. Get all your content writing needs in one place.",
   },
   {
     id: 4,
     illustration:
       "https://res.cloudinary.com/dcbgwcxlm/image/upload/fl_preserve_transparency/v1719664453/04_vpwe4a.jpg?_s=public-apps",
+
     description: "Utilize social media platforms to boost online presence.",
   },
 ];
