@@ -18,9 +18,9 @@ const Blog = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1, transition: { duration: 1 } }}
           >
-            Transform{" "}
-            <span className="italic text-gray-300">Your Content Marketing</span>{" "}
-            with Expert Writing.
+          
+            <span className="italic text-gray-300">Built for startups, Scale Ups </span>{" "}
+            and Solopreneurs
           </motion.h1>
           <div>
             <motion.p
@@ -28,7 +28,7 @@ const Blog = () => {
               whileInView={{ opacity: 1, transition: { duration: 1 } }}
               className="text-gray-300 max-w-lg lg:mt-0 mt-5 leading-8"
             >
-             You can outsource your blog to us, from brainstorming to writing. Show google that you are ready for the ranking challenge. Don’t rank one time, keep ranking forever ( till google shuts down.)
+Learn the latest organic strategies to to build your business from scratch, increase audience reach and convert them into paying customers.
             </motion.p>
           </div>
         </div>

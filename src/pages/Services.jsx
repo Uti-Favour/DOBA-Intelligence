@@ -136,12 +136,10 @@ const Services = () => {
 
             </span>
             <h1 className="text-3xl  lg:text-6xl font-bold text-white lg:mx-60 mx-5">
-              Transform Your Business with DOBA Intelligence
+            Increase your visibility and customer base
             </h1>
             <p className="font-medium lg:text-xl text-base text-gray-300 lg:mx-80 mx-5">
-              From predictive analytics to personalized marketing solutions, we
-              provide the tools and insights you need to stay ahead in a
-              competitive landscape.
+            From Content Writing to AI content editing, we are your reliable content partner.
             </p>
           </div>
         </div>

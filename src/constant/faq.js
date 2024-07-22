@@ -5,7 +5,7 @@
     },
     {
       question: "What services do you offer?",
-      answer: "We offer a range of services including AI content editing, content writing, and guaranteed new content every 8 hours."
+      answer: "We offer a range of services including: Human written content, AI content editing, AI marketing services etc"
     },
     {
       question: "How does AI improve your content marketing services?",
