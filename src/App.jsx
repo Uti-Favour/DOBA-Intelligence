@@ -8,7 +8,7 @@ import Blog from "./pages/Blog";
 import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import BlogContent from "./pages/BlogContent";
-import FAQ from "./pages/FAQ";
+// import FAQ from "./pages/FAQ";
 import GetStarted from "./pages/GetStarted"
 import Promo from "./pages/Promo";
 import ErrorPage from "./pages/ErrorPage";
@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path= "/blog/:id" element={<BlogContent/>}/>
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/faq" element={<FAQ/>} />
+          {/* <Route path="/faq" element={<FAQ/>} /> */}
           <Route path="/getstarted" element={<GetStarted/>}/>
           <Route path="/promo" element={<Promo/>}/>
           <Route path="*" element={<ErrorPage/>}/>

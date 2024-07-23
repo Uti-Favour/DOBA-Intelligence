@@ -51,11 +51,11 @@ export const navcontent = [
     page: "Contact Us",
     path: "/contact",
   },
-  {
-    key: "6",
-    page: "FAQ",
-    path: "/faq",
-  },
+  // {
+  //   key: "6",
+  //   page: "FAQ",
+  //   path: "/faq",
+  // },
   {
     key: "7",
     page: "Promo",
