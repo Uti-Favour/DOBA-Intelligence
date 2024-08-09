@@ -29,8 +29,8 @@ const Hero = () => {
       
       <div className="lg:flex lg:justify-between mx-5 lg:mx-20">
         <div className="mt-5">
-          <h1 className="font-semibold text-4xl lg:text-6xl max-w-xl">
-          Get your Next Blog In 8 Hrs <br /> <span className="text-blue-400 italic auto-type" ref={typedElement}></span>
+          <h1 className="font-bold text-4xl lg:text-6xl max-w-xl">
+          Get your Next Blog In 8 Hrs <span className="text-blue-400 italic auto-type" ref={typedElement}></span>
           </h1>
           <p className="max-w-lg mt-10 leading-7 text-gray-300">
           No queues, No waiting time, Better quality.

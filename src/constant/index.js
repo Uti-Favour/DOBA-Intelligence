@@ -25,43 +25,7 @@ import image20 from "/src/assets/img-20.jpg";
 import image21 from "/src/assets/img-21.jpg";
 import image23 from "/src/assets/img-23.jpg";
 
-export const navcontent = [
-  {
-    key: "1",
-    page: "Home",
-    path: "/",
-  },
-  {
-    key: "2",
-    page: "Services",
-    path: "/services",
-  },
-  {
-    key: "3",
-    page: "About",
-    path: "/about",
-  },
-  {
-    key: "4",
-    page: "Blog",
-    path: "/blog",
-  },
-  {
-    key: "5",
-    page: "Contact Us",
-    path: "/contact",
-  },
-  // {
-  //   key: "6",
-  //   page: "FAQ",
-  //   path: "/faq",
-  // },
-  {
-    key: "7",
-    page: "Promo",
-    path: "/promo",
-  },
-];
+
 
 export const images = [
   "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
@@ -345,14 +309,14 @@ export const servicelist = [
     heading: "Content writing",
     description:
       "We produce high quality articles at a faster and cheaper rate. Now you can rank higher on google without breaking the bank. Imagine pulling a consistent stream of clients to your business on a monthly basis by leveraging the power of SEO content.",
-    link: "/services",
+    link: "/content-service",
   },
   {
     icon: "fas fa-robot text-3xl",
     heading: "AI Content Editing",
     description:
       "We provide a 360 revamp to your AI content. Nobody likes fluff or robotic content, so we make it better. Get your AI content improved in 8 hours or less.",
-    link: "/services",
+    link: "/ai-services",
   },
   {
     icon: "fas fa-bullhorn text-3xl",
