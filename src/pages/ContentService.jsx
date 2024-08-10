@@ -90,7 +90,7 @@ const ContentService = () => {
         <div className="flex justify-center text-center items-center mt-24">
   <div className="space-y-6">
     <span className="text-xl text-blue-400 font-semibold">
-      DOBA Content Writing Services <i className="fas fa-pen-alt"></i>
+      DOBA Content Writing Services 
     </span>
     <h1 className="text-3xl lg:text-6xl font-bold text-white lg:mx-60 mx-5">
       Elevate Your Brand with Quality Content

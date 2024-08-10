@@ -33,18 +33,7 @@ const CardListLeft = ({ illustration, heading, description }) => {
           {heading}
         </h1>
         <p className="max-w-md mt-5 text-md text-gray-300">{description}</p>
-        <div className="mt-8 lg:space-x-4">
-        <Link to="/getstarted">
-            <button className="rounded-3xl py-3 px-8 bg-blue-400">
-              Get Started
-            </button>
-          </Link>
-          <Link to="/promo">
-            <button className="text-gray-300 underline mt-5 lg:mt-0">
-              Ready to get started ? Sign in{" "}
-            </button>
-          </Link>
-        </div>
+       
       </motion.div>
     </div>
   );
@@ -74,18 +63,7 @@ const CardListRight = ({ illustration, heading, description }) => {
           {heading}
         </h1>
         <p className="max-w-md mt-5 text-md text-gray-300">{description}</p>
-        <div className="mt-8 lg:space-x-4">
-          <Link to="/getstarted">
-            <button className="rounded-3xl py-3 px-8  bg-blue-400">
-              Get Started
-            </button>
-          </Link>
-          <Link to="/promo">
-            <button className="text-gray-300 underline mt-5 lg:mt-0">
-              Ready to get started ? Sign in{" "}
-            </button>
-          </Link>
-        </div>
+       
       </motion.div>
 
       <motion.div
@@ -104,25 +82,6 @@ const CardListRight = ({ illustration, heading, description }) => {
   );
 };
 
-// Step Lists
-const StepsLists = ({ description, illustration }) => {
-  return (
-    <>
-      <div>
-        <div className=" border border-1 border-neutral-900 flex items-center rounded-3xl lg:py-0 lg:px-6 py-3 px-2 space-x-4">
-          <img
-            src={illustration}
-            alt=""
-            className="lg:w-40 w-28 lg:h-40 h-28"
-          />
-          <div>
-            <span className="lg:text-3xl text-lg">{description}</span>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
 const AiServices = () => {
   return (
     <>
@@ -132,8 +91,7 @@ const AiServices = () => {
         <div className="flex justify-center text-center items-center mt-24">
           <div className="space-y-6">
             <span className="text-xl text-blue-400 font-semibold">
-              Services <i class="fas fa-handshake"></i>
-
+          AI Content Editing
             </span>
             <h1 className="text-3xl  lg:text-6xl font-bold text-white lg:mx-60 mx-5">
             Increase your visibility and customer base
@@ -224,17 +182,6 @@ const AiServices = () => {
               "Streamline your data processes with AI solutions. Manage documents and files effortlessly, reducing overload and improving productivity."
             }
           />
-        </div>
-
-        <Blog />
-        <div className="grid lg:grid-cols-2 lg:mx-20 mx-5 gap-4 mt-16">
-          {steplists.map((step) => (
-            <StepsLists
-              key={step.id}
-              illustration={step.illustration}
-              description={step.description}
-            />
-          ))}
         </div>
 
         <Cta />
