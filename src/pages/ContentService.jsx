@@ -17,7 +17,7 @@ const CardListLeft = ({ illustration, heading, description, span }) => {
         <img
           src={illustration}
           alt="Illustration"
-          className="lg:w-[500px] lg:h-[500px]"
+          className="lg:w-[500px] lg:h-[500px] rounded-3xl"
         />
       </motion.div>
 
@@ -49,7 +49,7 @@ const CardListRight = ({ illustration, heading, description, span }) => {
         <img
           src={illustration}
           alt="Illustration"
-          className="lg:w-[500px] lg:h-[500px]"
+          className="lg:w-[500px] lg:h-[500px] rounded-3xl"
         />
       </motion.div>
       <motion.div
@@ -122,7 +122,7 @@ const ContentService = () => {
   illustration={
     "https://cdn.prod.website-files.com/659c2c47a369c0049813bad9/659ff8c0743c6c93fb016d8b_security-sequens%201.png"
   }
-  heading={"Automated Content Creation with AI"}
+  heading={"Content Creation with AI Tools"}
   description={
     "Transform your content strategy with AI-driven creativity. Collaborate with our team to generate innovative, data-backed content that resonates with your audience."
   }
