@@ -4,11 +4,11 @@ const StepsLists = ({ description, illustration , benefits}) => {
     return (
       <>
         <div>
-          <div className=" border border-1 border-neutral-900 flex items-center rounded-3xl lg:py-0 lg:px-6 py-3 px-2 space-x-4">
+          <div className=" border border-1 border-neutral-900 lg:items-center rounded-3xl lg:py-0 lg:px-6 py-3 px-2 space-x-4 flex">
             <img
               src={illustration}
               alt=""
-              className="lg:w-40 w-28 lg:h-40 h-28"
+              className="lg:w-40 w-24 lg:h-40 h-24"
             />
             <div>
                 <span className='text-blue-400 font-medium font-base'>{benefits}</span> <br />

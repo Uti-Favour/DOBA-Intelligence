@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Cta from "../components/Cta";
 import Footer from "../components/Footer";
 
-const CardListLeft = ({ illustration, heading, description }) => {
+const CardListLeft = ({ illustration, heading, description, span }) => {
   return (
     <div className="items-center lg:justify-between lg:mx-16 mx-5 lg:flex">
       <motion.div
@@ -27,16 +27,17 @@ const CardListLeft = ({ illustration, heading, description }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="font-bold lg:text-6xl  text-4xl max-w-xl lg:leading-[60px]">
+        <span  className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-lg">{span}</span>
+        <h1 className="font-bold lg:text-6xl  text-3xl max-w-xl lg:leading-[60px]">
           {heading}
         </h1>
-        <p className="max-w-md mt-5 text-xl text-gray-300">{description}</p>
+        <p className="max-w-md mt-5 lg:text-xl text-base text-gray-300">{description}</p>
         
       </motion.div>
     </div>
   );
 };
-const CardListRight = ({ illustration, heading, description }) => {
+const CardListRight = ({ illustration, heading, description, span }) => {
   return (
     <div className="items-center lg:justify-between lg:mx-16 mx-5 lg:flex ">
       <motion.div
@@ -57,10 +58,11 @@ const CardListRight = ({ illustration, heading, description }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="font-bold lg:text-6xl  text-4xl max-w-xl lg:leading-[60px]">
+        <span className="bg-gradient-to-r from-green-400 via-green-500 to-green-600 bg-clip-text text-transparent">{span}</span>
+        <h1 className="font-bold lg:text-6xl  text-3xl max-w-xl lg:leading-[60px]">
           {heading}
         </h1>
-        <p className="max-w-md mt-5 text-xl text-gray-300">{description}</p>
+        <p className="max-w-md mt-5 lg:text-xl text-base text-gray-300">{description}</p>
        
       </motion.div>
 
@@ -116,6 +118,7 @@ const ContentService = () => {
 
         <div className="mt-32" id="service">
         <CardListLeft
+        span = {"Everything at your finger tip"}
   illustration={
     "https://cdn.prod.website-files.com/659c2c47a369c0049813bad9/659ff8c0743c6c93fb016d8b_security-sequens%201.png"
   }
@@ -125,6 +128,7 @@ const ContentService = () => {
   }
 />
 <CardListRight
+span = {"Top content creation"}
   illustration={
     "https://cdn.prod.website-files.com/659c2c47a369c0049813bad9/659ffa344b10c77a6efc770d_proofreader-sequens%20copie%201.png"
   }
@@ -135,6 +139,7 @@ const ContentService = () => {
 />
 
 <CardListLeft
+span = {"Unleash the power of A.I"}
   illustration={
     "https://cdn.prod.website-files.com/659c2c47a369c0049813bad9/659ff9a989a9b4e17691f920_tonofvoice-sequens%201.png"
   }
