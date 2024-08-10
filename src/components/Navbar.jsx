@@ -135,7 +135,7 @@ const Navbar = () => {
                 aria-expanded="false"
               >
                 <span className="sr-only">Open main menu</span>
-               
+                <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
               </button>
             </div>
           </div>
@@ -155,7 +155,7 @@ const Navbar = () => {
                       className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium items-center"
                     >
                       {nav.page}
-                      <FontAwesomeIcon icon={faChevronDown} className="ml-2" />
+                     
                     </button>
                     <div
                       className={`${
