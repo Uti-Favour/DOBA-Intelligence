@@ -13,6 +13,7 @@ import FAQ from "./pages/FAQ";
 import GetStarted from "./pages/GetStarted"
 import Promo from "./pages/Promo";
 import ErrorPage from "./pages/ErrorPage";
+// import SingleBlog from "./pages/SingleBlog";
 
 const App = () => {
   return (
@@ -25,11 +26,12 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/features" element={<Features />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path= "/blog/:id" element={<BlogContent/>}/>
+          {/* <Route path= "/blog/:id" element={<BlogContent/>}/> */}
           <Route path="/about" element={<AboutUs />} />
           <Route path="/faq" element={<FAQ/>} />
           <Route path="/getstarted" element={<GetStarted/>}/>
           <Route path="/promo" element={<Promo/>}/>
+          <Route path="/blogDetails/:id" element={<BlogContent/>} />
           <Route path="*" element={<ErrorPage/>}/>
          
         </Routes>
